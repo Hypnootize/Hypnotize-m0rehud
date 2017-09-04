@@ -10,6 +10,8 @@ event HudHealthBonusPulse
 	
 	Animate SpectatorHealthBG 					BgColor 	"Buffed Health Spec" 				Accel 	0.0 0.0
 	
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"Buffed Health" 					Accel 	0.0 0.0
+	
 	RunEvent HudHealthBonusPulseLoop			0.4
 	
 }
@@ -25,6 +27,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop			0.0
 	
 	Animate SpectatorHealthBG 					BgColor 	"TransparentBlack" 					Accel	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"0 0 0 255"							Accel 	0.0 0.0
 }
 
 //====================================================================================================================
@@ -35,6 +39,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.125 0.075
 	
 	Animate SpectatorHealthBG 					BgColor 	"Low Health Spec" 					Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"Low Health" 						Accel 	0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop			0.25
 }
@@ -50,6 +56,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 			0.0
 	
 	Animate SpectatorHealthBG 					BgColor 	"TransparentBlack" 					Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"0 0 0 255"							Accel 	0.0 0.0
 }
 
 //====================================================================================================================
@@ -93,11 +101,7 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate ChargeLabel 						Alpha 		"255" 								Linear 	0.0 0.01
 	Animate ChargeLabel 						FgColor 	"Full Ubercharge" 					Accel 	0.0 0.0
-
-	Animate ChargeLabelBigShadow 				Alpha 		"255" 								Linear 	0.0 0.01
-	Animate ChargeLabelBigShadow 				FgColor 	"Full Ubercharge"					Accel 	0.0 0.0
 		
 	Animate ChargeMeter 						FgColor 	"Ubercharge Bar" 					Accel 	0.0 0.0
 	
@@ -115,7 +119,6 @@ event HudMedicChargedStop
 	StopEvent HudMedicChargedLoop 				0.0
 	
 	Animate	ChargeLabel 						FgColor		"Ubercharge"						Linear	0.0 0.0001
-	Animate	ChargeLabelBigShadow 				FgColor		"0 0 0 255"							Linear 	0.0 0.0001
 	Animate	ChargeMeter 						FgColor		"Ubercharge"						Linear 	0.0 0.0001
 }
 

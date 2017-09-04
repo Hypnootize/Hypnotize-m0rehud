@@ -17,9 +17,9 @@
 		"team1_player_delta_y"						"0"
 		"team2_player_base_offset_x"				"25"
 		"team2_player_base_y"						"0"
-		"team2_player_delta_x"						"51"
+		"team2_player_delta_x"						"48"
 		"team2_player_delta_y"						"0"
-		"teams_player_delta_x_comp"					"51"
+		"teams_player_delta_x_comp"					"48"
 		
 		if_competitive
 		{
@@ -53,7 +53,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
-				"font"								"SpectatorKeyHints"
+				"font"								"DefaultVerySmall"
 				"xpos"								"5"
 				"ypos"								"24"
 				"zpos"								"5"
@@ -100,7 +100,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"xpos"								"28"
+				"xpos"								"22"
 				"ypos"								"-3"
 				"zpos"								"3"
 				"wide"								"32"
@@ -132,8 +132,8 @@
 				"src_corner_height"					"22"
 				"src_corner_width"					"22"
 			
-				"draw_corner_width"					"0"
-				"draw_corner_height" 				"0"
+				"draw_corner_width"					"3"
+				"draw_corner_height" 				"3"
 			}
 			
 			"ReadyImage"
@@ -175,17 +175,10 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
 				"font"								"DefaultSmall"
-				"xpos"								"25"
-				"ypos"								"17"
-				"zpos"								"6"
-				"wide"								"25"
-				"tall"								"15"
-				"autoResize"						"0"
-				"pinCorner"							"0"
-				"visible"							"1"
-				"labelText"							"%chargeamount%"
-				"textAlignment"						"north"
-				"fgcolor"							"0 255 0 255"
+				"xpos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
 			}
 			
 			"specindex"
@@ -437,8 +430,8 @@
 	{	
 		"ControlName"		          				"CExLabel"
 		"fieldName"		           					"TournamentConditionLabel"
-		"font"			              				"ScoreboardVerySmall"
-		"fgcolor"                					"White"
+		"font"			              				"TFFontSmall"
+		"fgcolor"                					"255 255 255 255"
 		"xpos"			              				"0"
 		"ypos"	              						"15"
 		"zpos"			              				"1"

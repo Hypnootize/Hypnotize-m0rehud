@@ -6,9 +6,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"c-69"
-		"ypos"										"412"
-		"wide"										"140"
-		"tall"										"50"
+		"ypos"										"c166"
+		"wide"										"500"
+		"tall"										"500"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
@@ -32,7 +32,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"TFFontSmall"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"150 150 150 255"
 	}
 
 	"ItemEffectMeter"
@@ -53,23 +53,6 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"bgcolor_override"							"TransparentLightBlack"
-	}
-	
-	"Targetmeter"
-	{
-		"ControlName"        						"ImagePanel"
-		"fieldName"          						"Targetmeter"
-		"xpos"                						"41"
-		"ypos"                						"-1"
-		"zpos"               						"0"
-		"wide"	          							"1"
-		"tall"                						"3"
-		"autoResize"          						"0"
-		"pinCorner"           						"0"
-		"visible"             						"1"
-		"enabled"             						"1"
-		"fillcolor"           						"0 255 0 255"
-		"PaintBackgroundType" 						"0"
 	}
 	
 	

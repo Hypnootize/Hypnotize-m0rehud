@@ -143,6 +143,17 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		M0refont12Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		M0refont14
 		{
 			"1"

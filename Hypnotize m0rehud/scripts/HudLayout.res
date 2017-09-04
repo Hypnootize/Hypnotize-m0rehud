@@ -76,7 +76,18 @@
 		"tall"										"480"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
-	}	
+	}
+	
+	FreezePanel
+	{
+		"fieldName"									"FreezePanel"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"270"
+		"wide"										"f0"
+		"tall"										"480"
+	}
 
 	HudFlameRocketCharge
 	{
