@@ -1,5 +1,5 @@
-//             #base "../../basefiles/ReloadschemeButton.res"
-//             #base "../../../basefiles/ReloadschemeButton.res"
+//	#base "../../basefiles/ReloadschemeButton.res"
+//	#base "../../../basefiles/ReloadschemeButton.res"
 
 "Resource/UI/ReloadschemeButton.res"
 {
@@ -17,7 +17,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"R"
+		"labelText"									"RS"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"dulltext"									"0"

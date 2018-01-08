@@ -18,10 +18,12 @@ Scheme
 		"TransparentBlack"									"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"
 		
+		"Black"												"0 0 0 255"
+		
 		"BorderBlue"										"90 122 143 255"
 		"BorderRed"											"189 59 61 255"
 		
-		"Class Selection"									"0 255 0 255"
+		"Class Selection"									"0 165 255 255"
 		
 		/////////////////////////////////INGAME COLORS/////////////////////////////////
 		
@@ -31,17 +33,17 @@ Scheme
 		"Buffed Health Target"								"0 165 255 255"
 		"Buffed Health Spec"								"0 165 255 255"
 		
-		"Low Health"										"255 20 20 255"
-		"Low Health Target"									"255 20 20 255"
-		"Low Health Spec"									"255 20 20 255"
+		"Low Health"										"255 0 0 255"
+		"Low Health Target"									"255 0 0 255"
+		"Low Health Spec"									"255 0 0 255"
 		
 		"Ammo In Clip"										"255 255 255 255"
 		"Ammo In Reserve"									"255 255 255 255"
 		"Ammo No Clip"										"255 255 255 255"
 
-		"Low Ammo In Clip"									"255 20 20 255"
-		"Low Ammo In Reserve"								"255 20 20 255"
-		"Low Ammo No Clip"									"255 20 20 255"
+		"Low Ammo In Clip"									"255 0 0 255"
+		"Low Ammo In Reserve"								"255 0 0 255"
+		"Low Ammo No Clip"									"255 0 0 255"
 
 		"Ubercharge"										"255 255 255 255"
 		"Full Ubercharge"									"255 0 127 255"
@@ -63,13 +65,25 @@ Scheme
 		"LightOrange"										"188 112 0 128"
 		"GoalOrange"										"255 133 0"
 		"TFOrange"											"145 73 59 255"
+		"Purple"											"137 69 99 255"
 
 		"QuestGold"											"208 147 75 255"
 		"HalloweenThemeColor2015_Light"						"238 126 17 255"
 		"HalloweenThemeColor2015"							"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"						"108 49 21 255"
-		"QuestStandardHighlight"							"0 255 0 255"
-		"QuestBonusHighlight"								"150 160 255 255"
+		"QuestUncommitted"									"183 147 100 255"
+
+		"QuestMap_Bonus"									"222 217 166 255"
+		"QuestMap_ActiveOrange"								"212 127 25 255"
+		"QuestMap_InactiveGrey"								"100 100 100 255"
+		"QuestMap_BGImages"									"56 58 60 255"
+
+		"PartyMember1"										"124 173 255 255"
+		"PartyMember2"										"99  232 167 255"
+		"PartyMember3"										"229 255 121 255"
+		"PartyMember4"										"232 184 99  255"
+		"PartyMember5"										"255 118 108 255"
+		"PartyMember6"										"255 133 255 255"
 		
 		"White"												"255 255 255 255"
 		"Red"												"192 28 0 140"
@@ -80,7 +94,6 @@ Scheme
 		"BrightYellow"										"251 235 0 255"
 		"GreenSolid"										"76 107 34 255"
 		
-		"Black"												"46 43 42 255"
 		"FooterBGBlack"										"52 48 55 255"
 		
 		"HUDBlueTeam"										"104 124 155 127"
@@ -118,7 +131,7 @@ Scheme
 
 		"HudTrainingHint"									"212 160 23 255"
 		
-		"TanDark"											"117 107 94 255"
+		"TanDark"											"255 255 255 255"
 		"TanLight"											"255 255 255 255"
 		"TanDarker"											"46 43 42 255"
 		
@@ -324,12 +337,12 @@ Scheme
 		Label.DisabledFgColor1								"Blank"
 		Label.DisabledFgColor2								"Black"
 
-		ListPanel.TextColor									"Orange"
+		ListPanel.TextColor									"White"
 		ListPanel.BgColor									"TransparentBlack"
 		ListPanel.SelectedTextColor							"Black"
 		ListPanel.SelectedBgColor							"Red"
 		ListPanel.SelectedOutOfFocusBgColor					"Red"
-		ListPanel.EmptyListInfoTextColor					"Orange"
+		ListPanel.EmptyListInfoTextColor					"White"
 
 		Menu.TextColor										"TanLight"
 		Menu.BgColor										"TransparentBlack"
@@ -337,7 +350,7 @@ Scheme
 		Menu.ArmedBgColor									"TanLight"
 		Menu.TextInset										"6"
 
-		Chat.TypingText										"Orange"
+		Chat.TypingText										"White"
 
 		Panel.FgColor										"Gray"
 		Panel.BgColor										"Blank"
@@ -345,7 +358,7 @@ Scheme
 		HTML.BgColor										"Blank"
 
 		ProgressBar.FgColor									"ProgressOffWhite"
-		ProgressBar.BgColor									"ProgressBackground"
+		ProgressBar.BgColor									"0 0 0 50"
 
 		CircularProgressBar.FgColor							"White"
 		CircularProgressBar.BgColor							"White"
@@ -354,12 +367,12 @@ Scheme
 		"BuildingHealthBar.Health"							"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"						"LowHealthRed"
 
-		PropertySheet.TextColor								"Orange"
-		PropertySheet.SelectedTextColor						"Orange"
+		PropertySheet.TextColor								"White"
+		PropertySheet.SelectedTextColor						"White"
 		PropertySheet.TransitionEffectTime					"0.25"
 
-		RadioButton.TextColor								"Orange"
-		RadioButton.SelectedTextColor						"Orange"
+		RadioButton.TextColor								"White"
+		RadioButton.SelectedTextColor						"White"
 
 		RichText.TextColor									"Gray"
 		RichText.BgColor									"Blank"
@@ -376,11 +389,11 @@ Scheme
 		ScrollBarSlider.FgColor								"Gray"
 		ScrollBarSlider.BgColor								"Blank"
 
-		SectionedListPanel.HeaderTextColor					"Orange"
+		SectionedListPanel.HeaderTextColor					"White"
 		SectionedListPanel.HeaderBgColor					"Blank"
 		SectionedListPanel.DividerColor						"Black"
-		SectionedListPanel.TextColor						"Orange"
-		SectionedListPanel.BrightTextColor					"Orange"
+		SectionedListPanel.TextColor						"White"
+		SectionedListPanel.BrightTextColor					"White"
 		SectionedListPanel.BgColor							"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor				"Black"
 		SectionedListPanel.SelectedBgColor					"Red"
@@ -403,7 +416,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor					"Blank"
 		TextEntry.FocusEdgeColor							"Blank"
 
-		ToggleButton.SelectedTextColor						"Orange"
+		ToggleButton.SelectedTextColor						"White"
 
 		Tooltip.TextColor									"TransparentBlack"
 		Tooltip.BgColor										"Red"
@@ -428,7 +441,7 @@ Scheme
 		HudCaptureProgressBar.Active						"HudProgressBarActive"
 		HudCaptureProgressBar.InActive						"HudProgressBarInActive"
 
-		"FgColor"											"Orange"
+		"FgColor"											"White"
 		"BgColor"											"TransparentBlack"
 
 		"ViewportBG"										"Blank"

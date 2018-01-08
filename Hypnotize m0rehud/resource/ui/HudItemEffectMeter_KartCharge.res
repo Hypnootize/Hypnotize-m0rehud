@@ -52,7 +52,6 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"TransparentLightBlack"
 	}
 	
 	"ItemEffectMeterCount"

@@ -20,7 +20,9 @@
 		"tall"										"f0"
 
 		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
 		"border"									"NoBorder"
+		"BgColor_override"							"DarkBG"
 	}
 
 	"Checkbutton"
@@ -35,7 +37,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"smallcheckimage"							"1"
-		"fgcolor"									"White"	
+		"fgcolor"									"TanLight"	
 		"font"										"HudFontSmallBold"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	

@@ -141,36 +141,16 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HeaderLine"
 		"xpos"										"0"
-		"ypos"										"50"
+		"ypos"										"21"
 		"zpos"										"5"
 		"wide"										"f0"
 		"tall"										"1"
 		"autoResize"								"0"
 		"pinCorner"									"0"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"fillcolor"									"Main Theme"
 	}	
-	
-	"Version"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Version"
-		"font"										"HudFontMediumBold"
-		"fgcolor_override"   						"Main Theme"
-		"xpos"										"20"
-		"ypos"										"10"
-		"zpos"										"5"
-		"wide"										"f0"
-		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"wrap"										"0"
-		"labelText"									"M0RE HUD"
-		"textAlignment"								"west"	
-	}
 	
 	"By"
 	{
@@ -213,188 +193,52 @@
 		"labelText"									"Hypnotize"
 		"textAlignment"								"west"	
 	}
-
-	"CompetitiveButton"
+	
+	"RankModelPanel"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"CompetitiveButton"
-		"xpos"										"c-300"
-		"ypos"										"100"
-		"zpos"										"11"
-		"wide"										"200"
-		"tall"										"40"
-		"visible"									"0"
-		
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"200"
-			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"3"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"COOLVETICA"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			
-			"border_default"						"QuickplayBorder"
-			"border_armed"							"QuickplayBorder"
-			"paintbackground"						"1"
-			
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
-			
-			"defaultBgColor_override" 				"DarkBG"
-			"armedBgColor_override" 				"Main Theme"
-			"depressedBgColor_override" 			"Main Theme"
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankModelPanel"
+		"xpos"										"cs-0.5-236"
+		"ypos"										"cs-0.5-122"
 
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-		}
+		"zpos"										"2"
+		"wide"										"600"
+		"tall"										"600"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"1"
+
+		"matchgroup"								"MatchGroup_Casual_12v12"
+
+		"show_progress"								"0"
 	}
 	
-	"MvMButton"
+	"RankPanel"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"MvMButton"
-		"xpos"										"c-98"
-		"ypos"										"100"
-		"zpos"										"11"
-		"wide"										"80"
-		"tall"										"40"
-		"visible"									"0"
-		
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"80"
-			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"3"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"COOLVETICA"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			
-			"border_default"						"QuickplayBorderDark"
-			"border_armed"							"QuickplayBorderDark"
-			"paintbackground"						"1"
-			
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
-			
-			"defaultBgColor_override" 				"LightBG"
-			"armedBgColor_override" 				"Main Theme"
-			"depressedBgColor_override" 			"Main Theme"
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankPanel"
+		"xpos"										"c-262"
+		"ypos"										"78"
+		"zpos"										"1"
+		"wide"										"320"
+		"tall"										"100"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
 
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-		}
-	}
-	
-	"CasualButton"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"CasualButton"
-		"xpos"										"c-16"
-		"ypos"										"100"
-		"zpos"										"11"
-		"wide"										"80"
-		"tall"										"40"
-		"visible"									"0"
-		
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"80"
-			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"3"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"COOLVETICA"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			
-			"border_default"						"QuickplayBorder"
-			"border_armed"							"QuickplayBorder"
-			"paintbackground"						"1"
-			
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
-			
-			"defaultBgColor_override" 				"DarkBG"
-			"armedBgColor_override" 				"Main Theme"
-			"depressedBgColor_override" 			"Main Theme"
+		"matchgroup"								"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"			"350"
 
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-		}
+		"show_model"								"0"
 	}
-	
+
 	"ServerBrowserButton"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"ServerBrowserButton"
 		"xpos"										"c-98"
 		"ypos"										"142"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"200"
 		"tall"										"40"
 		"visible"									"1"
@@ -452,7 +296,7 @@
 		"fieldname"									"CreateServerButton"
 		"xpos"										"c-180"
 		"ypos"										"142"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -510,7 +354,7 @@
 		"fieldname"									"CharacterSetupButton"
 		"xpos"										"c-300"
 		"ypos"										"184"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"200"
 		"tall"										"40"
 		"visible"									"1"
@@ -568,7 +412,7 @@
 		"fieldname"									"GeneralStoreButton"
 		"xpos"										"c-98"
 		"ypos"										"184"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -626,7 +470,7 @@
 		"fieldname"									"SettingsButton"
 		"xpos"										"c-98"
 		"ypos"										"226"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -684,7 +528,7 @@
 		"fieldname"									"AdvancedSettingsButton"
 		"xpos"										"c-16"
 		"ypos"										"226"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -742,7 +586,7 @@
 		"fieldname"									"ConsoleButton"
 		"xpos"										"c-180"
 		"ypos"										"226"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -800,7 +644,7 @@
 		"fieldname"									"Scoreboard"
 		"xpos"										"c-262"
 		"ypos"										"226"
-		"zpos"										"11"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -852,121 +696,13 @@
 		}
 	}
 	
-	"QuitButton"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"QuitButton"
-		"xpos"										"r50"
-		"ypos"										"8"
-		"zpos"										"11"
-		"wide"										"50"
-		"tall"										"50"
-		"visible"									"1"
-		
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"50"
-			"tall"									"50"
-			"autoResize"							"0"
-			"pinCorner"								"3"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"CustomIconsMenu"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			
-			"border_default"						""
-			"border_armed"							""
-			"paintbackground"						"0"
-			
-			"defaultFgColor_override" 				"Main Theme"
-			"armedFgColor_override" 				"255 20 20 255"
-			"depressedFgColor_override" 			"255 20 20 255"
-			
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-		}
-	}
-	
-	"DisconnectButton"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"DisconnectButton"
-		"xpos"										"r50"
-		"ypos"										"8"
-		"zpos"										"11"
-		"wide"										"50"
-		"tall"										"50"
-		"visible"									"1"
-		
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"50"
-			"tall"									"50"
-			"autoResize"							"0"
-			"pinCorner"								"3"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"CustomIconsMenu"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			
-			"border_default"						""
-			"border_armed"							""
-			"paintbackground"						"0"
-			
-			"defaultFgColor_override" 				"Main Theme"
-			"armedFgColor_override" 				"255 20 20 255"
-			"depressedFgColor_override" 			"255 20 20 255"
-			
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-		}
-	}
-
 	"CallVoteButton"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"CallVoteButton"
 		"xpos"										"c-262"
-		"ypos"										"100"
-		"zpos"										"11"
+		"ypos"										"56"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -1023,8 +759,8 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"MutePlayersButton"
 		"xpos"										"c-180"
-		"ypos"										"100"
-		"zpos"										"11"
+		"ypos"										"56"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -1081,8 +817,8 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"ReportPlayerButton"
 		"xpos"										"c-98"
-		"ypos"										"100"
-		"zpos"										"11"
+		"ypos"										"56"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -1139,8 +875,8 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"AchievementsButton"
 		"xpos"										"c-16"
-		"ypos"										"100"
-		"zpos"										"11"
+		"ypos"										"56"
+		"zpos"										"15"
 		"wide"										"80"
 		"tall"										"40"
 		"visible"									"1"
@@ -1189,6 +925,100 @@
 				"visible"							"0"
 				"enabled"							"0"
 			}
+		}
+	}
+	
+	"FriendsContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"FriendsContainer"
+		"xpos"										"c-262"
+		"ypos"										"268"
+		"zpos"										"5"
+		"wide"										"244"
+		"tall"										"42"
+		"visible"									"1"
+		"paintbackground"							"1"
+		"border"									"QuickplayBorder"
+		"BgColor_override" 							"DarkBG"
+
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"xpos"									"r-10"
+		}
+
+		"InnerShadow"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldname"								"InnerShadow"
+			"xpos"									"r-10"
+		}
+
+		"SteamFriendsList"
+		{
+			"ControlName"							"CSteamFriendsListPanel"
+			"fieldname"								"SteamFriendsList"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"500"
+			"wide"									"244"
+			"tall"									"42"
+			"visible"								"1"
+			"proportionaltoparent"					"1"
+
+			"columns_count"							"3"
+			"inset_x"								"1"
+			"inset_y"								"1"
+			"row_gap"								"0"
+			"column_gap"							"0"
+			"restrict_width"						"0"
+
+			"friendpanel_kv"
+			{
+				"wide"								"80"
+				"tall"								"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"						"ScrollBar"
+				"FieldName"							"ScrollBar"
+				"xpos"								"rs1"
+				"ypos"								"0"
+				"tall"								"f0"
+				"wide"								"3"
+				"zpos"								"1000"
+				"nobuttons"							"1"
+				"proportionaltoparent"				"1"
+
+				"Slider"
+				{
+					"fgcolor_override"				"White"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"					"Button"
+					"FieldName"						"UpButton"
+					"visible"						"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"					"Button"
+					"FieldName"						"DownButton"
+					"visible"						"0"
+				}
+			}
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldname"								"BelowDarken"
+			"xpos"									"r-10"
 		}
 	}
 	
@@ -1293,7 +1123,7 @@
 		"fieldName"									"MOTD_Panel"
 		"xpos"										"r310"
 		"ypos"										"65"
-		"zpos"										"20"
+		"zpos"										"17"
 		"wide"										"300"
 		"tall"										"350"
 		"visible"									"0"
@@ -1703,9 +1533,9 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Notifications_Panel"
-		"xpos"										"c-145"
-		"ypos"										"280"
-		"zpos"										"10"
+		"xpos"										"c-228"
+		"ypos"										"312"
+		"zpos"										"17"
 		"wide"										"210"
 		"tall"										"80"
 		"visible"									"0"
@@ -1822,7 +1652,7 @@
 		"fieldName"									"Notifications_ShowButtonPanel"
 		"xpos"										"85"
 		"ypos"										"r29"
-		"zpos"										"1"
+		"zpos"										"16"
 		"wide"										"32"
 		"tall"										"32"
 		"autoResize"								"0"
@@ -1915,7 +1745,7 @@
 		"fieldname"									"WatchStreamButton"
 		"xpos"										"5"
 		"ypos"										"r27"
-		"zpos"										"11"
+		"zpos"										"16"
 		"wide"										"25"
 		"tall"										"25"
 		"visible"									"1"
@@ -1978,7 +1808,7 @@
 		"fieldName"									"StreamListPanel"
 		"xpos"										"r310"
 		"ypos"										"65"
-		"zpos"										"20"
+		"zpos"										"17"
 		"wide"										"300"
 		"tall"										"350"
 		"visible"									"0"
@@ -1997,7 +1827,7 @@
 		"fieldname"									"QuestsButton"
 		"xpos"										"35"
 		"ypos"										"r28"
-		"zpos"										"11"
+		"zpos"										"16"
 		"wide"										"25"
 		"tall"										"25"
 		"visible"									"1"
@@ -2112,7 +1942,7 @@
 		"fieldname"									"MOTD_ShowButtonPanel"
 		"xpos"										"60"
 		"ypos"										"r27"
-		"zpos"										"11"
+		"zpos"										"16"
 		"wide"										"25"
 		"tall"										"25"
 		"visible"									"1"
@@ -2167,141 +1997,5 @@
 				"scaleImage"						"1"
 			}		
 		}
-	}
-
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
-	"Background"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"Background"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"TFLogoImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"TFLogoImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"TFCharacterImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"TFCharacterImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"MainMenuBGPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MainMenuBGPanel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"TopRightContainer"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TopRightContainer"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"PlayLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"ShowWarButton"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"ShowWarButton"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"EventPromo"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"EventPromo"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
-	"icon_generator"
-	{
-		"ControlName"								"CEmbeddedItemModelPanel"
-		"fieldName"									"icon_generator"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"TutorialHighlight"
-	{
-		"ControlName"								"CExplanationPopup"
-		"fieldName"									"TutorialHighlight"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}	
-	
-	"PracticeHighlight"
-	{
-		"ControlName"								"CExplanationPopup"
-		"fieldName"									"PracticeHighlight"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}	
-	
-	"NewUserForumHighlight"
-	{
-		"ControlName"								"CExplanationPopup"
-		"fieldName"									"NewUserForumHighlight"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"LoadoutHighlightPanel"
-	{
-		"ControlName"								"CExplanationPopup"
-		"fieldName"									"LoadoutHighlightPanel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

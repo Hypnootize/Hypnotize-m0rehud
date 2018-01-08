@@ -9,9 +9,9 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"0"
-		"xpos_minmode"								"0"
+		"xpos_minmode"								"-90"
 		"ypos"										"0"
-		"ypos_minmode"								"0"
+		"ypos_minmode"								"-70"
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -177,6 +177,7 @@
 		"enabled" 									"1"
 		"xpos"										"c-126"
 		"ypos"										"c85"
+		"ypos_minmode"								"c30"
 		"wide"	 									"252"
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
@@ -205,6 +206,7 @@
 		"enabled" 									"1"
 		"xpos"										"c-126"
 		"ypos"										"c122"
+		"ypos_minmode"								"c85"
 		"wide"	 									"252"
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
@@ -496,10 +498,10 @@
 		"fieldName"									"ItemQuickSwitchPanel"
 		"visible"									"0"
 		"enabled"									"1"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"480"
+		"xpos"										"c-123"
+		"ypos"										"320"
+		"wide"										"246"
+		"tall"										"121"
 	}
 	
 	/////////////////////////////REMOVED STUFF/////////////////////////////

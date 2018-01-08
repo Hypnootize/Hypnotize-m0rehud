@@ -42,6 +42,166 @@ Scheme
 			}
 		}
 		
+		HypnoLeft
+		{
+			"inset" 								"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" 						"Main Theme"
+					"offset" 						"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+		}
+		
+		HypnoRight
+		{
+			"inset" 								"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 						"Main Theme"
+					"offset" 						"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+		}
+		
+		HypnoBottomLeft
+		{
+			"inset" 								"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" 						"Main Theme"
+					"offset" 						"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 						"Main Theme"
+					"offset" 						"0 0"
+				}
+			}
+		}
+		
+		HypnoBottomRight
+		{
+			"inset" 								"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" 						"Main Theme"
+					"offset" 						"0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 						"Blank"
+					"offset" 						"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 						"Main Theme"
+					"offset" 						"0 0"
+				}
+			}
+		}
+		
 		PipBoyBorder
 		{
 			"inset" 								"0 0 0 0"
@@ -2614,11 +2774,12 @@ Scheme
 		QuestStatusBorder
 		{
 			"bordertype"							"scalable_image"
-			"backgroundtype"						"2"
+			"backgroundtype"						"0"
+			"Alpha"									"0"
 			
-			"image"									"replay/panel_scalable_transparent"
-			"src_corner_height"						"23"
-			"src_corner_width"						"23"
+			"image"									""
+			"src_corner_height"						"0"
+			"src_corner_width"						"0"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"	
 		}
@@ -2693,6 +2854,227 @@ Scheme
 			"src_corner_width"						"8"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"	
+		}
+		
+		CYOAScreenBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/cyoa_map_screen_border"
+			"src_corner_height"		"63"				// pixels inside the image
+			"src_corner_width"		"63"
+			"draw_corner_width"		"26"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"26"	
+		}
+
+		CYOANodeViewBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_Active
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_active"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_Inactive
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_inactive"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_TurnIn
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_turnin"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOAPopupBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FriendHighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FriendHighlightBorderThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
 		}
 	}
 }

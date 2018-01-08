@@ -18,24 +18,6 @@
 	}
 	
 	/////////////////////////Main Menu Buttons/////////////////////////
-	"CasualButton"
-	{
-		"label" 									"CASUAL" 
-		"command" 									"play_casual"
-		"OnlyAtMenu"								"1"
-	}
-	"MvMButton"
-	{
-		"label" 									"MVM" 
-		"command" 									"play_mvm"
-		"OnlyAtMenu"								"1"
-	}
-	"CompetitiveButton"
-	{
-		"label" 									"COMPETITIVE" 
-		"command" 									"play_competitive"
-		"OnlyAtMenu"								"1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" 									"SERVERS"
@@ -71,12 +53,6 @@
 		"label"										"CONSOLE"
 		"command"									"engine con_enable 1;toggleconsole"
 	}
-	"QuitButton"
-	{
-		"label" 									"W"
-		"command" 									"engine replay_confirmquit"
-		"OnlyAtMenu" 								"1"
-	}
 	
 	/////////////////////////Ingame Only Buttons///////////////////////
 	"CallVoteButton"
@@ -108,11 +84,5 @@
 		"label"										"MINMODE"
 		"command"									"engine toggle cl_hud_minmode"
 		"OnlyInGame"								"1"
-	}
-	"DisconnectButton"
-	{
-		"label" 									"W"
-		"command" 									"engine disconnect"
-		"OnlyInGame" 								"1"
 	}
 }

@@ -74,7 +74,8 @@
 	
 	"Sheet"
 	{
-		"tabxindent"								"20"
+		"tabxindent"								"4"
+		"yoffset"									"0"
 		
 		"HeaderLine"
 		{
@@ -86,7 +87,7 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"HeaderLineCustom"
 			"xpos"									"0"
-			"ypos"									"33"
+			"ypos"									"25"
 			"zpos"									"5"
 			"wide"									"f0"
 			"tall"									"1"
@@ -100,7 +101,8 @@
 		"tabskv"
 		{
 			"textinsetx"							"0"
-			"font"									"HudFontMediumBold"
+			"font"									"HudFontMediumSmallBold"
+			"AllCaps"								"1"
 			"selectedcolor"							"Main Theme"
 			"unselectedcolor"						"White"	
 			"defaultBgColor_override"				"Background"

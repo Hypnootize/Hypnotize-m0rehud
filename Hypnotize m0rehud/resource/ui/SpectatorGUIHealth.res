@@ -5,6 +5,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
 		"xpos"										"9"
+		"xpos_minmode"								"10"
 		"ypos"										"14"
 		"zpos"										"-1"
 		"wide"										"15"
@@ -28,7 +29,8 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
+		"font_minmode"								"m0refont20"
 		"fgcolor_override"  						"Health Numbers"
 	}
 	
@@ -45,8 +47,9 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"M0refont24"
-		"fgcolor_override"  						"0 0 0 255"
+		"font"										"m0refont24"
+		"font_minmode"								"m0refont20"
+		"fgcolor_override"  						"Black"
 	}
 	
 	"PlayerStatusPlayerLevel"

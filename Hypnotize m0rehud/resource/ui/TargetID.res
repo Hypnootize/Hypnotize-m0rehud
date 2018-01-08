@@ -4,7 +4,7 @@
 	{
 		"ControlName"		         				"ScalableImagePanel"
 		"fieldName"		           					"TargetIDBG_Spec_Blue"
-		"xpos"		          	   					"5"
+		"xpos"		          	   					"10"
 		"ypos"			            				"-22"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
@@ -25,7 +25,7 @@
 	{
 		"ControlName"	      	   					"ScalableImagePanel"
 		"fieldName"       		   					"TargetIDBG_Spec_Red"
-		"xpos"		          	   					"5"
+		"xpos"		          	   					"10"
 		"ypos"		          	   					"-22"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
@@ -47,6 +47,7 @@
 		"ControlName"           					"ImagePanel"
 		"fieldName"              					"TargetBGshade"
 		"xpos"                   					"5"
+		"xpos_minmode"                   			"10"
 		"ypos"                   					"9"
 		"zpos"                   					"-1"
 		"wide"	          		   					"252"
@@ -61,7 +62,7 @@
 		"ControlName"		       					"Label"
 		"fieldName"		         					"TargetNameLabel"
 		"font"			           					"m0refont11"
-		"fgcolor_override"     						"255 255 255 255"
+		"fgcolor_override"     						"White"
 		"xpos"			           					"40"
 		"ypos"			           					"9"
 		"zpos"			           					"1"
@@ -82,7 +83,7 @@
 		"ControlName"		       					"Label"
 		"fieldName"		        					"TargetDataLabel"
 		"font"			           					"m0refont10"
-		"fgcolor_override"     						"255 255 255 255"
+		"fgcolor_override"     						"White"
 		"xpos"			           					"40"
 		"ypos"			           					"-1"
 		"zpos"			           					"1"
@@ -103,6 +104,7 @@
 		"ControlName"		             			"EditablePanel"
 		"fieldName"		               				"SpectatorGUIHealth"
 		"xpos"			                 			"10"
+		"xpos_minmode"			                 	"15"
 		"ypos"			                 			"-7"
 		"wide"			                 			"45"
 		"tall"			                 			"40"
@@ -113,86 +115,6 @@
 		"TFFont"		                 			"HudFontSmall"
 		"HealthDeathWarningColor"	   				"HUDDeathWarning"
 		"TextColor"		               				"HudOffWhite"
-	}	
-	
-	"MoveableSubPanel"
-	{
-		"ControlName"		   						"EditablePanel"
-		"fieldName"			   						"MoveableSubPanel"
-		"xpos"				   						"0"
-		"ypos"				   						"0"
-		"zpos"				   						"-5"
-		"wide"				   						"32"
-		"tall"				   						"36"
-		"visible"			   						"0"
-		"enabled"			   						"0"	
-		
-		"MoveableIconBG"
-		{
-			"ControlName"	  						"CIconPanel"
-			"fieldName"		  						"MoveableIconBG"
-			"xpos"			  						"0"
-			"ypos"			  						"0"
-			"zpos"			  						"0"
-			"wide"			  						"10"
-			"tall"			  						"36"
-			"visible"		  						"0"
-			"enabled"		  						"0"
-			"icon"			  						"obj_status_alert_background_tall_nocolor"
-			"iconColor"		  						"HudBlack"
-			"scaleImage"	  						"1"
-		}
-		
-		"MoveableIcon"
-		{
-			"ControlName"	  						"CIconPanel"
-			"fieldName"		  						"MoveableIcon"
-			"xpos"			  						"5"
-			"ypos"			  						"7"
-			"zpos"			  						"11"
-			"wide"			  						"14"
-			"tall"			  						"14"
-			"visible"		  						"0"
-			"enabled"		  						"0"
-			"icon"			  						"obj_status_sentrygun_1"
-			"drawcolor"		  						"ProgressOffWhite"
-			"scaleImage"	  						"1"
-		}
-		"MoveableSymbolIcon"
-		{
-			"ControlName"	  						"ImagePanel"
-			"fieldName"		  						"MoveableSymbolIcon"
-			"xpos"			  						"16"
-			"ypos"			  						"-2"
-			"zpos"			  						"12"
-			"wide"			  						"16"
-			"tall"			  						"8"
-			"visible"		  						"0"
-			"enabled"		  						"0"
-			"image"			  						"../hud/eng_sel_item_movable"
-			"drawcolor"		  						"ProgressOffWhite"
-			"scaleImage"	  						"1"
-		}
-
-		"MoveableKeyLabel"
-		{	
-			"ControlName"		  					"Label"
-			"fieldName"		  						"MoveableKeyLabel"
-			"font"			  						"DefaultVerySmall"
-			"xpos"			  						"0"
-			"ypos"			  						"22"
-			"zpos"			  						"1"
-			"wide"			  						"640"
-			"tall"			  						"24"
-			"autoResize"		  					"0"
-			"pinCorner"		  						"0"
-			"visible"		  						"0"
-			"enabled"		  						"0"
-			"labelText"		  						"%movekey%"
-			"textAlignment"		  					"North"
-			"dulltext"		  						"0"
-			"brighttext"		  					"0"
-		}	
 	}
 	
 	
@@ -209,5 +131,15 @@
 		"tall"	 		           					"0"
 		"visible"		          					"0"
 		"enabled"		           					"0"
+	}
+	
+	"MoveableSubPanel"
+	{
+		"ControlName"		   						"EditablePanel"
+		"fieldName"			   						"MoveableSubPanel"
+		"wide"				   						"0"
+		"tall"				   						"0"
+		"visible"		                 			"0"
+		"enabled"		                 			"0"	
 	}
 }

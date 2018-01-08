@@ -43,6 +43,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		CustomIconsMenuSmall
+		{
+			"1"
+			{
+				"name"										"Icons"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		HudasIcons
 		{
 			"1"
@@ -364,6 +374,17 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		M0refont32Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		M0refont34
 		{
 			"1"
@@ -573,6 +594,191 @@ Scheme
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		M0reNumbers12
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers14
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers16
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers18
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers20
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers24
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers28
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers30
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers36
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers40
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers48
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers60
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"60"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers72
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"72"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0reNumbers12Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		M0reNumbers18Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		M0reNumbers20Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		M0reNumbers24Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		M0reNumbers30Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
 			}
 		}
 		"BlocksSharp64"
@@ -2990,6 +3196,67 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"Coolvetica"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"Coolvetica"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"Coolvetica"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"Coolvetica"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"Coolvetica"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 	
 	CustomFontFiles
@@ -3091,6 +3358,11 @@ Scheme
 		{
 			"font" 		"resource/fonts/PinyonScript-Regular.ttf"
 			"name" 		"Pinyon Script"
+		}
+		"14"
+		{
+			"font" 		"resource/fonts/Surface_Numbers.otf"
+			"name" 		"Surface-Numbers"
 		}
 	}
 }

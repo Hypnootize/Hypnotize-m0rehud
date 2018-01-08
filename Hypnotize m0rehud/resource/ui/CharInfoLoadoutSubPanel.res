@@ -517,6 +517,31 @@
 		"wide" 										"0"
 	}
 	
+	"ShowPaintkitsButton"
+	{
+		"labelText"									"I"
+		"font"										"CustomIcons"
+		"activeimage"								""
+		"inactiveimage"								""
+		
+		"paintbackground"							"0"
+		
+		"defaultBgColor_override"					"Blank"
+		"armedBgColor_override"						"Blank"
+		"depressedBgColor_override"					"Blank"
+		
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override" 					"Main Theme"
+		"depressedFgColor_override" 				"White"
+		
+		"border_default"							"NoBorder"
+		"border_armed"								"NoBorder"
+	}	
+	"ShowPaintkitsLabel"
+	{
+		"wide" 										"0"
+	}
+	
 	"SelectLabel"
 	{
 		"fgcolor_override" 							"White"

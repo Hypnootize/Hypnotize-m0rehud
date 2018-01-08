@@ -30,6 +30,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"M0refont24"
+		"font_minmode"								"M0refont16"
 		"fgcolor"   								"255 255 255 255"
 	}
 	
@@ -52,6 +53,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"M0refont24"
+		"font_minmode"								"M0refont16"
 		"fgcolor"   								"0 0 0 255"
 	}
 	
