@@ -16,12 +16,7 @@
 		"src_corner_height"	 						"10"
 		"src_corner_width"	 						"10"
 		"draw_corner_width"						 	"0"	
-		"draw_corner_height" 						"0"
-		
-		if_match
-		{
-			"visible"								"0"
-		}		
+		"draw_corner_height" 						"0"		
 	}
 	
 	"ServerTimeLimitLabel"
@@ -57,7 +52,7 @@
 		"ypos" 										"15"
 		"zpos" 										"3"
 		"wide" 										"41"
-		"tall"										"15" //15
+		"tall"										"15"
 		"visible" 									"1"
 		"enabled" 									"1"
 		"fillcolor"									"0 0 0 100"

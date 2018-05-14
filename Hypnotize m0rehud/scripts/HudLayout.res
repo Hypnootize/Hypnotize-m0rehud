@@ -26,11 +26,11 @@
 		"wide"										"200"
 		"tall"										"160"
 		
-		"blue_active_xpos"							"54"
-		"blue_active_xpos_minmode"					"54"
+		"blue_active_xpos"							"56"
+		"blue_active_xpos_minmode"					"56"
 	
-		"red_active_xpos"							"104"
-		"red_active_xpos_minmode"					"104"
+		"red_active_xpos"							"101"
+		"red_active_xpos_minmode"					"101"
 	}	
 
 	HudItemEffectMeter
@@ -182,7 +182,6 @@
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
 		"priority"									"40"
-		"priority_lodef"							"5"
 	}
 	
 	CSpectatorTargetID
@@ -196,7 +195,6 @@
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
 		"priority"									"40"
-		"priority_lodef" 							"35"
 	}
 	
 	CSecondaryTargetID
@@ -213,21 +211,35 @@
 		"priority"									"35"
 	}
 	
+	"BuildingAnchor"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"BuildingAnchor"
+		"xpos"										"-20"
+		"ypos"										"120"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"bgcolor_override"							"Blank"
+	}
+	
 	BuildingStatus_Engineer
 	{
 		"fieldName" 								"BuildingStatus_Engineer"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-20"
-		"xpos_hidef"								"32"
-		"xpos_lodef"								"40"
-		"ypos"										"120"
-		"ypos_hidef"								"16"
-		"ypos_lodef"								"25"
+		"xpos"										"0"
+		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		
 		"PaintBackgroundType"						"2"
+		
+		"pin_to_sibling"							"BuildingAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTERTOP"
+		"pin_to_sibling_corner"						"PIN_CENTERTOP"
 	}
 		
 	HudRoundTimerHudRoundTimer
@@ -441,6 +453,7 @@
 		"enabled"									"1"
 		"xpos"										"c-225"
 		"ypos"										"5"
+		"zpos"										"20"
 		"wide"										"450"
 		"tall"										"280"
 	}

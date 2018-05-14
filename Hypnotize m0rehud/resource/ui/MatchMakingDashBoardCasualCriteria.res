@@ -19,7 +19,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"20"
+		"ypos"		"16"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"20"
@@ -40,9 +40,26 @@
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f85"
+		"tall"			"f73"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}
+	
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"9999"
+		"ypos"			"rs1-8"
+		"zpos"			"101"
+		"wide"			"f20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"	
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
 	}
 
 	"QueueButton"

@@ -125,9 +125,9 @@
 		"ypos"										"-2"
 		"zpos"										"1"		
 		"wide"										"300"
-		"tall"										"100"
+		"tall"										"0"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 	}
 	
 	"RankUpLabel"
@@ -210,12 +210,6 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			
-			if_match
-			{
-				"font"								"M0refont12"
-				"ypos"								"6"
-			}
 		}	
 	}
 	
@@ -231,10 +225,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-
 		"max_size"									"19"
 
-		"6v6_gap"									"4"
+		"6v6_gap"									"1"
 		"12v12_gap"									"1"
 
 		"team1_grow_dir" 							"west"
@@ -252,8 +245,8 @@
 			"tall"									"50"
 			"zpos"									"1"
 
-			"color_portrait_bg_red"					"119 62 61 255"
-			"color_portrait_bg_blue"				"62 81 101 255"
+			"color_portrait_bg_red"					"189 59 61 255"
+			"color_portrait_bg_blue"				"90 122 143 255"
 			"color_portrait_bg_red_dead"			"79 54 52 255"
 			"color_portrait_bg_blue_dead"			"44 49 51 255"
 			"color_bar_health_high"					"84 191 58 255"
@@ -268,7 +261,6 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
-				"font"								"DefaultVerySmall"
 				"xpos"								"5"
 				"ypos"								"24"
 				"zpos"								"5"
@@ -284,10 +276,10 @@
 				"ControlName"						"CTFClassImage"
 				"fieldName"							"classimage"
 				"xpos"								"cs-0.5"
-				"ypos"								"0"
+				"ypos"								"-1"
 				"zpos"								"3"
-				"wide"								"19"
-				"tall"								"19"
+				"wide"								"15"
+				"tall"								"15"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
@@ -303,11 +295,25 @@
 				"ypos"								"0"
 				"zpos"								"2"
 				"wide"								"f0"
-				"tall"								"19"
+				"tall"								"14"
 				"visible"							"1"
 				"enabled"							"1"
 				"PaintBackgroundType"				"0"
 				"proportionaltoparent"				"1"
+			}
+			
+			"classimagebg2"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"classimagebg2"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"2"
+				"wide"								"f0"
+				"tall"								"0"
+				"visible"							"1"
+				"enabled"							"1"
+				"bgcolor_override"					"0 0 0 75"
 			}
 			
 			"healthbar"
@@ -316,7 +322,7 @@
 				"fieldName"							"healthbar"
 				"font"								"Default"																		
 				"xpos"								"0"
-				"ypos"								"19"
+				"ypos"								"13"
 				"zpos"								"5"
 				"wide"								"f0"
 				"tall"								"2"				
@@ -337,7 +343,7 @@
 				"fieldName"							"overhealbar"
 				"font"								"Default"																		
 				"xpos"								"0"
-				"ypos"								"19"
+				"ypos"								"13"
 				"zpos"								"6"
 				"wide"								"f0"
 				"tall"								"2"				
@@ -412,18 +418,19 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"PlayerPanelPlayerName"
+				"font"								"HudFontSmallestBold"
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"5"
 				"wide"								"f0"
-				"tall"								"19"
+				"tall"								"11"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
+				"fgcolor_override"					"255 255 255 255"
 			}
 			
 			"chargeamount"
@@ -469,8 +476,8 @@
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"0"
-				"wide"								"f0"
-				"tall"								"24"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
 				"enabled"							"1"
 				"image"								"../HUD/comp_player_status"	
@@ -484,8 +491,8 @@
 				"fieldName"							"SkullPanel"
 				"xpos"								"cs-0.5"
 				"zpos"								"1"
-				"wide"								"o1.2"
-				"tall"								"p0.15"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
 				"enabled"							"1"
 				"image"								"../HUD/comp_player_status_skull"	

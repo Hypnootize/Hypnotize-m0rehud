@@ -6,6 +6,11 @@
 	{
 		"wide"										"0"
 	}
+	
+	"PlayListDropShadow"
+	{
+		"wide"										"0"
+	}
 
 	"BGColor"
 	{
@@ -13,6 +18,11 @@
 	}
 	
 	"ToolTipHack"
+	{
+		"wide"										"0"
+	}
+	
+	"ToolTipButtonHack"
 	{
 		"wide"										"0"
 	}

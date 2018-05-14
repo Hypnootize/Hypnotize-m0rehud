@@ -1,18 +1,10 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"									"5"
-		}
-	}
-	
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"BlueTimer"
-		"xpos"										"26"
+		"xpos"										"28"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
@@ -25,7 +17,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"font"									"M0refont18"
-			"fgcolor"								"White"
+			"fgcolor"								"255 255 255 255"
 			"xpos"									"30"
 			"ypos"									"-7"
 			"zpos"									"3"
@@ -35,13 +27,6 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			
-			if_match
-			{
-				"font"								"M0refont12"
-				"xpos"								"36"
-				"ypos"								"2"
-			}
 		}	
 	}
 
@@ -49,7 +34,7 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
-		"xpos"										"76"
+		"xpos"										"73"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
@@ -62,7 +47,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"font"									"M0refont18"
-			"fgcolor"								"White"
+			"fgcolor"								"255 255 255 255"
 			"xpos"									"30"
 			"ypos"									"-7"
 			"zpos"									"3"
@@ -72,13 +57,6 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			
-			if_match
-			{
-				"font"								"M0refont12"
-				"xpos"								"23"
-				"ypos"								"2"
-			}
 		}	
 	}
 	

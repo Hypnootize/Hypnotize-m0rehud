@@ -8,6 +8,11 @@
 		"ypos"			"100"
 		"tall"			"45"
 		"wide"			"280"
+		
+		if_event
+		{
+			"ypos"		"150"
+		}
 	}
 
 	"CompetitiveEntry"
@@ -16,6 +21,11 @@
 		"ypos"			"150"
 		"tall"			"45"
 		"wide"			"255"
+		
+		if_event
+		{
+			"ypos"		"200"
+		}
 	}
 
 	"MvMEntry"
@@ -24,6 +34,11 @@
 		"ypos"			"200"
 		"tall"			"45"
 		"wide"			"255"
+		
+		if_event
+		{
+			"ypos"		"250"
+		}
 	}
 	
 	"TrainingEntry"
@@ -32,6 +47,11 @@
 		"ypos"			"250"
 		"tall"			"45"
 		"wide"			"255"
+		
+		if_event
+		{
+			"ypos"		"300"
+		}
 	}
 
 	"ServerBrowserEntry"
