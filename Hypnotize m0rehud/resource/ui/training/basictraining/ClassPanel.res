@@ -21,27 +21,17 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"%selectbuttontext%"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmallestBold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"Command"			"%selectcommand%"
-		
-		"border_default"	"QuickplayBorderDark"
-		"border_armed"		"QuickplayBorderDark"
-		"paintbackground"	"1"
-		
-		"defaultBgColor_override"	"LightBG"
-		"armedBgColor_override"		"Main Theme"
-		"depressedBgColor_override" "Main Theme"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
 		
 		"AllCaps"	"1"
 	}
@@ -62,6 +52,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"201 79 57 255"
+		"fgcolor_override"	"Red"
 	}
 }

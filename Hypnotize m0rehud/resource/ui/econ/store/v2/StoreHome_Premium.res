@@ -4,8 +4,8 @@
 {
 	"PremiumCallout"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"PremiumCallout"
-		"xpos"										"9999"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PremiumCallout"
+		"xpos"			"9999"
 	}
 }

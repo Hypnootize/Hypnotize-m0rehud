@@ -53,20 +53,11 @@
 		"brighttext"	"0"
 		"Command"		"goprev"
 		
-		"border_default"	"QuickplayBorderDark"
-		"border_armed"		"QuickplayBorderDark"
-		"paintbackground"	"1"
-		
-		"defaultBgColor_override"	"LightBG"
-		"armedBgColor_override"		"Main Theme"
-		"depressedBgColor_override" "Main Theme"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
 	}	
 	
 	"NextButton"
@@ -90,21 +81,11 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"gonext"
-		
-		"border_default"	"QuickplayBorderDark"
-		"border_armed"		"QuickplayBorderDark"
-		"paintbackground"	"1"
-		
-		"defaultBgColor_override"	"LightBG"
-		"armedBgColor_override"		"Main Theme"
-		"depressedBgColor_override" "Main Theme"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
 	}	
 	
 	"GameModeLabel"
@@ -189,21 +170,10 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"Command"			"selectcurrentgamemode"
-		
-		"border_default"	"QuickplayBorderDark"
-		"border_armed"		"QuickplayBorderDark"
-		"paintbackground"	"1"
-		
-		"defaultBgColor_override"	"LightBG"
-		"armedBgColor_override"		"Main Theme"
-		"depressedBgColor_override" "Main Theme"
-
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"QuickplayBorder"
 	}
-	
 }

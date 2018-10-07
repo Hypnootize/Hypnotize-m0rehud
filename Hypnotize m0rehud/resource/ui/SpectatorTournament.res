@@ -150,25 +150,7 @@
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
-				"fgcolor"							"White"
-			}
-			
-			"respawntimecover"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"respawntimecover"
-				"font"								"BlocksSharp64"
-				"xpos"								"15"
-				"ypos"								"2"
-				"zpos"								"5"
-				"wide"								"22"
-				"tall"								"14"
-				"autoResize"						"0"
-				"pinCorner"							"0"
-				"visible"							"0"
-				"labelText"							"%respawntime%"
-				"textAlignment"						"east"
-				"fgcolor"							"255 255 255 255"
+				"fgcolor"							"TanDark"
 			}
 			
 			"chargeamount"
@@ -290,7 +272,7 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorder"
 		
 		"model_ypos"								"10"
 		"model_center_x"							"1"

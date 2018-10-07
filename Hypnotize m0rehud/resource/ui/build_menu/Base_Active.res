@@ -40,7 +40,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabel"
-		"font"										"Coolvetica"
+		"font"										"HudFontSmallBold"
 		"fgcolor"									"Main Theme"
 		"xpos"										"8"
 		"ypos"										"55"
@@ -59,7 +59,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabelShadow"
-		"font"										"Coolvetica"
+		"font"										"HudFontSmallBold"
 		"fgcolor"									"0 0 0 255"
 		"xpos"										"41"
 		"ypos"										"56"

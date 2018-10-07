@@ -18,7 +18,7 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorder"
 		
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"

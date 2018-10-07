@@ -4,7 +4,8 @@
 	{
 		"ControlName"		         				"ScalableImagePanel"
 		"fieldName"		           					"TargetIDBG_Spec_Blue"
-		"xpos"		          	   					"10"
+		"xpos"		          	   					"5"
+		"xpos_minmode"		          	   			"10"
 		"ypos"			            				"-22"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
@@ -25,7 +26,8 @@
 	{
 		"ControlName"	      	   					"ScalableImagePanel"
 		"fieldName"       		   					"TargetIDBG_Spec_Red"
-		"xpos"		          	   					"10"
+		"xpos"		          	   					"5"
+		"xpos_minmode"		          	   			"10"
 		"ypos"		          	   					"-22"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"

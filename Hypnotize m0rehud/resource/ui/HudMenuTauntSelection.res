@@ -15,14 +15,14 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorder"
 	}
 
 	"TitleLabel"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Coolvetica"
+		"font"										"HudFontSmallBold"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -36,7 +36,7 @@
 		"textAlignment"								"west"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"fgcolor"									"Main Theme"
+		"fgcolor"									"White"
 	}
 	
 	"WeaponTauntLabel"

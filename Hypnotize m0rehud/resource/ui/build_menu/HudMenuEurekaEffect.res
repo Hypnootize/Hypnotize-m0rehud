@@ -15,15 +15,15 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorder"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Coolvetica"
-		"fgcolor"									"Main Theme"
+		"font"										"HudFontSmallBold"
+		"fgcolor"									"White"
 		"xpos"										"35"
 		"ypos"										"20"
 		"zpos"										"2"

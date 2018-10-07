@@ -1,5 +1,5 @@
-#base "../basefiles/hudlayout.res"
-#base "../scripts/crosshairs.res"
+#base "HudLayout_Default.res"
+#base "../scripts/Crosshairs/crosshairs.res"
 
 "Resource/HudLayout.res"
 {	
@@ -476,6 +476,7 @@
 		"enabled"									"1"
 		"xpos"										"c-145"
 		"ypos"										"-1"
+		"ypos_minmode"								"-1"
 		"wide"										"f0"
 		"tall"										"55"
 	}

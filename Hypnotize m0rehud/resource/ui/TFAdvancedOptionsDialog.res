@@ -17,7 +17,7 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"DarkBG"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorder"
 		
 		"control_w"									"500"
 		"control_h"									"25"
@@ -41,6 +41,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
 		"fgcolor_override" 							"Main Theme"
 	}
 	
@@ -68,18 +69,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-				
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-				
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"border_default"							"QuickplayBorder"
+		"border_armed"								"QuickplayBorder"
 	}
 	
 	"OkButton"
@@ -106,18 +97,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-				
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-				
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"border_default"							"QuickplayBorder"
+		"border_armed"								"QuickplayBorder"
 	}
 	
 	"PanelListPanel"
@@ -149,7 +130,7 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"LightBG"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorderDark"
 		
 		"TipLabel"
 		{

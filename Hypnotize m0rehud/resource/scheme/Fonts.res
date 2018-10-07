@@ -53,6 +53,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		CustomIconsMenuSmaller
+		{
+			"1"
+			{
+				"name"										"Icons"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		CustomIconsMenuSmallest
 		{
 			"1"
@@ -73,11 +83,11 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		Coolvetica
+		HudFontSmallBold
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"15"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -939,7 +949,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -947,7 +957,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -955,7 +965,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -964,7 +974,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -973,7 +983,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -982,7 +992,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -997,13 +1007,11 @@ Scheme
 		}
 		CenterPrintText
 		{
-			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"500"
 				"antialias" "1"
 				"additive"	"1"
 			}
@@ -1013,7 +1021,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -1024,48 +1032,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Coolvetica"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
-				"weight"	"700"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Coolvetica"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-			}
-			"4"
-			{
-				"name"		"Coolvetica"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-			}
-			"5"
-			{
-				"name"		"Coolvetica"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
+				"name"		"AvenirLTStd-Black"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
-				"tall_lodef"	"80"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1073,9 +1052,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"32"
-				"tall_hidef"	"120"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1083,7 +1061,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -1092,7 +1070,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -1101,7 +1079,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -1113,9 +1091,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1126,9 +1103,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1139,9 +1115,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
-				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1151,7 +1126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1162,7 +1137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1173,9 +1148,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1185,7 +1159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1196,7 +1170,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1207,7 +1181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1218,10 +1192,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1231,10 +1203,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1244,9 +1214,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1256,7 +1225,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1267,7 +1236,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1278,7 +1247,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1290,7 +1259,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1301,7 +1270,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1313,7 +1282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1324,7 +1293,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1335,7 +1304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1346,7 +1315,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1357,7 +1326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1368,7 +1337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1379,7 +1348,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1390,10 +1359,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1403,7 +1370,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1417,9 +1384,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
@@ -1449,9 +1414,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -1478,10 +1441,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1491,10 +1452,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1504,7 +1463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1515,7 +1474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1526,10 +1485,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1539,9 +1496,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
-				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1551,7 +1507,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1561,7 +1517,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1572,7 +1528,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1581,7 +1537,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1590,7 +1546,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1664,7 +1620,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Coolvetica"
+				"name"  "AvenirLTStd-Black"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1675,9 +1631,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1686,9 +1641,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1698,9 +1652,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1709,9 +1662,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1721,9 +1673,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
-				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1756,7 +1707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1766,9 +1717,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
-				"tall_lodef"	"14"
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -1777,7 +1727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1788,10 +1738,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"
-				"tall_hidef"	"14"
-				"tall_lodef"	"17"
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1802,40 +1750,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Coolvetica"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"28"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleBig"
 		{
 			"1"
 			{
-				"name"			"Coolvetica"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"40"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleMedium"
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
 				"weight"	"500"
@@ -1845,11 +1783,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Coolvetica"
+				"name"			"AvenirLTStd-Black"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
-				"tall_lodef"	"32"
-				"tall_hidef"	"32"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
@@ -1872,8 +1808,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1883,10 +1817,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1896,7 +1828,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1908,7 +1840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1920,10 +1852,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1934,7 +1864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1946,7 +1876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1958,10 +1888,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"34"
-				"tall_hidef"	"38"
-				"tall_lodef"	"38"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1973,9 +1901,8 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
-				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1985,9 +1912,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"52"
-				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1 599"
@@ -1995,9 +1921,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"72"
-				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"600 767"
@@ -2005,7 +1930,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2014,7 +1939,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2023,7 +1948,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2035,7 +1960,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2047,7 +1972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2058,7 +1983,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -2069,7 +1994,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2080,7 +2005,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2091,7 +2016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2103,10 +2028,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2117,7 +2040,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2125,7 +2048,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -2133,7 +2056,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -2141,7 +2064,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -2149,7 +2072,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -2160,7 +2083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2168,7 +2091,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -2176,7 +2099,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -2184,7 +2107,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -2192,7 +2115,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -2203,7 +2126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"Coolvetica"
+				"name"				"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"500"
 				"additive"	"0"
@@ -2217,7 +2140,6 @@ Scheme
 			{
 				"name"			"Arial Black"
 				"tall"			"8"
-				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"
@@ -2228,12 +2150,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
-				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
 		}			
@@ -2241,7 +2161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2253,7 +2173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2266,10 +2186,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"12"
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2279,10 +2197,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
-				"tall_hidef"	"10"
-				"tall_lodef"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2293,7 +2209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -2306,9 +2222,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
-				"tall_lodef"		"28"
 				"weight"	"500"
 			}
 		}
@@ -2316,9 +2231,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
-				"tall_lodef"		"22"
 				"weight"	"500"
 			}
 		}
@@ -2326,9 +2240,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"28"
-				"tall_lodef"	"24"
 				"weight"	"500"
 			}
 		}
@@ -2354,7 +2267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2363,7 +2276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2372,9 +2285,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"22"
-				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}
@@ -2382,9 +2294,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}
@@ -2392,7 +2303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -2402,7 +2313,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2413,7 +2324,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2424,7 +2335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2445,7 +2356,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2456,7 +2367,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2467,7 +2378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2479,7 +2390,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2488,7 +2399,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2497,7 +2408,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2510,7 +2421,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2521,7 +2432,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2532,7 +2443,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2543,7 +2454,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2554,7 +2465,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2565,7 +2476,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2575,7 +2486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2586,7 +2497,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2597,7 +2508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2609,7 +2520,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2620,7 +2531,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2633,7 +2544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2644,7 +2555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2655,7 +2566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2665,7 +2576,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2678,7 +2589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2689,7 +2600,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2698,7 +2609,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2707,7 +2618,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2720,7 +2631,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2729,7 +2640,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2738,7 +2649,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2751,7 +2662,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2763,7 +2674,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2775,7 +2686,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2784,7 +2695,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2793,7 +2704,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2806,7 +2717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2816,7 +2727,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2826,7 +2737,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2840,7 +2751,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2849,7 +2760,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2858,7 +2769,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2871,7 +2782,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2883,7 +2794,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2895,7 +2806,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2907,7 +2818,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2918,7 +2829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2929,7 +2840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2954,7 +2865,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2962,7 +2873,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2970,7 +2881,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2979,7 +2890,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2988,7 +2899,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3000,7 +2911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3011,7 +2922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3019,7 +2930,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3027,7 +2938,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3036,7 +2947,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3045,7 +2956,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3064,7 +2975,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3075,7 +2986,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3086,10 +2997,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3099,7 +3008,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3110,10 +3019,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3124,7 +3031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3135,7 +3042,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3147,10 +3054,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"15"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -3160,7 +3066,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3172,7 +3078,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3184,7 +3090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3198,7 +3104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3211,7 +3117,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -3224,7 +3130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -3236,7 +3142,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -3248,7 +3154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3260,7 +3166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Coolvetica"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"weight"	"400"
 				"additive"	"0"
@@ -3341,8 +3247,8 @@ Scheme
 		}
 		"9" 
 		{
-			"font" 		"resource/fonts/COOLVETI.TTF"
-			"name" 		"Coolvetica"
+			"font" 		"resource/fonts/Avenir Black.TTF"
+			"name" 		"AvenirLTStd-Black"
 		}
 		"10" 
 		{

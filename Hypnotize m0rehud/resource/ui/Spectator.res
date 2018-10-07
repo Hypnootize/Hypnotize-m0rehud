@@ -77,7 +77,7 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorder"
 		
 		"model_ypos"								"10"
 		"model_center_x"							"1"

@@ -17,9 +17,9 @@
 		"team1_player_delta_y"						"0"
 		"team2_player_base_offset_x"				"25"
 		"team2_player_base_y"						"0"
-		"team2_player_delta_x"						"48"
+		"team2_player_delta_x"						"51"
 		"team2_player_delta_y"						"0"
-		"teams_player_delta_x_comp"					"48"
+		"teams_player_delta_x_comp"					"51"
 		
 		if_competitive
 		{
@@ -54,8 +54,8 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
 				"font"								"DefaultVerySmall"
-				"xpos"								"5"
-				"ypos"								"24"
+				"xpos"								"1"
+				"ypos"								"25"
 				"zpos"								"5"
 				"wide"								"50"
 				"tall"								"8"
@@ -63,48 +63,47 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%playername%"
-				"textAlignment"						"north-west"
+				"textAlignment"						"west"
+			}
+			
+			"playernamebg"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"playernamebg"
+				"xpos"								"0"
+				"ypos"								"26"
+				"zpos"								"2"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"bgcolor_override"					"TransparentBlack"
 			}
 			
 			"classimage"
 			{
 				"ControlName"						"CTFClassImage"
 				"fieldName"							"classimage"
-				"xpos"								"2"
-				"ypos"								"2"
+				"xpos"								"0"
+				"ypos"								"1"
 				"zpos"								"2"
-				"wide"								"22"
-				"tall"								"22"
+				"wide"								"25"
+				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
 				"scaleImage"						"1"	
 			}
 			
-			"classimagebg"
-			{
-				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
-				"xpos"								"5"
-				"ypos"								"4"
-				"zpos"								"2"
-				"wide"								"20"
-				"tall"								"20"
-				"visible"							"0"
-				"enabled"							"1"
-				"bgcolor_override"					"Black"
-				"PaintBackgroundType"				"0"
-			}
-			
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"xpos"								"22"
-				"ypos"								"-3"
+				"xpos"								"28"
+				"ypos"								"-4"
 				"zpos"								"3"
 				"wide"								"32"
-				"tall"								"32"
+				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"	
 				"HealthBonusPosAdj"					"10"
@@ -119,7 +118,7 @@
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
 				"xpos"								"30"
-				"ypos"								"6"
+				"ypos"								"5"
 				"zpos"								"-1"
 				"wide"								"16"
 				"tall"								"16"
@@ -129,11 +128,11 @@
 				"enabled"							"1"
 				"image"								"../HUD/tournament_panel_brown"
 
-				"src_corner_height"					"22"
-				"src_corner_width"					"22"
+				"src_corner_height"					"24"
+				"src_corner_width"					"24"
 			
-				"draw_corner_width"					"3"
-				"draw_corner_height" 				"3"
+				"draw_corner_width"					"0"
+				"draw_corner_height" 				"0"
 			}
 			
 			"ReadyImage"
@@ -153,49 +152,37 @@
 				"scaleImage"						"1"
 			}
 			
-			"respawntime"
+			"classimagebg"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"respawntime"
-				"font"								"DefaultSmall"
-				"xpos"								"30"
-				"ypos"								"18"
-				"zpos"								"5"
-				"wide"								"23"
-				"tall"								"10"
-				"autoResize"						"0"
-				"pinCorner"							"0"
-				"visible"							"1"
-				"labelText"							"%respawntime%"
-				"textAlignment"						"west"
-			}
-			
-			"chargeamount"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"chargeamount"
-				"font"								"DefaultSmall"
-				"xpos"								"9999"
+				"ControlName"						"Panel"
+				"fieldName"							"classimagebg"
 				"wide"								"0"
 				"tall"								"0"
 				"visible"							"0"
 			}
-			
+			"respawntime"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"respawntime"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+			}
+			"chargeamount"
+			{
+				"ControlName"						"CExLabel"
+				"fieldName"							"chargeamount"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+			}
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
-				"font"								"DefaultVerySmall"
-				"xpos"								"4"
-				"ypos"								"2"
-				"zpos"								"5"
-				"wide"								"50"
-				"tall"								"8"
-				"autoResize"						"0"
-				"pinCorner"							"0"
-				"visible"							"1"
-				"labelText"							"%specindex%"
-				"textAlignment"						"north-west"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
 			}
 		}
 	}

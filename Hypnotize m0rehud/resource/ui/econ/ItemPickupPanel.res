@@ -1,27 +1,7 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/ItemPickupPanel.res"
 {
-	"ReloadScheme"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"ReloadScheme"
-		"xpos"				"5"
-		"ypos"				"25"
-		"zpos"				"250"
-		"wide"				"15"
-		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"RS"
-		"font"				"Default"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"Command"			"reloadscheme"
-	}
-	
 	"item_pickup"
 	{
 		"ControlName"								"Frame"
@@ -107,6 +87,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
 	}
 	
 	"classimageoutline"
@@ -153,6 +134,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
 	}
 	
 	"ItemCountLabel"
@@ -171,6 +153,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
 	}
 	
 	"SelectedItemNumberLabel"
@@ -189,6 +172,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
 	}
 	
 	"NextButton"
@@ -214,18 +198,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"							"1"
-		
-		"defaultBgColor_override"					"DarkBG"
-		"armedBgColor_override"						"DarkBG"
-		"depressedBgColor_override"					"DarkBG"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"MenuBorder"
-		"border_armed"								"MenuBorder"
+		"border_default"							"QuickplayBorderDark"
+		"border_armed"								"QuickplayBorderDark"
 	}
 	
 	"PrevButton"
@@ -251,18 +225,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"							"1"
-		
-		"defaultBgColor_override"					"DarkBG"
-		"armedBgColor_override"						"DarkBG"
-		"depressedBgColor_override"					"DarkBG"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"MenuBorder"
-		"border_armed"								"MenuBorder"
+		"border_default"							"QuickplayBorderDark"
+		"border_armed"								"QuickplayBorderDark"
 	}
 	
 	"CloseButton"
@@ -272,8 +236,8 @@
 		"xpos"										"c50"
 		"ypos"										"420"
 		"zpos"										"6"
-		"wide"										"250"
-		"tall"										"30"
+		"wide"										"200"
+		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -289,29 +253,19 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"border_default"							"QuickplayBorderDark"
+		"border_armed"								"QuickplayBorderDark"
 	}
 	
 	"OpenLoadoutButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"OpenLoadoutButton"
-		"xpos"										"c-300"
+		"xpos"										"c-251"
 		"ypos"										"420"
 		"zpos"										"6"
-		"wide"										"250"
-		"tall"										"30"
+		"wide"										"200"
+		"tall"										"25"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -326,18 +280,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"border_default"							"QuickplayBorderDark"
+		"border_armed"								"QuickplayBorderDark"
 	}
 	
 	"DiscardButton"
@@ -363,21 +307,11 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"border_default"							"QuickplayBorderDark"
+		"border_armed"								"QuickplayBorderDark"
 			
 		"image_drawcolor"							"255 255 255 255"		
-		"image_armedcolor"							"255 20 20 255"		
+		"image_armedcolor"							"255 255 255 255"		
 		
 		"SubImage"
 		{
@@ -428,6 +362,7 @@
 			"fgcolor_override"						"White"
 			"wrap"									"1"
 			"centerwrap"							"1"
+			"AllCaps"								"1"
 		}
 	}
 	
@@ -447,8 +382,8 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"200 80 60 255"
-		"bgcolor_override"							"46 43 42 255"
+		"fgcolor_override" 							"Red"
+		"bgcolor_override"							"DarkBG"
 	}
 	
 	"ScoreEntry"

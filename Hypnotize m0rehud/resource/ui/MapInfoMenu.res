@@ -35,18 +35,18 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
-		"border"									"HypnoBorder"
+		"border"									"QuickplayBorder"
 	}
 	
 	"MapInfoTitle"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapInfoTitle"
-		"xpos"										"c-200"
+		"xpos"										"c-195"
 		"ypos"										"110"
 		"zpos"										"1"
-		"wide"										"400"
-		"tall"										"24"
+		"wide"										"390"
+		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -55,6 +55,7 @@
 		"textAlignment"								"center"
 		"font"										"HudFontSmallishBold"
 		"fgcolor"									"White"
+		"AllCaps"									"1"
 	}
 
 	"MapInfoText"
@@ -62,11 +63,11 @@
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
 		"font"										"default"
-		"xpos"										"c-175"
-		"ypos"										"c-75"
+		"xpos"										"c-195"
+		"ypos"										"c-96"
 		"zpos"										"3"
-		"wide"										"350"
-		"tall"										"150"
+		"wide"										"390"
+		"tall"										"185"
 		"autoResize"								"3"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -80,10 +81,10 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ok"
-		"xpos"										"c-50"
-		"ypos"										"r125"
+		"xpos"										"c-200"
+		"ypos"										"r140"
 		"zpos"										"6"
-		"wide"										"100"
+		"wide"										"400"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"2"
@@ -97,20 +98,15 @@
 		"wrap"										"0"
 		"command"									"continue"
 		"default"									"1"
-		"font"										"Coolvetica"
+		"AllCaps"									"1"
+		"font"										"HudFontSmallBold"
 		
-		"paintbackground"							"0"
+		"defaultBgColor_override"					"TransparentBlack"
+		"armedBgColor_override"						"Main Theme"
+		"depressedBgColor_override"					"TransparentBlack"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
+		"border_default"							"QuickplayBorder"
+		"border_armed"								"QuickplayBorder"
 	}
 	
 	

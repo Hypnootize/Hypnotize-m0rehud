@@ -56,7 +56,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-29"
+			"xpos"			"rs1-27"
 			"ypos"			"49"
 			"zpos"			"100"
 			"wide"			"15"
@@ -77,12 +77,12 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 127 255"
 			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"QuickplayBorder"
+			
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"255 255 255 255"
 			
 			"SubImage"
 			{
@@ -125,12 +125,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 127 255"
 			
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"depressedBgColor_override" "Blank"
+			"border_default"	"QuickplayBorder"
+			"border_armed"		"QuickplayBorder"
+			
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
