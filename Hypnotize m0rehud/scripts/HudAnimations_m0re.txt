@@ -17,9 +17,8 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValueshadowExtra 	FgColor 	"0 0 0 255" 						Accel 	0.0 0.0
 	
 	Animate PlayerStatusHealthValueShadowKiller FgColor 	"Buffed Health" 					Accel 	0.0 0.0
-			
-	RunEvent HudHealthBonusPulseLoop			0.4
 	
+	RunEvent HudHealthBonusPulseLoop			0.4
 }
 
 event HudHealthBonusPulseLoop
@@ -200,6 +199,20 @@ event HudTournament_MoveChatWindow
 {
 	RunEvent CompetitiveGame_LowerChatWindow 	0
 	RunEvent CompetitiveGame_RestoreChatWindow 	10
+}
+
+//====================================================================================================================
+
+event RDPositiveScorePulse
+{
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.0 0.0
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.0 0.0
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.1 0.2
 }
 
 //====================================================================================================================
