@@ -196,7 +196,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"30"
+		"fov"				"30"
 		"allow_manip"		"1"
 				
 		"model"
