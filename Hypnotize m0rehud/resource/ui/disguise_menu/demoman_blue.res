@@ -42,13 +42,6 @@
 		"wide"										"0"
 	}
 	
-	"NewNumberLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
-		"wide"										"0"
-	}
-		
 	"NumberLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -65,6 +58,27 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"4"
+		"textAlignment"								"Center"
+		"dulltext"									"1"
+		"brighttext"								"0"
+	}
+	
+	"NewNumberLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"NumberLabel"
+		"font"										"HudFontSmall"
+		"fgcolor"									"White"
+		"xpos"										"15"
+		"ypos"										"90"
+		"zpos"										"0"
+		"wide"										"15"
+		"tall"										"15"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"labelText"									"1"
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"

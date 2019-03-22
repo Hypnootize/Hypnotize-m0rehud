@@ -297,31 +297,22 @@
 		"visible"									"0"
 	}
 
-	"NumberBg1"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"75"
-		"ypos"										"140"
-		"zpos"										"4"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"255 255 255 255"
+	"NumberBG1"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"NumberBG1"
+		"wide"										"0"
 	}
-	
+
 	"NumberLabel1"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
-		"xpos"										"75"
+		"font"										"HudFontSmall"
+		"fgcolor"									"White"
+		"xpos"										"108"
 		"ypos"										"140"
-		"zpos"										"5"
+		"zpos"										"1"
 		"wide"										"15"
 		"tall"										"15"
 		"autoResize"								"0"
@@ -333,32 +324,23 @@
 		"dulltext"									"1"
 		"brighttext"								"0"
 	}
-
-	"NumberBg2"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"227"
-		"ypos"										"140"
-		"zpos"										"4"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"255 255 255 255"
-	}
 	
+	"NumberBG2"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"NumberBG2"
+		"wide"										"0"
+	}
+
 	"NumberLabel2"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
+		"font"										"HudFontSmall"
+		"fgcolor"									"White"
 		"xpos"										"227"
 		"ypos"										"140"
-		"zpos"										"5"
+		"zpos"										"1"
 		"wide"										"15"
 		"tall"										"15"
 		"autoResize"								"0"
@@ -371,31 +353,22 @@
 		"brighttext"								"0"
 	}
 	
-	"NumberBg3"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"379"
-		"ypos"										"140"
-		"zpos"										"4"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"255 255 255 255"
+	"NumberBG3"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"NumberBG3"
+		"wide"										"0"
 	}
 	
 	"NumberLabel3"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
-		"xpos"										"379"
+		"font"										"HudFontSmall"
+		"fgcolor"									"White"
+		"xpos"										"348"
 		"ypos"										"140"
-		"zpos"										"5"
+		"zpos"										"1"
 		"wide"										"15"
 		"tall"										"15"
 		"autoResize"								"0"
