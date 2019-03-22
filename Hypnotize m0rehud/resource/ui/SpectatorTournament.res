@@ -29,7 +29,7 @@
 			
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
-				
+			
 			"playername"
 			{
 				"ControlName"						"CExLabel"
@@ -52,11 +52,11 @@
 			{
 				"ControlName"						"CTFClassImage"
 				"fieldName"							"classimage"
-				"xpos"								"3"
-				"ypos"								"4"
+				"xpos"								"0"
+				"ypos"								"2"
 				"zpos"								"2"
-				"wide"								"11"
-				"tall"								"11"
+				"wide"								"16"
+				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
