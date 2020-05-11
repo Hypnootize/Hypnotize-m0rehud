@@ -52,7 +52,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"m0refont24"
+		"font"										"M0refont24"
 		"fgcolor_override" 							"White"
 	}
 	
@@ -60,8 +60,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCountShadow"
-		"xpos"										"1"
-		"ypos"										"1"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"50"
 		"tall"										"30"	
@@ -73,8 +73,10 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"m0refont24"
+		"font"										"M0refont24"
 		"fgcolor_override" 							"Black"
+		
+		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
 	
 	

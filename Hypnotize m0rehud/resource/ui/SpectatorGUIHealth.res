@@ -29,8 +29,8 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"m0refont24"
-		"font_minmode"								"m0refont20"
+		"font"										"M0refont24"
+		"font_minmode"								"M0refont20"
 		"fgcolor_override"  						"Health Numbers"
 	}
 	
@@ -38,8 +38,8 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"PlayerStatusHealthValueTargetShadow"
-		"xpos"										"-2"
-		"ypos"										"11"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"20"
 		"wide"										"40"
 		"tall"										"20"
@@ -47,11 +47,13 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"m0refont24"
-		"font_minmode"								"m0refont20"
+		"font"										"M0refont24"
+		"font_minmode"								"M0refont20"
 		"fgcolor_override"  						"Black"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
 	}
-	
+
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"								"CExLabel"
@@ -70,8 +72,6 @@
 
 	
 	
-	
-	
 	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	
 	"PlayerStatusHealthImage"
@@ -82,8 +82,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-	
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -93,7 +92,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"

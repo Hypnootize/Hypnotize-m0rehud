@@ -30,7 +30,6 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"Background"
-		"border"									"HypnoBottomRight"
 		"proportionaltoparent"						"1"
 	}
 
@@ -48,7 +47,7 @@
 		"AllCaps"									"1"
 		"textAlignment"								"center"
 		"font"										"HudFontMediumSmallBold"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"WhiteDark"
 		
 		"mouseinputenabled"							"0"
 	}
@@ -66,8 +65,9 @@
 		"labeltext"									"#TF_MM_InviteMode"
 		"textAlignment"								"center"
 		"font"										"HudFontSmallestBold"
+		"AllCaps"									"1"
 		"smallcheckimage"							"1"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
@@ -83,17 +83,27 @@
 		"wide"										"190"
 		"tall"										"15"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"FontStorePrice"
 		"keyboardinputenabled"						"0"
 
 		"editable"									"0"
-		"bgcolor_override"							"0 0 0 100"
-		"fgcolor_override"							"255 255 255 255"
-		"disabledFgColor_override" 					"255 255 255 255"
-		"disabledBgColor_override" 					"0 0 0 0"
-		"selectionColor_override" 					"0 0 0 0"
-		"selectionTextColor_override" 				"255 255 255 255"
-		"defaultSelectionBG2Color_override" 		"0 0 0 0"
+		
+		"fgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"Blank"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override" 					"Blank"
+		"selectionColor_override" 					"Blank"
+		"selectionTextColor_override" 				"WhiteDark"
+		"defaultSelectionBG2Color_override" 		"Blank"
+		
+		"Button"
+		{
+			"defaultFgColor_override"				"WhiteDark"
+			"defaultBgColor_override"				"Blank"
+			"armedFgColor_override"					"WhiteDark"
+			"armedBgColor_override"					"Blank"
+			"paintbackgroundtype"					"0"
+		}
 	}
 
 	"IgnorePartyInvites"
@@ -101,17 +111,18 @@
 		"ControlName"								"CvarToggleCheckButton"
 		"fieldName"									"IgnorePartyInvites"
 		"xpos"										"1"
-		"ypos"										"66"
+		"ypos"										"64"
 		"zpos"										"3"
 		"wide"										"190"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_IgnoreInvites"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"FontStorePrice"
+		"AllCaps"									"1"
 		"smallcheckimage"							"1"
-		"fgcolor_override"							"255 255 255 255"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
@@ -131,9 +142,12 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"FontStorePrice"
+		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 		"enabled"									"0"
+		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
@@ -144,20 +158,21 @@
 		"ControlName"								"Label"
 		"fieldName"									"KeepPartyOnSameTeamLabel"
 		"xpos"										"20"
-		"ypos"										"85"
+		"ypos"										"83"
 		"zpos"										"3"
 		"wide"										"185"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_PartySameTeam"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"FontStorePrice"
+		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 		"wrap"										"1"
+		"fgcolor_override"							"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
-		"fgcolor_override"							"255 255 255 255"
 	}
 
 	"CustomPingCheckButton"
@@ -172,9 +187,12 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"FontStorePrice"
+		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 		"actionsignallevel"							"1"
+		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
@@ -189,15 +207,18 @@
 		"ControlName"								"Label"
 		"fieldName"									"CheckLabel"
 		"xpos"										"20"
-		"ypos"										"102"
+		"ypos"										"100"
 		"zpos"										"3"
 		"wide"										"190"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestBold"
+		"font"										"FontStorePrice"
+		"AllCaps"									"1"
 		"smallcheckimage"							"1"
+		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
@@ -215,9 +236,10 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"								"north-west"
-		"font"										"HudFontSmallest"
+		"font"										"FontStorePrice"
+		"AllCaps"									"1"
 		"wrap"										"1"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"	
 		"button_activation_type"					"1"
@@ -228,7 +250,7 @@
 		"ControlName"								"Label"
 		"fieldName"									"CurrentPingLabel"
 		"xpos"										"0"
-		"ypos"										"124"
+		"ypos"										"120"
 		"zpos"										"0"
 		"wide"										"200"
 		"tall"										"20"
@@ -236,6 +258,8 @@
 		"labeltext"									""
 		"textAlignment"								"center"
 		"font"										"HudFontSmallestBold"
+		"AllCaps"									"1"
+		"fgcolor_override"							"WhiteDark"
 		
 		"mouseinputenabled"							"0"
 	}
@@ -305,7 +329,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"255 255 255 255"
+					"fgcolor_override"				"WhiteDark"
 				}
 		
 				"UpButton"
@@ -323,21 +347,7 @@
 				}
 			}
 		}
-
-		"Frame"
-		{
-			"Controlname"							"EditablePanel"
-			"fieldName"								"Frame"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"zpos"									"5"
-			"proportionaltoparent"					"1"
-			"border"								"InnerShadowBorder"
-			"mouseinputenabled"						"0"
-		}
-			
+		
 		"Background"
 		{
 			"ControlName"							"EditablePanel"
@@ -349,10 +359,15 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"PaintBackgroundType"					"0"
+			"PaintBackground"						"1"
+			"bgcolor_override"						"BackgroundDark"
 			"proportionaltoparent"					"1"
-
-			"paintborder"							"1"
-			"border"								"ReplayDefaultBorder"
+		}
+		"Frame"
+		{
+			"Controlname"							"EditablePanel"
+			"fieldName"								"Frame"
+			"xpos"									"9999"
 		}
 	}
 	
@@ -360,116 +375,24 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
-		"xpos"										"rs1"
-		"labelText"									">"
-
-		if_left
-		{
-			"xpos"									"0"
-			"labelText"								"<"
-		}
-
-		"ypos"										"0"
-		"zpos"										"10000"
-		"wide"										"0"
-		"tall"										"f0"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"command"									"nav_close"
-
-		"textAlignment"								"east"
-		"font"										"HudFontSmallBold"
-
-		"armedBgColor_override"						"0 0 0 0"
-		"defaultBgColor_override"					"0 0 0 0"
-
-		"armedFgColor_override"						"Orange"
+		"xpos"										"9999"
 	}
-
 	"ReturnButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ReturnButton"
-		"xpos"										"3"
-		"labelText"									"<"
-
-		if_left
-		{
-			"xpos"									"rs1-3"
-			"labelText"								">"
-		}
-
-		"ypos"										"0"
-		"zpos"										"10000"
-		"wide"										"0"
-		"tall"										"f0"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"command"									"nav_to"
-		"labelText"									"<"
-
-		"textAlignment"								"west"
-		"font"										"HudFontSmallBold"
-
-		"armedBgColor_override"						"0 0 0 0"
-		"defaultBgColor_override"					"0 0 0 0"
-
-		"armedFgColor_override"						"Orange"
+		"xpos"										"9999"
 	}
-	
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"InnerGradient"
 		"xpos"										"9999"
-		"rotation"									"2"
-
-		if_left
-		{
-			"xpos"									"rs1-3"
-			"rotation"								"1"
-		}
-
-		"ypos"										"0"
-		"wide"										"0"
-		"tall"										"0"
-		"zpos"										"1000"
-		"visible"									"1"
-		"enabled"									"1"
-
-		"proportionaltoparent"						"1"
-		"scaleimage"								"1"
-		"mouseinputenabled"							"0"
-
-		"image"										"gradient_pure_black"
 	}
-
 	"OuterGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OuterGradient"
-		"xpos"										"rs1"
-		"rotation"									"1"
-
-		if_left
-		{
-			"xpos"									"0"
-			"rotation"								"2"
-		}
-
-		"ypos"										"0"
-		"wide"										"0"
-		"tall"										"f0"
-		"zpos"										"1000"
-		"visible"									"1"
-		"enabled"									"1"
-
-
-		"proportionaltoparent"						"1"
-		"scaleimage"								"1"
-		"mouseinputenabled"							"0"
-		"alpha"										"255"
-
-		"image"										"gradient_pure_black"
+		"xpos"										"9999"
 	}
 }

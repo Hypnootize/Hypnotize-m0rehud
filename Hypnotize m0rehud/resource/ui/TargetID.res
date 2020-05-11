@@ -14,8 +14,8 @@
 		"pinCorner"		          					"0"
 		"visible"	          	   					"0"
 		"enabled"	          	   					"1"
+		
 		"image"		          	   					"../hud/color_panel_blu"
-		"image_lodef"	           					"../hud/color_panel_blu"
 		"src_corner_height"	    					"15"
 		"src_corner_width"	     					"15"
 		"draw_corner_width"	     					"0"	
@@ -36,8 +36,8 @@
 		"pinCorner"	        	   					"0"
 		"visible"	          	   					"0"
 		"enabled"	          	   					"1"
+		
 		"image"	          		   					"../hud/color_panel_red"
-		"image_lodef"	           					"../hud/color_panel_red"
 		"src_corner_height"	     					"15"
 		"src_corner_width"	     					"15"
 		"draw_corner_width"	     					"0"	
@@ -49,7 +49,7 @@
 		"ControlName"           					"ImagePanel"
 		"fieldName"              					"TargetBGshade"
 		"xpos"                   					"5"
-		"xpos_minmode"                   			"10"
+		"xpos_minmode"		          	   			"10"
 		"ypos"                   					"9"
 		"zpos"                   					"-1"
 		"wide"	          		   					"252"
@@ -106,7 +106,7 @@
 		"ControlName"		             			"EditablePanel"
 		"fieldName"		               				"SpectatorGUIHealth"
 		"xpos"			                 			"10"
-		"xpos_minmode"			                 	"15"
+		"xpos_minmode"		          	   			"12"
 		"ypos"			                 			"-7"
 		"wide"			                 			"45"
 		"tall"			                 			"40"
@@ -141,7 +141,7 @@
 		"fieldName"			   						"MoveableSubPanel"
 		"wide"				   						"0"
 		"tall"				   						"0"
-		"visible"		                 			"0"
-		"enabled"		                 			"0"	
+		"visible"			   						"0"
+		"enabled"			   						"0"
 	}
 }

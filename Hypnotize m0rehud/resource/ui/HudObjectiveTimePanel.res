@@ -8,7 +8,7 @@
 		"ypos"		        						"0"
 		"zpos"		        						"2"
 		"wide"		        						"41"
-		"tall"		         						"14"
+		"tall"		         						"15"
 		"visible"	        						"1"
 		"enabled"	        						"1"
 		"image"			        					"../hud/color_panel_blu"
@@ -24,7 +24,7 @@
 		"ControlName" 								"CExLabel"
 		"fieldName" 								"ServerTimeLimitLabel"
 		"xpos" 										"26"
-		"ypos" 										"14"
+		"ypos" 										"15"
 		"zpos" 										"3"
 		"wide" 										"50"
 		"tall"										"15"
@@ -36,7 +36,7 @@
 		"brighttext" 								"0"
 		"wrap" 										"0"
 		"font" 										"m0refont12"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 		
 		if_mvm
 		{
@@ -49,7 +49,7 @@
 		"ControlName" 								"ImagePanel"
 		"fieldName" 								"ServerTimeLimitLabelBG"
 		"xpos" 										"30"
-		"ypos" 										"15"
+		"ypos" 										"16"
 		"zpos" 										"3"
 		"wide" 										"41"
 		"tall"										"15"

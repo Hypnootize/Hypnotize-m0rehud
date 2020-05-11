@@ -31,7 +31,7 @@
 		"radius"									"7"
 		"velocity"									"100"
 
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 	}
 
 	"QueueText"
@@ -45,9 +45,9 @@
 		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"HudFontSmallBold"
+		"font"										"Coolvetica"
 		"AllCaps"									"1"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 		"textAlignment"								"east"
 		"labelText"									"%queue_state%"
 		"proportionaltoparent"						"1"

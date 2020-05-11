@@ -2,14 +2,14 @@ Scheme
 {
 	Borders
 	{
-		HypnoBorder
+		OutlineGray
 		{
 			"inset" 								"0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" 						"Main Theme"
+					"color" 						"GrayLight"
 					"offset" 						"0 0"
 				}
 			}
@@ -18,7 +18,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"Main Theme"
+					"color" 						"GrayLight"
 					"offset" 						"0 0"
 				}
 			}
@@ -27,7 +27,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"Main Theme"
+					"color" 						"GrayLight"
 					"offset" 						"0 0"
 				}
 			}
@@ -36,20 +36,20 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"Main Theme"
+					"color" 						"GrayLight"
 					"offset" 						"0 0"
 				}
 			}
 		}
 		
-		HypnoLeft
+		OutlineBlack
 		{
 			"inset" 								"0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" 						"Main Theme"
+					"color" 						"BlackDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -58,7 +58,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"Blank"
+					"color" 						"BlackDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -67,7 +67,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"Blank"
+					"color" 						"BlackDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -76,20 +76,20 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"Blank"
+					"color" 						"BlackDark"
 					"offset" 						"0 0"
 				}
 			}
 		}
 		
-		HypnoRight
+		StatsBorder
 		{
 			"inset" 								"0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" 						"Blank"
+					"color" 						"WhiteDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -98,7 +98,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"Main Theme"
+					"color" 						"WhiteDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -117,126 +117,6 @@ Scheme
 				"1"
 				{
 					"color" 						"Blank"
-					"offset" 						"0 0"
-				}
-			}
-		}
-		
-		HypnoBottomLeft
-		{
-			"inset" 								"0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" 						"Main Theme"
-					"offset" 						"0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 						"Blank"
-					"offset" 						"0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 						"Blank"
-					"offset" 						"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 						"Main Theme"
-					"offset" 						"0 0"
-				}
-			}
-		}
-		
-		HypnoBottomRight
-		{
-			"inset" 								"0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" 						"Blank"
-					"offset" 						"0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 						"Main Theme"
-					"offset" 						"0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 						"Blank"
-					"offset" 						"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 						"Main Theme"
-					"offset" 						"0 0"
-				}
-			}
-		}
-		
-		PipBoyBorder
-		{
-			"inset" 								"0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" 						"100 255 0 255"
-					"offset" 						"0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 						"100 255 0 255"
-					"offset" 						"0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 						"100 255 0 255"
-					"offset" 						"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 						"100 255 0 255"
 					"offset" 						"0 0"
 				}
 			}
@@ -379,7 +259,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"White"
+					"color" 						"GrayDark"
 					"offset" 						"0 1"
 				}
 			}
@@ -388,7 +268,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"White"
+					"color" 						"GrayDark"
 					"offset" 						"1 0"
 				}
 			}
@@ -397,7 +277,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"White"
+					"color" 						"GrayDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -406,7 +286,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"White"
+					"color" 						"GrayDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -419,7 +299,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"GrayDark"
 					"offset" 						"0 1"
 				}
 			}
@@ -428,7 +308,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"						 	"TanDark"
+					"color"						 	"GrayDark"
 					"offset" 						"1 0"
 				}
 			}
@@ -437,7 +317,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"GrayDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -446,7 +326,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"GrayDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -531,7 +411,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -544,7 +424,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -557,7 +437,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -570,7 +450,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -583,7 +463,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -596,7 +476,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderRed"
+			"color"									"TF2Red"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -609,7 +489,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderRed"
+			"color"									"TF2Red"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -622,7 +502,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderRed"
+			"color"									"TF2Red"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -635,7 +515,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderRed"
+			"color"									"TF2Red"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -648,7 +528,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderBlue"
+			"color"									"TF2Blue"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -661,7 +541,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderBlue"
+			"color"									"TF2Blue"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -674,7 +554,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderBlue"
+			"color"									"TF2Blue"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -687,7 +567,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"23"
@@ -743,7 +623,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanLight"
+					"color" 						"WhiteDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -753,7 +633,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -778,7 +658,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"Normal"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -803,7 +683,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBGHover"
+			"color"									"Normal_Hover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -816,7 +696,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BlackLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -829,7 +709,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Background"
+			"color"									"Normal_Hover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -842,7 +722,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Background"
+			"color"									"Normal_Hover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -856,7 +736,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"Normal"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -869,7 +749,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBGHover"
+			"color"									"Normal_Hover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -882,7 +762,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBGHover"
+			"color"									"Normal_Hover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -895,7 +775,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Background"
+			"color"									"Normal_Hover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -908,7 +788,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Background"
+			"color"									"Normal_Hover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -922,7 +802,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"255 200 0 255"
+			"color"									"Unique"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -935,7 +815,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"255 200 0 255"
+			"color"									"Unique_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -948,7 +828,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorUnique_GreyedOut"
+			"color"									"Unique_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -961,7 +841,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorUnique_GreyedOut"
+			"color"									"Unique_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -975,7 +855,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity1"
+			"color"									"Genuine"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -988,7 +868,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity1"
+			"color"									"Genuine_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1001,7 +881,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity1_GreyedOut"
+			"color"									"Genuine_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1014,7 +894,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity1_GreyedOut"
+			"color"									"Genuine_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1028,7 +908,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity2"
+			"color"									"Normal"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1041,7 +921,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity2"
+			"color"									"Normal_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1054,7 +934,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity2_GreyedOut"
+			"color"									"Normal_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1067,7 +947,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity2_GreyedOut"
+			"color"									"Normal_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1081,7 +961,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity3"
+			"color"									"Normal"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1094,7 +974,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity3"
+			"color"									"Normal_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1107,7 +987,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity3_GreyedOut"
+			"color"									"Normal_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1120,7 +1000,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity3_GreyedOut"
+			"color"									"Normal_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1134,7 +1014,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity4"
+			"color"									"Unusual"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1147,7 +1027,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity4"
+			"color"									"Unusual_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1160,7 +1040,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity4_GreyedOut"
+			"color"									"Unusual_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1173,7 +1053,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorrarity4_GreyedOut"
+			"color"									"Unusual_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1187,7 +1067,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorHaunted"
+			"color"									"Haunted"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1200,7 +1080,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorHaunted"
+			"color"									"Haunted_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1213,7 +1093,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorHaunted_GreyedOut"
+			"color"									"Haunted_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1226,7 +1106,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorHaunted_GreyedOut"
+			"color"									"Haunted_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1240,7 +1120,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorPaintkitWeapon"
+			"color"									"PaintkitWeapon"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1253,7 +1133,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorPaintkitWeapon"
+			"color"									"PaintkitWeapon_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1266,7 +1146,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorPaintkitWeapon_GreyedOut"
+			"color"									"PaintkitWeapon_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1279,7 +1159,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorPaintkitWeaponGreyedOut"
+			"color"									"PaintkitWeapon_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1293,7 +1173,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCollectors"
+			"color"									"Collectors"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1306,7 +1186,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCollectors"
+			"color"									"Collectors_Hover"
 							
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1319,7 +1199,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCollectors_GreyedOut"
+			"color"									"Collectors_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1332,7 +1212,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCollectors_GreyedOut"
+			"color"									"Collectors_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1346,7 +1226,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorVintage"
+			"color"									"Vintage"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1359,7 +1239,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorVintage"
+			"color"									"Vintage_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1372,7 +1252,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorVintage_GreyedOut"
+			"color"									"Vintage_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1385,7 +1265,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorVintage_GreyedOut"
+			"color"									"Vintage_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1399,7 +1279,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCommunity"
+			"color"									"Community"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1412,7 +1292,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCommunity"
+			"color"									"Community_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1425,7 +1305,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCommunity_GreyedOut"
+			"color"									"Community_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1438,7 +1318,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCommunity_GreyedOut"
+			"color"									"Community_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1452,7 +1332,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorDeveloper"
+			"color"									"Developer"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1465,7 +1345,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorDeveloper"
+			"color"									"Developer_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1478,7 +1358,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorDeveloper_GreyedOut"
+			"color"									"Developer_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1491,7 +1371,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorDeveloper_GreyedOut"
+			"color"									"Developer_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1505,7 +1385,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorSelfMade"
+			"color"									"SelfMade"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1518,7 +1398,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorSelfMade"
+			"color"									"SelfMade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1531,7 +1411,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorSelfMade_GreyedOut"
+			"color"									"SelfMade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1544,7 +1424,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorSelfMade_GreyedOut"
+			"color"									"SelfMade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1558,7 +1438,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCustomized"
+			"color"									"Customized"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1571,7 +1451,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCustomized"
+			"color"									"Customized_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1584,7 +1464,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCustomized_GreyedOut"
+			"color"									"Customized_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1597,7 +1477,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCustomized_GreyedOut"
+			"color"									"Customized_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1611,8 +1491,8 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorStrange"
-							
+			"color"									"Strange"
+			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
 			"src_corner_width"						"24"
@@ -1624,7 +1504,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorStrange"
+			"color"									"Strange_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1637,7 +1517,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorStrange_GreyedOut"
+			"color"									"Strange_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1650,7 +1530,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorStrange_GreyedOut"
+			"color"									"Strange_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1664,7 +1544,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCompleted"
+			"color"									"Completed"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1677,7 +1557,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCompleted"
+			"color"									"Completed_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1690,7 +1570,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCompleted_GreyedOut"
+			"color"									"Completed_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1703,7 +1583,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"QualityColorCompleted_GreyedOut"
+			"color"									"Completed_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1717,7 +1597,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityDefault"
+			"color"									"GradedWeaponDefault"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1730,7 +1610,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityDefault"
+			"color"									"GradedWeaponDefault_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1743,7 +1623,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityDefault_GreyedOut"
+			"color"									"GradedWeaponDefault_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1756,7 +1636,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityDefault_GreyedOut"
+			"color"									"GradedWeaponDefault_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1769,7 +1649,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityCommon"
+			"color"									"CivilianGrade"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1782,7 +1662,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityCommon"
+			"color"									"CivilianGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1795,7 +1675,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityCommon_GreyedOut"
+			"color"									"CivilianGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1808,7 +1688,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityCommon_GreyedOut"
+			"color"									"CivilianGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1822,7 +1702,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityUncommon"
+			"color"									"FreelanceGrade"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1835,7 +1715,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityUncommon"
+			"color"									"FreelanceGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1848,7 +1728,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityUncommon_GreyedOut"
+			"color"									"FreelanceGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1861,7 +1741,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityUncommon_GreyedOut"
+			"color"									"FreelanceGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1875,7 +1755,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityRare"
+			"color"									"MercenaryGrade"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1888,7 +1768,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityRare"
+			"color"									"MercenaryGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1901,7 +1781,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityRare_GreyedOut"
+			"color"									"MercenaryGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1914,7 +1794,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityRare_GreyedOut"
+			"color"									"MercenaryGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1928,7 +1808,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityMythical"
+			"color"									"CommandoGrade"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1941,7 +1821,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityMythical"
+			"color"									"CommandoGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1954,7 +1834,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityMythical_GreyedOut"
+			"color"									"CommandoGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1967,7 +1847,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityMythical_GreyedOut"
+			"color"									"CommandoGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1981,7 +1861,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityLegendary"
+			"color"									"AssassinGrade"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -1994,7 +1874,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityLegendary"
+			"color"									"AssassinGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -2007,7 +1887,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityLegendary_GreyedOut"
+			"color"									"AssassinGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -2020,7 +1900,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityLegendary_GreyedOut"
+			"color"									"AssassinGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -2034,7 +1914,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityAncient"
+			"color"									"EliteGrade"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -2047,7 +1927,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityAncient"
+			"color"									"EliteGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -2060,7 +1940,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityAncient_GreyedOut"
+			"color"									"EliteGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -2073,7 +1953,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"ItemRarityAncient_GreyedOut"
+			"color"									"EliteGrade_Hover"
 			
 			"image"									"backpack_rect_mouseover_color"
 			"src_corner_height"						"24"
@@ -2090,7 +1970,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDarker"
+					"color" 						"WhiteDark"
 					"offset" 						"0 1"
 				}
 			}
@@ -2099,7 +1979,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDarker"
+					"color" 						"WhiteDark"
 					"offset" 						"1 0"
 				}
 			}
@@ -2108,7 +1988,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDarker"
+					"color" 						"WhiteDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -2117,7 +1997,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDarker"
+					"color" 						"WhiteDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -2131,7 +2011,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"White"
 					"offset" 						"0 1"
 				}
 			}
@@ -2140,7 +2020,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"White"
 					"offset" 						"1 0"
 				}
 			}
@@ -2149,7 +2029,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"White"
 					"offset" 						"0 0"
 				}
 			}
@@ -2158,7 +2038,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"White"
 					"offset" 						"0 0"
 				}
 			}
@@ -2172,7 +2052,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanLight"
+					"color" 						"White"
 					"offset" 						"0 1"
 				}
 			}
@@ -2181,7 +2061,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanLight"
+					"color" 						"White"
 					"offset" 						"1 0"
 				}
 			}
@@ -2190,7 +2070,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanLight"
+					"color" 						"White"
 					"offset" 						"0 0"
 				}
 			}
@@ -2199,7 +2079,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanLight"
+					"color" 						"White"
 					"offset" 						"0 0"
 				}
 			}
@@ -2209,7 +2089,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Main Theme"
+			"color"									"ButtonHover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2222,7 +2102,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Main Theme"
+			"color"									"ButtonHover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2247,7 +2127,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2260,7 +2140,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBGHover"
+			"color"									"Button"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2273,7 +2153,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Main Theme"
+			"color"									"ButtonHover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2286,7 +2166,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2299,7 +2179,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"Main Theme"
+			"color"									"ButtonHover"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2312,7 +2192,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2349,7 +2229,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2362,7 +2242,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2387,7 +2267,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2400,7 +2280,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2413,7 +2293,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2474,7 +2354,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2562,7 +2442,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"LightBG"
+					"color" 						"GrayLight"
 					"offset" 						"0 1"
 				}
 			}
@@ -2571,7 +2451,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"LightBG"
+					"color" 						"GrayLight"
 					"offset" 						"1 0"
 				}
 			}
@@ -2580,7 +2460,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"LightBG"
+					"color" 						"GrayLight"
 					"offset" 						"0 0"
 				}
 			}
@@ -2589,47 +2469,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"LightBG"
-					"offset" 						"0 0"
-				}
-			}
-		}
-		
-		QuickplayBorderDark
-		{
-			"inset"	 								"0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" 						"DarkBG"
-					"offset" 						"0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 						"DarkBG"
-					"offset" 						"1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 						"DarkBG"
-					"offset" 						"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 						"DarkBG"
+					"color" 						"GrayLight"
 					"offset" 						"0 0"
 				}
 			}
@@ -2643,7 +2483,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"WhiteDark"
 					"offset" 						"1 0"
 				}
 			}
@@ -2656,7 +2496,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"WhiteDark"
 					"offset" 						"0 1"
 				}
 			}
@@ -2665,7 +2505,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"WhiteDark"
 					"offset" 						"1 0"
 				}
 			}
@@ -2674,7 +2514,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"WhiteDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -2683,7 +2523,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" 						"TanDark"
+					"color" 						"WhiteDark"
 					"offset" 						"0 0"
 				}
 			}
@@ -2693,7 +2533,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderRed"
+			"color"									"TF2Red"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2706,7 +2546,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2719,7 +2559,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2732,7 +2572,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2745,7 +2585,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2758,7 +2598,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2771,7 +2611,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2784,7 +2624,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"LightBG"
+			"color"									"BackgroundLight"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2797,7 +2637,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"DarkBG"
+			"color"									"BackgroundDark"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2827,7 +2667,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderRed"
+			"color"									"TF2Red"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2840,7 +2680,7 @@ Scheme
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			"color"									"BorderBlue"
+			"color"									"TF2Blue"
 			
 			"image"									"replay/thumbnails/bg_generic"
 			"src_corner_height"						"24"
@@ -2899,78 +2739,78 @@ Scheme
 		
 		CYOAScreenBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"bordertype"							"scalable_image"
+			"backgroundtype"						"2"
 			
-			"image"					"cyoa/cyoa_map_screen_border"
-			"src_corner_height"		"63"				// pixels inside the image
-			"src_corner_width"		"63"
-			"draw_corner_width"		"26"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"26"	
+			"image"									"cyoa/cyoa_map_screen_border"
+			"src_corner_height"						"63"
+			"src_corner_width"						"63"
+			"draw_corner_width"						"26"
+			"draw_corner_height" 					"26"	
 		}
 
 		CYOANodeViewBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"bordertype"							"scalable_image"
+			"backgroundtype"						"2"
 			
-			"image"					"cyoa/node_view_border"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"image"									"cyoa/node_view_border"
+			"src_corner_height"						"127"
+			"src_corner_width"						"127"
+			"draw_corner_width"						"24"
+			"draw_corner_height" 					"24"	
 		}
 
 		CYOANodeViewBorder_Active
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"bordertype"							"scalable_image"
+			"backgroundtype"						"2"
 			
-			"image"					"cyoa/node_view_border_active"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"image"									"cyoa/node_view_border_active"
+			"src_corner_height"						"127"
+			"src_corner_width"						"127"
+			"draw_corner_width"						"24"
+			"draw_corner_height" 					"24"	
 		}
 
 		CYOANodeViewBorder_Inactive
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"bordertype"							"scalable_image"
+			"backgroundtype"						"2"
 			
-			"image"					"cyoa/node_view_border_inactive"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"image"									"cyoa/node_view_border_inactive"
+			"src_corner_height"						"127"
+			"src_corner_width"						"127"
+			"draw_corner_width"						"24"
+			"draw_corner_height" 					"24"	
 		}
 
 		CYOANodeViewBorder_TurnIn
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"bordertype"							"scalable_image"
+			"backgroundtype"						"2"
 			
-			"image"					"cyoa/node_view_border_turnin"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"image"									"cyoa/node_view_border_turnin"
+			"src_corner_height"						"127"
+			"src_corner_width"						"127"
+			"draw_corner_width"						"24"
+			"draw_corner_height" 					"24"	
 		}
 
 		CYOAPopupBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" 								"0 0 1 1"
 			Left
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 1"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"0 1"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 1"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"0 1"
 				}
 			}
 
@@ -2978,13 +2818,13 @@ Scheme
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "1 0"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"1 0"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "1 0"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"1 0"
 				}
 			}
 
@@ -2992,13 +2832,13 @@ Scheme
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"0 0"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"0 0"
 				}
 			}
 
@@ -3006,26 +2846,26 @@ Scheme
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"0 0"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
-					"offset" "0 0"
+					"color" 						"QuestMap_ActiveOrange"
+					"offset" 						"0 0"
 				}
 			}
 		}
 
 		FriendHighlightBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" 								"0 0 1 1"
 			Left
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 1"
 				}
 
 			}
@@ -3034,8 +2874,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"1 0"
 				}
 			}
 
@@ -3043,8 +2883,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
 				}
 			}
 
@@ -3052,26 +2892,26 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
 				}
 			}
 		}
 
 		FriendHighlightBorderThick
 		{
-			"inset" "0 0 1 1"
+			"inset" 								"0 0 1 1"
 			Left
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 1"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 1"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 1"
 				}
 			}
 
@@ -3079,13 +2919,13 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"1 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
-					"offset" "1 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"1 0"
 				}
 			}
 
@@ -3093,13 +2933,13 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
 				}
 			}
 
@@ -3107,13 +2947,13 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
-					"offset" "0 0"
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
 				}
 			}
 		}

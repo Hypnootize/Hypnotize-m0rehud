@@ -15,15 +15,15 @@
 		"paintborder"								"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"LightBG"
-		"defaultbgcolor_override"					"LightBG"
+		"bgcolor_override"							"Background"
+		"defaultbgcolor_override"					"Background"
 	}
 
 	"DeleteButton"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"DeleteButton"
-		"xpos"										"165"
+		"xpos"										"168"
 		"ypos"										"5"
 		"zpos"										"10"
 		"wide"										"20"
@@ -33,8 +33,8 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labeltext"									""
-		"font"										"HudFontSmallBold"
+		"labeltext"									"1"
+		"font"										"Symbols 20"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -45,34 +45,9 @@
 
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
-		
-		"image_drawcolor"							"255 255 255 255"
-		"image_armedcolor"							"255 20 20 255"
-		
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"2"
-			"ypos"									"2"
-			"zpos"									"1"
-			"wide"									"16"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"glyph_close_X"
-			"scaleImage"							"1"
-		}
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override" 					"White"
+		"depressedFgColor_override" 				"WhiteDark"
 	}
 
 	"TriggerButton"
@@ -93,8 +68,8 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labeltext"									""
-		"font"										"HudFontSmallestBold"
+		"labeltext"									"p"
+		"font"										"Symbols 20"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -105,34 +80,9 @@
 
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
-
-		"image_drawcolor"							"255 255 255 255"
-		"image_armedcolor"							"0 200 0 255"
-		
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"2"
-			"ypos"									"2"
-			"zpos"									"1"
-			"wide"									"16"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"glyph_view"
-			"scaleImage"							"1"
-		}
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override" 					"White"
+		"depressedFgColor_override" 				"WhiteDark"
 	}
 
 	"AcceptButton"
@@ -153,8 +103,8 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labeltext"									""
-		"font"										"HudFontSmallestBold"
+		"labeltext"									"p"
+		"font"										"Symbols 20"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -165,41 +115,16 @@
 
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
-
-		"image_drawcolor"							"255 255 255 255"
-		"image_armedcolor"							"0 200 0 255"
-		
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"2"
-			"ypos"									"2"
-			"zpos"									"1"
-			"wide"									"16"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"glyph_view"
-			"scaleImage"							"1"
-		}
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override" 					"White"
+		"depressedFgColor_override" 				"WhiteDark"
 	}
 
 	"DeclineButton"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"DeclineButton"
-		"xpos"										"165"
+		"xpos"										"168"
 		"ypos"										"5"
 		"zpos"										"10"
 		"wide"										"20"
@@ -209,8 +134,8 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labeltext"									""
-		"font"										"HudFontSmallestBold"
+		"labeltext"									"1"
+		"font"										"Symbols 20"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -221,33 +146,8 @@
 
 		"paintbackground"							"0"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
-
-		"image_drawcolor"							"255 255 255 255"
-		"image_armedcolor"							"255 20 20 255"
-		
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"2"
-			"ypos"									"2"
-			"zpos"									"1"
-			"wide"									"16"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"glyph_close_X"
-			"scaleImage"							"1"
-		}
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override" 					"White"
+		"depressedFgColor_override" 				"WhiteDark"
 	}
 }

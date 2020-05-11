@@ -17,21 +17,21 @@
 		"team1_player_delta_y"						"0"
 		"team2_player_base_offset_x"				"25"
 		"team2_player_base_y"						"0"
-		"team2_player_delta_x"						"51"
+		"team2_player_delta_x"						"46"
 		"team2_player_delta_y"						"0"
-		"teams_player_delta_x_comp"					"51"
+		"teams_player_delta_x_comp"					"46"
 		
 		if_competitive
 		{
-			"team1_player_base_y"					"50"
+			"team1_player_base_y"					"30"
 		}
 		if_readymode
 		{
-			"team1_player_base_y"					"50"
+			"team1_player_base_y"					"30"
 		}
 		if_mvm
 		{
-			"team1_player_base_y"					"95"
+			"team1_player_base_y"					"75"
 		}
 		
 		"avatar_width"								"63"
@@ -42,90 +42,77 @@
 		"playerpanels_kv"
 		{
 			"visible"								"0"
-			"wide"									"50"
-			"tall"									"33"
+			"wide"									"45"
+			"tall"									"24"
 			"zpos"									"1"
 			
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
 			
-			"playername"
+			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"playername"
+				"fieldName"							"PlayerName"
 				"font"								"DefaultVerySmall"
 				"xpos"								"1"
-				"ypos"								"25"
+				"ypos"								"rs1"
 				"zpos"								"5"
-				"wide"								"50"
-				"tall"								"8"
+				"wide"								"48"
+				"tall"								"7"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"west"
+				"proportionaltoparent"				"1"
 			}
 			
-			"playernamebg"
+			"PlayerNameBG"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"playernamebg"
+				"fieldName"							"PlayerNameBG"
 				"xpos"								"0"
-				"ypos"								"26"
-				"zpos"								"2"
+				"ypos"								"rs1"
+				"zpos"								"5"
 				"wide"								"f0"
-				"tall"								"f0"
+				"tall"								"7"
 				"visible"							"1"
-				"enabled"							"1"
-				"bgcolor_override"					"TransparentBlack"
+				"paintbackground"					"1"
+				"paintbackgroundtype"				"0"
+				"bgcolor_override"					"BlackTransparent"
+				"proportionaltoparent"				"1"
 			}
 			
-			"classimage"
+			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
-				"fieldName"							"classimage"
-				"xpos"								"0"
-				"ypos"								"1"
+				"fieldName"							"ClassImage"
+				"xpos"								"2"
+				"ypos"								"0"
 				"zpos"								"2"
-				"wide"								"25"
-				"tall"								"25"
+				"wide"								"18"
+				"tall"								"18"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
-				"scaleImage"						"1"	
-			}
-			
-			"HealthIcon"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"HealthIcon"
-				"xpos"								"28"
-				"ypos"								"-4"
-				"zpos"								"3"
-				"wide"								"32"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"	
-				"HealthBonusPosAdj"					"10"
-				"HealthDeathWarning"				"0.49"
-				"TFFont"							"HudFontSmallest"
-				"HealthDeathWarningColor"			"HUDDeathWarning"
-				"TextColor"							"HudOffWhite"
+				"scaleImage"						"1"
+				"proportionaltoparent"				"1"
 			}
 			
 			"ReadyBG"
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
-				"xpos"								"30"
-				"ypos"								"5"
+				"xpos"								"rs1-3"
+				"ypos"								"2"
 				"zpos"								"-1"
-				"wide"								"16"
-				"tall"								"16"
+				"wide"								"14"
+				"tall"								"14"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"0"
 				"enabled"							"1"
+				"proportionaltoparent"				"1"
 				"image"								"../HUD/tournament_panel_brown"
 
 				"src_corner_height"					"24"
@@ -139,8 +126,8 @@
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"xpos"								"32"
-				"ypos"								"8"
+				"xpos"								"rs1-4"
+				"ypos"								"3"
 				"zpos"								"0"
 				"wide"								"12"
 				"tall"								"12"
@@ -150,6 +137,26 @@
 				"enabled"							"1"
 				"image"								"hud/checkmark"
 				"scaleImage"						"1"
+				"proportionaltoparent"				"1"
+			}
+			
+			"HealthIcon"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"HealthIcon"
+				"xpos"								"25"
+				"ypos"								"-2"
+				"zpos"								"3"
+				"wide"								"32"
+				"tall"								"32"
+				"visible"							"1"
+				"enabled"							"1"	
+				"HealthBonusPosAdj"					"10"
+				"HealthDeathWarning"				"0.49"
+				"TFFont"							"HudFontSmallest"
+				"HealthDeathWarningColor"			"HUDDeathWarning"
+				"TextColor"							"HudOffWhite"
+				"proportionaltoparent"				"1"
 			}
 			
 			"classimagebg"
@@ -187,20 +194,34 @@
 		}
 	}
 	
-	"TournamentWhiteBar"
+	"TopBarAnchor"									//THIS MOVES THE TOP BAR ALL AT ONCE!
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"TopBarAnchor"
+		"xpos"										"c-2"
+		"ypos"										"0"
+		"wide"										"10"
+		"tall"										"10"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"WhiteBG"
 	{	
 		"ControlName"								"ScalableImagePanel"
-		"fieldname"    								"TournamentWhiteBar"
-		"xpos"		    							"c-10"
+		"fieldname"    								"WhiteBG"
+		"xpos"		    							"0"
 		"ypos"		    							"0"
-		"zpos"         								"-20"
-		"wide"		    							"20"
+		"zpos"          							"-1"
+		"wide"		    							"4"
 		"tall"		    							"15"
 		"autoResize"  								"0"
 		"pinCorner" 								"0"
 		"visible"	    							"1"
-		"enabled"		   							"1"
-		"fillcolor"     							"255 255 255 255"	
+		"enabled"		    						"1"
+		"fillcolor"     							"White"
+		
+		"pin_to_sibling"							"TopBarAnchor"
 		
 		if_competitive
 		{
@@ -220,19 +241,24 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentBLUEBG"
-		"xpos"										"c-1001"
+		"xpos"										"-1"
 		"ypos"										"0"
-		"wide"										"1000"
+		"wide"										"p0.5"
 		"tall"										"15"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		
 		"image"										"../HUD/tournament_panel_blu"
 		"src_corner_height"	 						"15"
 		"src_corner_width"	 						"15"
 		"draw_corner_width"	 						"0"	
-		"draw_corner_height" 						"0"		
+		"draw_corner_height" 						"0"
+
+		"pin_to_sibling"							"WhiteBG"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		if_competitive
 		{
@@ -253,11 +279,11 @@
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUELabel"
 		"font"										"default"
-		"fgcolor_override"   						"255 255 255 255"
-		"xpos"										"10"
+		"fgcolor_override"   						"White"
+		"xpos"										"-10"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"f0"
+		"wide"										"100"
 		"tall"										"15"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -265,7 +291,9 @@
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"%bluenamelabel%"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
+
+		"pin_to_sibling"							"HudTournamentBLUEBG"
 		
 		if_competitive
 		{
@@ -286,8 +314,8 @@
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUEStateLabel"
 		"font"										"default"
-		"fgcolor_override" 							"255 255 255 255"
-		"xpos"										"c-75"
+		"fgcolor_override" 							"White"
+		"xpos"										"-8"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"65"
@@ -299,6 +327,10 @@
 		"wrap"										"0"
 		"labelText"									"%bluestate%"
 		"textAlignment"								"east"
+		
+		"pin_to_sibling"							"HudTournamentBLUEBG"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 		
 		if_competitive
 		{
@@ -318,9 +350,9 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentREDBG"
-		"xpos"										"c1"
+		"xpos"										"-1"
 		"ypos"										"0"
-		"wide"										"1001"
+		"wide"										"p0.5"
 		"tall"										"15"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -330,8 +362,12 @@
 		"scaleImage"								"1"
 		"src_corner_height"							"15"
 		"src_corner_width"							"15"
-		"draw_corner_width"							"0"	
-		"draw_corner_height" 						"0"		
+		"draw_corner_width"							"0"
+		"draw_corner_height" 						"0"
+		
+		"pin_to_sibling"							"WhiteBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 		
 		if_competitive
 		{
@@ -352,11 +388,11 @@
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDLabel"
 		"font"										"default"
-		"fgcolor_override"   						"255 255 255 255"
+		"fgcolor_override"   						"White"
 		"xpos"										"-10"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"f0"
+		"wide"										"100"
 		"tall"										"15"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -364,7 +400,11 @@
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"%rednamelabel%"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
+		
+		"pin_to_sibling"							"HudTournamentRedBG"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 		
 		if_competitive
 		{
@@ -385,8 +425,8 @@
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDStateLabel"
 		"font"										"default"
-		"fgcolor_override" 							"255 255 255 255"
-		"xpos"										"c10"
+		"fgcolor_override" 							"White"
+		"xpos"										"-8"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"65"
@@ -397,7 +437,9 @@
 		"enabled"									"1"
 		"wrap"										"0"
 		"labelText"									"%redstate%"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
+		
+		"pin_to_sibling"							"HudTournamentRedBG"
 		
 		if_competitive
 		{
@@ -418,9 +460,9 @@
 		"ControlName"		          				"CExLabel"
 		"fieldName"		           					"TournamentConditionLabel"
 		"font"			              				"TFFontSmall"
-		"fgcolor"                					"255 255 255 255"
+		"fgcolor"                					"White"
 		"xpos"			              				"0"
-		"ypos"	              						"15"
+		"ypos"	              						"0"
 		"zpos"			              				"1"
 		"wide"			              				"f0"
 		"tall"			              				"10"
@@ -432,13 +474,17 @@
 		"labelText" 	          					"%winconditions%"
 		"textAlignment"		        				"center"
 		
+		"pin_to_sibling"							"WhiteBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		
 		if_competitive
 		{
 			"visible"		              			"0"
 		}
 		if_readymode
 		{
-			"ypos"									"35"
+			"ypos"									"5"
 		}
 		if_mvm
 		{
@@ -450,8 +496,8 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentInstructionsLabel"
-		"font"										"m0refont12"
-		"fgcolor"									"255 255 255 255"
+		"font"										"m0refont12Shadow"
+		"fgcolor"									"White"
 		"xpos"										"c-125"
 		"ypos"										"68"
 		"wide"										"250"
@@ -468,17 +514,17 @@
 		if_competitive
 		{
 			"visible"								"1"
-			"ypos"									"85"
+			"ypos"									"55"
 		}
 		if_readymode
 		{
 			"visible"								"1"
-			"ypos"									"85"
+			"ypos"									"55"
 		}
 		if_mvm
 		{
 			"visible"								"1"
-			"ypos"									"130"
+			"ypos"									"100"
 		}
 	}
 	
@@ -532,7 +578,7 @@
 		"wrap"										"0"
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 		
 		if_competitive
 		{

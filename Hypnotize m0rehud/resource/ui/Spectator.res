@@ -32,7 +32,7 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"default"
-		"fgcolor_override"   						"255 255 255 255"
+		"fgcolor_override"   						"White"
 		
 		"if_mvm"
 		{
@@ -74,10 +74,10 @@
 		"wide"										"190"
 		"tall"										"100"
 		"visible"									"0"
-		"PaintBackgroundType"						"0"
+		"paintborder"								"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"TransparentBlack"
-		"border"									"QuickplayBorder"
+		"bgcolor_override"							"BlackTransparent"
+		"PaintBackgroundType"						"0"
 		
 		"model_ypos"								"10"
 		"model_center_x"							"1"
@@ -98,6 +98,7 @@
 		{
 			"fieldName"								"itemmodelpanel"
 			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"useparentbg"							"1"
 		}
 		
@@ -162,8 +163,8 @@
 		"ControlName"								"Frame"
 		"fieldName"									"BottomBar"
 		"xpos"										"0"
-		"ypos"										"r0"																					[$WIN32]
-		"tall"										"0"																						[$WIN32]	
+		"ypos"										"r0"
+		"tall"										"0"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"

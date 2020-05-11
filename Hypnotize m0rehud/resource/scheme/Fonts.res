@@ -8,122 +8,11 @@ Scheme
 	
 	Fonts
 	{
-		
 		///////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////CUSTOM FONTS//////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
 		
-		Symbols
-		{
-			"1"
-			{
-				"name"										"Heydings Icons"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CustomIcons
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CustomIconsMenu
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CustomIconsMenuSmall
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CustomIconsMenuSmaller
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CustomIconsMenuSmallest
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		HudasIcons
-		{
-			"1"
-			{
-				"name"										"Hudas Iscariote"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		HudFontSmallBold
-		{
-			"1"
-			{
-				"name"										"AvenirLTStd-Black"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		HypnoLabelSmall
-		{
-			"1"
-			{
-				"name"										"Pinyon Script"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		HypnoLabel
-		{
-			"1"
-			{
-				"name"										"Pinyon Script"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		M0refont6
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		M0refont8
+		"m0refont8"
 		{
 			"1"
 			{
@@ -133,17 +22,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont9
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"9"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		M0refont10
+		"m0refont10"
 		{
 			"1"
 			{
@@ -153,7 +32,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont11
+		"m0refont11"
 		{
 			"1"
 			{
@@ -163,7 +42,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont12
+		"m0refont11Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont12"
 		{
 			"1"
 			{
@@ -173,7 +63,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont12Shadow
+		"m0refont12Shadow"
 		{
 			"1"
 			{
@@ -184,7 +74,7 @@ Scheme
 				"dropshadow" 								"1"
 			}
 		}
-		M0refont14
+		"m0refont14"
 		{
 			"1"
 			{
@@ -194,7 +84,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont16
+		"m0refont14Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont16"
 		{
 			"1"
 			{
@@ -204,7 +105,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont18
+		"m0refont16Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont18"
 		{
 			"1"
 			{
@@ -214,7 +126,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont18Outline
+		"m0refont18Shadow"
 		{
 			"1"
 			{
@@ -222,10 +134,10 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont18Shadow
+		"m0refont18Outline"
 		{
 			"1"
 			{
@@ -233,21 +145,10 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
-				"dropshadow"								"1"
+				"outline" 									"1"
 			}
 		}
-		M0refont19Outline
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"19"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		M0refont20
+		"m0refont20"
 		{
 			"1"
 			{
@@ -257,7 +158,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont20Outline
+		"m0refont20Shadow"
 		{
 			"1"
 			{
@@ -265,31 +166,21 @@ Scheme
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont21Outline
+		"m0refont20Outline"
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"21"
+				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"outline" 									"1"
 			}
 		}
-		M0refont22
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		M0refont22Outline
+		"m0refont22"
 		{
 			"1"
 			{
@@ -297,42 +188,31 @@ Scheme
 				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
 			}
 		}
-		M0refont23Outline
+		"m0refont22Shadow"
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"23"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont24
+		"m0refont22Outline"
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
+				"outline" 									"1"
 			}
 		}
-		M0refont24Outline
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		M0refont24Shadow
+		"m0refont24"
 		{
 			"1"
 			{
@@ -340,20 +220,52 @@ Scheme
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
-				"dropshadow"								"1"
 			}
 		}
-		M0refont26
+		"m0refont24Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont24Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont26"
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
 				"tall"										"26"
 				"additive"									"0"
-				"antialias"									"1"
+				"antialias" 								"1"
 			}
 		}
-		M0refont28
+		"m0refont26Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"26"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont28"
 		{
 			"1"
 			{
@@ -363,7 +275,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont30
+		"m0refont28Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont30"
 		{
 			"1"
 			{
@@ -373,7 +296,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont30Outline
+		"m0refont30Shadow"
 		{
 			"1"
 			{
@@ -381,10 +304,21 @@ Scheme
 				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont32
+		"m0refont30Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont32"
 		{
 			"1"
 			{
@@ -394,7 +328,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont32Shadow
+		"m0refont32Shadow"
 		{
 			"1"
 			{
@@ -405,7 +339,7 @@ Scheme
 				"dropshadow" 								"1"
 			}
 		}
-		M0refont34
+		"m0refont34"
 		{
 			"1"
 			{
@@ -415,7 +349,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont36
+		"m0refont36"
 		{
 			"1"
 			{
@@ -425,7 +359,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont36Outline
+		"m0refont36Shadow"
 		{
 			"1"
 			{
@@ -433,10 +367,10 @@ Scheme
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont38
+		"m0refont38"
 		{
 			"1"
 			{
@@ -446,7 +380,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont40
+		"m0refont40"
 		{
 			"1"
 			{
@@ -456,7 +390,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont42
+		"m0refont42"
 		{
 			"1"
 			{
@@ -466,7 +400,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont44
+		"m0refont44"
 		{
 			"1"
 			{
@@ -476,7 +410,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont46
+		"m0refont46"
 		{
 			"1"
 			{
@@ -486,7 +420,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont48
+		"m0refont46Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"46"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont48"
 		{
 			"1"
 			{
@@ -496,7 +441,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont50
+		"m0refont48Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont50"
 		{
 			"1"
 			{
@@ -506,7 +462,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont52
+		"m0refont52"
 		{
 			"1"
 			{
@@ -516,7 +472,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont54
+		"m0refont54"
 		{
 			"1"
 			{
@@ -526,7 +482,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont56
+		"m0refont56"
 		{
 			"1"
 			{
@@ -536,7 +492,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont58
+		"m0refont58"
 		{
 			"1"
 			{
@@ -546,7 +502,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont60
+		"m0refont60"
 		{
 			"1"
 			{
@@ -556,7 +512,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont62
+		"m0refont62"
 		{
 			"1"
 			{
@@ -566,7 +522,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont64
+		"m0refont64"
 		{
 			"1"
 			{
@@ -576,7 +532,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont66
+		"m0refont66"
 		{
 			"1"
 			{
@@ -586,7 +542,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont68
+		"m0refont68"
 		{
 			"1"
 			{
@@ -596,7 +552,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont70
+		"m0refont70"
 		{
 			"1"
 			{
@@ -606,7 +562,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont72
+		"m0refont72"
 		{
 			"1"
 			{
@@ -616,6 +572,18 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"m0refont72Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"72"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		
 		"BlocksSharp64"
 		{
 			"1"
@@ -699,18 +667,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"12"
-				"weight"	"500"
-				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"Tahoma"
+				"tall"										"12"
+				"weight"									"500"
+				"underline" 								"1"
+				"range"										"0x0000 0x017F"
 			}
 			"2"
 			{
-				"name"		"Arial"
-				"tall"		"11"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"name"										"Arial"
+				"tall"										"11"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"800"
 			}
 		}
 		
@@ -718,117 +686,117 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
+				"name"										"Verdana"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
+				"name"										"Verdana"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
-				"antialias"	"1"
+				"name"										"Verdana"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
+				"name"										"Verdana"
+				"tall"										"14"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
-				"antialias"	"1"
+				"name"										"Verdana"
+				"tall"										"16"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"1200 6000"
+				"antialias"									"1"
 			}
 		}
 		DefaultLarge
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"900"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"21"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"21"
+				"weight"									"900"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"22"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"22"
+				"weight"									"900"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"28"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"28"
+				"weight"									"900"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"30"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"30"
+				"weight"									"900"
+				"range"										"0x0000 0x017F"
+				"yres"										"1200 6000"
+				"antialias"									"1"
 			}
 			"6"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"name"										"Arial"
+				"tall"										"20"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"800"
 			}
 		}
 		CenterPrintText
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"antialias" "1"
-				"additive"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"antialias" 								"1"
+				"additive"									"1"
 			}
 		}
 
@@ -836,81 +804,81 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"6"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"6"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		HudHintText
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"480 599"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"480 599"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"32"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"600 767"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"32"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"600 767"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"768 1023"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"44"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"768 1023"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"48"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1024 1199"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"48"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"1024 1199"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"52"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1200 10000"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"52"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"44"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -918,11 +886,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"35"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"35"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -930,472 +898,472 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"36"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"36"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontMediumBig"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"30"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"30"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}	
 		"HudFontMediumBigBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"30"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"30"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias"									"1"
 			}
 		}		
 		"HudFontMedium"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontMediumBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontMediumSmallBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontMediumSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}	
 		"HudFontSmallishBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"16"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontSmallBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontSmallBoldShadow"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
 			}
 		}
 		"HudFontSmallest"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudFontSmallestShadow"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
 			}
 		}
 		"HudFontSmallestBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"PerformanceModeSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"4"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"4"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"StorePromotionsTitle"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"FontCartPrice"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"16"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"FontStorePrice"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"FontStoreOriginalPrice"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"FontStorePriceSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"6"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"6"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"FontStorePromotion"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"TextTooltipFont"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		GameUIButtons
 		{
 			"1"	//[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
+				"bitmap"									"1"
+				"name"										"Buttons"
+				"scalex"									"0.5"
+				"scaley"									"0.5"
 			}
 		}
 		GameUIButtonsSmall
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
+				"bitmap"									"1"
+				"name"										"Buttons"
+				"scalex"									"0.5"
+				"scaley"									"0.5"
 			}
 		}
 		GameUIButtonsSmallest
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
+				"bitmap"									"1"
+				"name"										"Buttons"
+				"scalex"									"0.4"
+				"scaley"									"0.4"
 			}
 		}
 		GameUIButtonsSteamController
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
+				"bitmap"									"1"
+				"name"										"ButtonsSC"
+				"scalex"									"0.5"
+				"scaley"									"0.5"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.25"
-				"scaley"	"0.25"
+				"bitmap"									"1"
+				"name"										"ButtonsSC"
+				"scalex"									"0.25"
+				"scaley"									"0.25"
 			}
 		}
 		GameUIButtonsSteamControllerSmallest
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.15"
-				"scaley"	"0.15"
+				"bitmap"									"1"
+				"name"										"ButtonsSC"
+				"scalex"									"0.15"
+				"scaley"									"0.15"
 			}
 		}
 		"GameUIButtonText"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudClassHealth"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"16"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"SpectatorKeyHints"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ClockSubText"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ClockSubTextSuddenDeath"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ClockSubTextTiny"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"HudSelectionText"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"15"
-				"weight"	"700"
-				"antialias" 	"1"
-				"yres"		"1 599"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"additive"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"15"
+				"weight"									"700"
+				"antialias" 								"1"
+				"yres"										"1 599"
+				"range"										"0x0000 0x017F"
+				"additive"									"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
-				"weight"	"700"
-				"antialias" 	"1"
-				"yres"		"600 767"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"additive"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"15"	[$WIN32]
+				"tall"										"21"	[$X360]
+				"weight"									"700"
+				"antialias" 								"1"
+				"yres"										"600 767"
+				"range"										"0x0000 0x017F"
+				"additive"									"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"900"
-				"antialias" 	"1"
-				"yres"		"768 1023"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"900"
+				"antialias" 								"1"
+				"yres"										"768 1023"
+				"range"										"0x0000 0x017F"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"21"
-				"weight"	"900"
-				"antialias" 	"1"
-				"yres"		"1024 1199"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"21"
+				"weight"									"900"
+				"antialias" 								"1"
+				"yres"										"1024 1199"
+				"range"										"0x0000 0x017F"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"1000"
-				"antialias" 	"1"
-				"yres"		"1200 10000"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"1000"
+				"antialias" 								"1"
+				"yres"										"1200 10000"
+				"range"										"0x0000 0x017F"
 			}
 		}
 		DebugOverlay
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"Courier New"
+				"tall"										"14"
+				"weight"									"400"
+				"outline"									"1"
+				"range"										"0x0000 0x017F"
 			}
 			"1"	[$X360]
 			{
-				"name"		"Tahoma"
-				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
+				"name"										"Tahoma"
+				"tall"										"18"
+				"weight"									"200"
+				"outline"									"1"
 			}
 		}		
 		TFTypeDeath
 		{
 			"1"
 			{
-				"name"  	"tfd" // tfd.ttf
-				"tall"  	"28"
-				"weight" 	"0"
-				"additive" 	"0"
-				"antialias" 	"1"
+				"name"  									"tfd"
+				"tall"  									"28"
+				"weight" 									"0"
+				"additive" 									"0"
+				"antialias" 								"1"
 			}
 		}
 		
@@ -1403,23 +1371,23 @@ Scheme
 		{
 			"1"
 			 {
-				"name"  	"Team Fortress" // tf.ttf
-				"tall"  	"28"
-				"weight" 	"0"
-				"additive" 	"1"
-				"antialias" 	"1"
+				"name"  									"Team Fortress"
+				"tall"  									"28"
+				"weight" 									"0"
+				"additive" 									"1"
+				"antialias" 								"1"
 			}
 		}
 		"BetaFont"
 		{
 			"1"
 			{
-				"name"		"Courier New"
-				"tall"		"90"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"Courier New"
+				"tall"										"90"
+				"weight"									"900"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 
@@ -1427,71 +1395,81 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Team Fortress" // tf.ttf
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
+				"name"  									"Team Fortress"
+				"tall"  									"28"
+				"weight"									"0"
+				"additive" 									"1"
+				"antialias" 								"1"
 			}
 			"2"
 			{
-				"name"  "AvenirLTStd-Black"
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
+				"name" 								 		"AvenirLTStd-Heavy"
+				"tall"  									"28"
+				"weight"								 	"0"
+				"additive" 									"1"
+				"antialias" 								"1"
 			}
 		}
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"weight"									"500"
+				"range"										"0x0000 0x017F"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"weight"									"500"
+				"italic"									"1"
+				"range"										"0x0000 0x017F"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"weight"									"500"
+				"range"										"0x0000 0x017F"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"900"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"weight"									"500"
+				"italic"									"1"
+				"range"										"0x0000 0x017F"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"16"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"weight"									"500"
+				"range"										"0x0000 0x017F"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -1500,52 +1478,52 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Marlett"
-				"tall"		"20"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"name"										"Marlett"
+				"tall"										"20"
+				"weight"									"0"
+				"symbol"									"1"
+				"range"										"0x0000 0x007F"
 			}
 		}
 		"MarlettSmall"
 		{
 			"1"
 			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"name"										"Marlett"
+				"tall"										"14"
+				"weight"									"0"
+				"symbol"									"1"
+				"range"										"0x0000 0x007F"
 			}
 		}
 		"MenuMainTitle"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"antialias" "1"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"antialias" 								"1"
+				"weight"									"500"
 			}
 		}
 		"MenuClassBuckets"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"antialias" "1"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"antialias" 								"1"
+				"weight"									"500"
 			}
 		}
 		"MenuKeys"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"antialias" "1"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"antialias"									 "1"
+				"weight"									"500"
 			}
 		}
 		
@@ -1553,11 +1531,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"13"
-				"weight"	"800"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"13"
+				"weight"									"800"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}		
 		
@@ -1565,150 +1543,150 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"28"
-				"antialias"		"1" 
-				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"28"
+				"antialias"									"1" 
+				"custom"									"1" [$OSX]
+				"weight"									"500"
 			}
 		}
 		"ChalkboardTitleBig"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"40"
-				"antialias"		"1"
-				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"40"
+				"antialias"									"1"
+				"custom"									"1" [$OSX]
+				"weight"									"500"
 			}
 		}
 		"ChalkboardTitleMedium"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"antialias" "1"
-				"custom"		"1" [$OSX]
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"antialias" 								"1"
+				"custom"									"1" [$OSX]
+				"weight"									"500"
 			}
 		}
 		"ChalkboardText"
 		{
 			"1"
 			{
-				"name"			"AvenirLTStd-Black"
-				"tall"			"14" [!$OSX]
-				"tall"			"15" [$OSX]
-				"antialias"		"1"
-				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14" [!$OSX]
+				"tall"										"15" [$OSX]
+				"antialias"									"1"
+				"custom"									"1" [$OSX]
+				"weight"									"500"
 			}
 		}
 		"ScoreboardSmallest"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"6"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"Verdana"
+				"tall"										"6"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ScoreboardVerySmall"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"Verdana"
+				"tall"										"8"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ScoreboardSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ScoreboardMediumSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 		"ScoreboardMedium"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"500"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamName"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"500"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamCountNew"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamNameNew"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"500"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"34"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"34"
+				"weight"									"500"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 
@@ -1716,126 +1694,126 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"36"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"36"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ScoreboardTeamScore"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"52"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1 599"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"52"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"400"
+				"yres"										"1 599"
+				"antialias" 								"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"72"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"600 767"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"72"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"400"
+				"yres"										"600 767"
+				"antialias" 								"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"100"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"768 1023"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"100"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"400"
+				"yres"										"768 1023"
+				"antialias"								 	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"140"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1024 1199"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"140"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"400"
+				"yres"										"1024 1199"
+				"antialias" 								"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"180"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1200 10000"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"180"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"400"
+				"yres"										"1200 10000"
+				"antialias" 								"1"
 			}
 		}
 		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"36"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"36"
+				"weight"									"500"
+				"range"										"0x0000 0x007F"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"MatchSummaryWinner"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"CompMatchStartTeamNames"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ControlPointTimer"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ControlPointTimerSmaller"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -1843,11 +1821,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		
@@ -1855,97 +1833,97 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"700"
+				"yres"										"480 599"
+				"dropshadow"								"0"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"13"
+				"weight"									"700"
+				"yres"										"600 767"
+				"dropshadow"								"0"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"700"
+				"yres"										"768 1023"
+				"dropshadow"								"0"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"700"
+				"yres"										"1024 1199"
+				"dropshadow"								"0"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"700"
+				"yres"										"1200 10000"
+				"dropshadow"								"0"
 			}
 		}
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"700"
+				"yres"										"480 599"
+				"dropshadow"								"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"13"
+				"weight"									"700"
+				"yres"										"600 767"
+				"dropshadow"								"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"700"
+				"yres"										"768 1023"
+				"dropshadow"								"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"700"
+				"yres"										"1024 1199"
+				"dropshadow"								"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"700"
+				"yres"										"1200 10000"
+				"dropshadow"								"1"
 			}
 		}
 		"ChatMiniFont"
 		{
 			"1"
 			{
-				"name"				"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -1953,11 +1931,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial Black"
-				"tall"			"8"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"300"
-				"antialias"		"1"
+				"name"										"Arial Black"
+				"tall"										"8"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"300"
+				"antialias"									"1"
 			}
 		}	
 		
@@ -1965,35 +1943,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"300"
-				"antialias"		"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"300"
+				"antialias"									"1"
 			}
 		}			
 		CapPlayerFont
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"TextColor"	"Black"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"500"
+				"range"										"0x0000 0x017F"
+				"TextColor"									"Black"
+				"antialias" 								"1"
 			}
 		}
 		CapPlayerFontSmall
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"TextColor"	"Black"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"500"
+				"range"										"0x0000 0x017F"
+				"TextColor"									"Black"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2001,22 +1979,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"0"
-				"additive"	"1"
-				"antialias" 	"1"
+				"name"										"Verdana"
+				"tall"										"8"
+				"weight"									"0"
+				"additive"									"1"
+				"antialias" 								"1"
 			}
 		}		
 		TFFontMedium
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}		
 		
@@ -2024,12 +2002,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [$OSX]
-				"weight"	"800"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"  	[!$OSX]
+				"tall"										"9"  	[$OSX]
+				"weight"									"800"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}		
 		
@@ -2037,90 +2015,90 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"36"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"36"
+				"weight"									"500"
 			}
 		}
 		MatchmakingDialogSessionOptionsTitle
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"30"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"30"
+				"weight"									"500"
 			}
 		}
 		MatchmakingDialogMenuLarge
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"28"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"28"
+				"weight"									"500"
 			}
 		}
 		MatchmakingDialogMenuBrowserHostname
 		{
-			"1"			// brower item hostname
+			"1"												// brower item hostname
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
-				"weight"	"900"
+				"name"										"Trebuchet MS"
+				"tall"										"22"
+				"weight"									"900"
 			}
 		}
 		MatchmakingDialogMenuBrowserDetails
 		{
-			"1"			// browser item players and map name
+			"1"												// browser item players and map name
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
-				"weight"	"900"
+				"name"										"Trebuchet MS"
+				"tall"										"18"
+				"weight"									"900"
 			}
 		}		
 		MatchmakingDialogMenuMedium
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"22"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"22"
+				"weight"									"500"
 			}
 		}
 		MatchmakingDialogMenuMediumSmall
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
 			}
 		}
 		MatchmakingDialogMenuSmall
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"22"
-				"weight"	"900"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"22"
+				"weight"									"900"
 			}
 		}
 		MatchmakingDialogMenuSmallest
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"900"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"900"
 			}
 		}
 		RankingDialogHeaders
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"15"
-				"weight"	"900"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"15"
+				"weight"									"900"
 			}
 		}
 		
@@ -2128,76 +2106,76 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"36"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Black"
+				"tall"										"36"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"TeamMenu"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"600"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"600"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}		
 		"IntroMenuCaption"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}			
 		"AchievementNotification"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"14"
-				"weight"	"900"
-				"antialias" "1"
+				"name"										"Trebuchet MS"
+				"tall"										"14"
+				"weight"									"900"
+				"antialias" 								"1"
 			}
 		}
 		"ImportToolSmallestBold"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"600"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"600"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ImportToolSmallest"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"SpectatorVerySmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
@@ -2205,30 +2183,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 1199"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 1199"
+				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"15"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"15"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"1200 6000"
+				"antialias"									"1"
 			}
 		}
 		
@@ -2236,98 +2214,98 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ItemFontNameSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ItemFontNameLarge"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ItemFontNameLarger"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		ItemFontAttribSmallv2
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"antialias" "1"
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"antialias" 								"1"
+				"weight"									"500"
 			}
 		}
 		"ItemFontAttribSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ItemFontAttribLarge"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}	
 		"ItemFontAttribLarger"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		
@@ -2335,79 +2313,79 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"AchievementTracker_NameGlow"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"500"
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-				"custom"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"500"
+				"blur"										"3"
+				"additive"									"1"
+				"antialias" 								"1"
+				"custom"									"1"
 			}
 		}
 		"AchievementTracker_Desc"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"0"
-				"additive"	"1"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"0"
+				"additive"									"1"
+				"antialias" 								"1"
 			}
 		}
 		"QuestObjectiveTracker_Desc"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"0"
-				"additive"	"1"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"0"
+				"additive"									"1"
+				"antialias" 								"1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"0"
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-				"custom"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"0"
+				"blur"										"3"
+				"additive"									"1"
+				"antialias" 								"1"
+				"custom"									"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2415,30 +2393,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"yres"		"480 599"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"yres"										"480 599"
+				"additive"									"0"
+				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"yres"		"600 1023"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"400"
+				"additive"									"0"
+				"yres"										"600 1023"
+				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"400"
-				"additive"	"0"
-				"yres"		"1024 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"400"
+				"additive"									"0"
+				"yres"										"1024 6000"
+				"antialias"									"1"
 			}
 		}
 
@@ -2446,30 +2424,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"800"
-				"yres"		"480 599"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"800"
+				"yres"										"480 599"
+				"additive"									"0"
+				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"800"
-				"additive"	"0"
-				"yres"		"600 1023"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"800"
+				"additive"									"0"
+				"yres"										"600 1023"
+				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"800"
-				"additive"	"0"
-				"yres"		"1024 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"800"
+				"additive"									"0"
+				"yres"										"1024 6000"
+				"antialias"									"1"
 			}
 		}
 		
@@ -2477,11 +2455,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"16"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"16"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2489,11 +2467,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"antialias" "1"
-				"custom"		"1" [$OSX]
-				"weight"	"500"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"antialias" 								"1"
+				"custom"									"1" [$OSX]
+				"weight"									"500"
 			}
 		}
 
@@ -2501,30 +2479,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"yres"		"480 599"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"yres"										"480 599"
+				"additive"									"0"
+				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"yres"		"600 1023"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"400"
+				"additive"									"0"
+				"yres"										"600 1023"
+				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"22"
-				"weight"	"400"
-				"additive"	"0"
-				"yres"		"1024 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"22"
+				"weight"									"400"
+				"additive"									"0"
+				"yres"										"1024 6000"
+				"antialias"									"1"
 			}
 		}
 
@@ -2532,33 +2510,33 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"yres"		"480 599"
-				"additive"	"0"
-				"antialias"	"1"
-				"italic"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"yres"										"480 599"
+				"additive"									"0"
+				"antialias"									"1"
+				"italic"									"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"yres"		"600 1023"
-				"antialias"	"1"
-				"italic"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"400"
+				"additive"									"0"
+				"yres"										"600 1023"
+				"antialias"									"1"
+				"italic"									"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"22"
-				"weight"	"400"
-				"additive"	"0"
-				"yres"		"1024 6000"
-				"antialias"	"1"
-				"italic"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"22"
+				"weight"									"400"
+				"additive"									"0"
+				"yres"										"1024 6000"
+				"antialias"									"1"
+				"italic"									"1"
 			}
 		}
 
@@ -2566,30 +2544,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"800"
-				"yres"		"480 599"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"800"
+				"yres"										"480 599"
+				"additive"									"0"
+				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"800"
-				"additive"	"0"
-				"yres"		"600 1023"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"800"
+				"additive"									"0"
+				"yres"										"600 1023"
+				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"800"
-				"additive"	"0"
-				"yres"		"1024 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"800"
+				"additive"									"0"
+				"yres"										"1024 6000"
+				"antialias"									"1"
 			}
 		}
 
@@ -2597,11 +2575,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"13"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"13"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias"								 	"1"
 			}
 		}
 		
@@ -2609,11 +2587,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"16"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"16"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2621,11 +2599,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		
@@ -2633,21 +2611,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias"									"1"
 			}
 		}
 		"AdFont_PurchaseButton"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2655,11 +2633,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"8"
-				"weight"	"400"
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"8"
+				"weight"									"400"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 
@@ -2667,12 +2645,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"9"
-				"weight"	"400"
-				"antialias" "1"
-				"additive"	"0"
-				"italic"	"1"
+				"name"										"Trebuchet MS"
+				"tall"										"9"
+				"weight"									"400"
+				"antialias" 								"1"
+				"additive"									"0"
+				"italic"									"1"
 			}
 		}
 		
@@ -2680,165 +2658,165 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"16"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"1200 6000"
+				"antialias"									"1"
 			}
 		}
 		"ReplayBrowserSmallest"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ReplaySmaller"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"13"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"20"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"22"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"22"
+				"weight"									"0"
+				"range"										"0x0000 0x017F"
+				"yres"										"1200 6000"
+				"antialias"									"1"
 			}
 			"6"
 			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
+				"name"										"Arial"
+				"tall"										"12"
+				"range" 									"0x0000 0x00FF"
+				"weight"									"0"
 			}
 		}
 		"ReplayMediumSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ReplayMedium"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ReplayMediumBig"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"ReplayBrowserTab"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias"									 "1"
 			}
 		}
 		"ReplayLarger"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		
@@ -2846,22 +2824,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		"EconFontMedium"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2869,11 +2847,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"15"
-				"weight"	"500"
-				"antialias" "1"
-				"additive"	"0"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"15"
+				"weight"									"500"
+				"antialias" 								"1"
+				"additive"									"0"
 			}
 		}
 
@@ -2881,11 +2859,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"9"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"9"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2893,11 +2871,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"antialias" 	"1"
-				"custom"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"antialias" 								"1"
+				"custom"									"1"
 			}
 		}
 
@@ -2905,13 +2883,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"11"
-				"weight"	"500"
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-				"custom"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"11"
+				"weight"									"500"
+				"blur"										"3"
+				"additive"									"1"
+				"antialias" 								"1"
+				"custom"									"1"
 			}
 		}
 		
@@ -2919,12 +2897,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"12"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"12"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
 			}
 		}
 		
@@ -2932,12 +2910,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"0"
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"0"
+				"blur"										"3"
+				"additive"									"1"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2945,11 +2923,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"7"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2957,11 +2935,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"10"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2969,11 +2947,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"14"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 
@@ -2981,114 +2959,154 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"30"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"										"AvenirLTStd-Heavy"
+				"tall"										"30"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 	}
 	
 	CustomFontFiles
 	{
-		"1" 			"resource/tf.ttf"
-		"2" 			"resource/tfd.ttf"
+		"1"	"resource/tf.ttf"
+		"2"	"resource/tfd.ttf"
 		"3"
 		{
-			"font" 		"resource/TF2.ttf"
-			"name" 		"TF2"
+			"font" 				"resource/TF2.ttf"
+			"name" 				"TF2"
 			
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" 		"0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" 		"0x0000 0xFFFF"
 			}
 		}
 		"4" 
 		{
-			"font" 		"resource/TF2Secondary.ttf"
-			"name" 		"TF2 Secondary"
+			"font" 				"resource/TF2Secondary.ttf"
+			"name" 				"TF2 Secondary"
 			
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" 		"0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" 		"0x0000 0xFFFF"
 			}
 		}
 		"5" 
 		{
-			"font" 		"resource/TF2Professor.ttf"
-			"name" 		"TF2 Professor"
+			"font" 				"resource/TF2Professor.ttf"
+			"name" 				"TF2 Professor"
 			
 			"russian"
 			{
-				"range" "0x0000 0x00FF"
+				"range" 		"0x0000 0x00FF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x00FF"
+				"range" 		"0x0000 0x00FF"
 			}
 		}	
 		"6" 
 		{
-			"font" 		"resource/TF2Build.ttf"
-			"name" 		"TF2 Build"
+			"font" 				"resource/TF2Build.ttf"
+			"name" 				"TF2 Build"
 			
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" 		"0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" 		"0x0000 0xFFFF"
 			}
 			"turkish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" 		"0x0000 0xFFFF"
 			}
 		}	
-		"7" 			"resource/ocra.ttf"
+		"7"
+		{
+			"font"				"resource/ocra.ttf"
+			"name" 				"ocra"
+			"turkish"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" 		"0x0000 0x007E"
+			}
+		}
 		"8" 
 		{
-			"font" 		"resource/fonts/Surface_Medium.otf"
-			"name" 		"Surface-Medium"
+			"font"				"resource/scheme/fonts/Surface_Medium.otf"
+			"name"				"Surface-Medium"
 		}
 		"9" 
 		{
-			"font" 		"resource/fonts/Avenir Black.TTF"
-			"name" 		"AvenirLTStd-Black"
+			"font"				"resource/scheme/fonts/Avenir Heavy.otf"
+			"name"				"AvenirLTStd-Heavy"
 		}
 		"10" 
 		{
-			"font" 		"resource/fonts/Blocks.ttf"
-			"name" 		"Blocks"
-		}
-		"11"
-		{
-			"font" 		"resource/fonts/heydings_icons.ttf"
-			"name" 		"Heydings Icons"
-		}
-		"12"
-		{
-			"font" 		"resource/fonts/HudasIscariote.otf"
-			"name" 		"Hudas Iscariote"
-		}
-		"13"
-		{
-			"font" 		"resource/fonts/Icons.ttf"
-			"name" 		"Icons"
-		}
-		"14"
-		{
-			"font" 		"resource/fonts/PinyonScript-Regular.ttf"
-			"name" 		"Pinyon Script"
+			"font"				"resource/scheme/fonts/Avenir Black.ttf"
+			"name"				"AvenirLTStd-Black"
 		}
 	}
 }

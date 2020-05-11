@@ -6,37 +6,41 @@
 		"fieldName"									"HeaderContainer"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"300"
-		"tall"										"22"
+		"wide"										"f0"
+		"tall"										"14"
 		"visible"									"1"
-			
+		"proportionaltoparent"						"0"
+		"paintbackground"							"1"
+		"bgcolor_override"							"200 50 255 255"
+		
 		"HeaderLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HeaderLabel"
-			"font"									"HudFontSmallBold"
-			"textAlignment"							"center"
+			"font"									"HudFontSmallest"
+			"textAlignment"							"west"
+			"AllCaps"								"1"
 			"labelText"								"#MMenu_Stream_LiveStream"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"300"
-			"tall"									"24"
+			"xpos"									"5"
+			"ypos"									"cs-0.5"
+			"wide"									"f0"
+			"tall"									"f0"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"PaintBackgroundType" 					"2"
+			"proportionaltoparent"					"1"
+			"PaintBackgroundType" 					"0"
 			"fgcolor_override"						"White"
-			"bgcolor_override"						"150 0 255 255"
 		}
 	}
-		
+	
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"CloseButton"
-		"xpos"										"282"
-		"ypos"										"4"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"10"
 		"wide"										"14"
 		"tall"										"14"
@@ -45,93 +49,63 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labeltext"									""
-		"font"										"HudFontSmallBold"
+		"labeltext"									"1"
+		"font"										"Symbols 14"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"0"
 
-		"navDown"									"MOTD_URLButton"
-		"navActivate"								"<QuickplayButton"
-
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		"Command"									"hide_streams"
-			
-		"paintbackground"							"0"
-			
-		//"defaultFgColor_override" 				"235 226 202 255"
-		//"armedFgColor_override" 					"46 43 42 255"
-		"defaultFgColor_override" 					"46 43 42 255"
-		"armedFgColor_override" 					"235 226 202 255"
-		"depressedFgColor_override"					"46 43 42 255"
-			
-		"image_drawcolor"							"255 255 255 255"
-		"image_armedcolor"							"255 20 20 255"
+		"proportionaltoparent"						"1"
 		
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"1"
-			"wide"									"14"
-			"tall"									"14"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"close_button"
-			"scaleImage"							"1"
-		}				
-	}
+		"paintbackground"							"0"
 
-	"TitleLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabel"
-		"font"										"HudFontSmallBold"
-		"labelText"									"#MMenu_Stream_Title"
-		"textAlignment"								"west"
-		"xpos"										"5"
-		"ypos"										"26"
-		"wide"										"200"
-		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"fgcolor"									"255 255 255 255"
+		"defaultFgColor_override" 					"White"
+		"armedFgColor_override"				 		"WhiteDark"
+		"depressedFgColor_override" 				"White"
+		
+		"pin_to_sibling" 							"HeaderContainer"
+		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
 
 	"Stream1"
 	{
 		"ControlName"								"CTFStreamPanel"
 		"fieldName"									"Stream1"
-		"xpos"										"0"
-		"ypos"										"50"
-		"wide"										"p1"
-		"tall"										"50"
-		"autoResize"								"1"
-		"pinCorner"									"0"
+		"xpos"										"2"
+		"ypos"										"0"
+		"wide"										"80"
+		"tall"										"100"
 		"visible"									"1"
 		"enabled"									"1"
+		
 		"proportionaltoparent"						"1"
+		
+		"pin_to_sibling" 							"Stream2"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"Stream2"
 	{
 		"ControlName"								"CTFStreamPanel"
 		"fieldName"									"Stream2"
-		"xpos"										"0"
-		"ypos"										"105"
-		"wide"										"p1"
-		"tall"										"50"
-		"autoResize"								"1"
-		"pinCorner"									"0"
+		"xpos"										"2"
+		"ypos"										"0"
+		"wide"										"80"
+		"tall"										"100"
 		"visible"									"1"
 		"enabled"									"1"
+		
 		"proportionaltoparent"						"1"
+		
+		"pin_to_sibling" 							"Stream3"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	"Stream3"
@@ -139,83 +113,66 @@
 		"ControlName"								"CTFStreamPanel"
 		"fieldName"									"Stream3"
 		"xpos"										"0"
-		"ypos"										"160"
-		"wide"										"p1"
-		"tall"										"50"
-		"autoResize"								"1"
-		"pinCorner"									"0"
+		"ypos"										"6"
+		"wide"										"80"
+		"tall"										"100"
 		"visible"									"1"
 		"enabled"									"1"
+		
 		"proportionaltoparent"						"1"
+		
+		"pin_to_sibling" 							"HeaderContainer"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
 
 	"Stream4"
 	{
 		"ControlName"								"CTFStreamPanel"
 		"fieldName"									"Stream4"
-		"xpos"										"0"
-		"ypos"										"215"
-		"wide"										"p1"
-		"tall"										"50"
-		"autoResize"								"1"
-		"pinCorner"									"0"
+		"xpos"										"2"
+		"ypos"										"0"
+		"wide"										"80"
+		"tall"										"100"
 		"visible"									"1"
 		"enabled"									"1"
+		
 		"proportionaltoparent"						"1"
+		
+		"pin_to_sibling" 							"Stream3"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
 	"Stream5"
 	{
 		"ControlName"								"CTFStreamPanel"
 		"fieldName"									"Stream5"
-		"xpos"										"0"
-		"ypos"										"270"
-		"wide"										"p1"
-		"tall"										"50"
-		"autoResize"								"1"
-		"pinCorner"									"0"
+		"xpos"										"2"
+		"ypos"										"0"
+		"wide"										"80"
+		"tall"										"100"
 		"visible"									"1"
 		"enabled"									"1"
+		
 		"proportionaltoparent"						"1"
+		
+		"pin_to_sibling" 							"Stream4"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
 	"Stream_URLButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"Stream_URLButton"
-		"xpos"										"75"
-		"ypos"										"327"
-		"wide"										"150"
-		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"#MMenu_Stream_ViewMore"
-		"textinsetx"								"20"
-		"use_proportional_insets" 					"1"
-		"font"										"HudFontSmallestBold"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"default"									"1"
-		"command"									"view_more"
-
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
-			
-		"paintbackground"							"0"
-		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Theme"
-		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NoBorder"
-		"border_armed"								"NoBorder"
-	}	
+		"xpos"										"9999"
+	}
+	
+	"TitleLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TitleLabel"
+		"xpos"										"9999"
+	}
 }

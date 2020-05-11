@@ -11,8 +11,8 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"DarkBG"
-		"fgcolor_override"							"DarkBG"
+		"fgcolor"									"WhiteDark"
+		"fgcolor_override"							"WhiteDark"
 	}
 
 	"AvatarBGPanel"
@@ -49,8 +49,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AvatarTextLabel"
-		"fgcolor"									"DarkBG"
-		"fgcolor_override" 							"DarkBG"
+		"fgcolor"									"WhiteDark"
+		"fgcolor_override" 							"WhiteDark"
 		"xpos"										"45"
 		"ypos"										"7"
 		"zpos"										"2"
@@ -70,13 +70,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
-		"fgcolor"									"DarkBG"
-		"fgcolor_override" 							"DarkBG"
+		"fgcolor"									"WhiteDark"
+		"fgcolor_override" 							"WhiteDark"
 		
 		"if_high_priority"
 		{
-			"fgcolor"								"White"
-			"fgcolor_override"						"White"
+			"fgcolor"								"WhiteDark"
+			"fgcolor_override"						"WhiteDark"
 			"font"									"StorePromotionsTitle"
 		}
 		

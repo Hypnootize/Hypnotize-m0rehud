@@ -14,15 +14,15 @@
 		"keyboardinputenabled"						"1"
 		"mouseinputenabled"							"1"
 		"border"									"NoBorder"
-		"bgcolor_override"							"DarkBG"
+		"bgcolor_override"							"BackgroundDark"
 
 		"log_font_small"							"HudFontMedium"
 		"log_font_medium"							"HudFontMedium"
 		"log_font_large"							"HudFontMedium"
 
-		"chat_color_default"						"255 255 255 255"
-		"chat_color_player_name"					"255 255 0 255"
-		"chat_color_chat_text"						"255 255 255 255"
+		"chat_color_default"						"WhiteDark"
+		"chat_color_player_name"					"255 255 50 255"
+		"chat_color_chat_text"						"WhiteDark"
 		"chat_color_party_event"					"Orange"
 
 		"collapsed_height"							"0"
@@ -63,7 +63,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"					"LightBG"
+				"fgcolor_override"					"White"
 			}
 		
 			"UpButton"
@@ -93,7 +93,8 @@
 		"tall"										"15"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"LightBG"
+		"bgcolor_override"							"BackgroundLight"
+		"fgcolor_override"							"WhiteDark"
 		"RoundedCorners"							"0"
 		"font"										"HudFontSmallest"
 		"alpha"										"0"

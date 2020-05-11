@@ -526,8 +526,8 @@
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
 		"fieldName"									"MvMScoreboard"
-		"xpos"										"c-300"
-		"ypos"										"-8"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"480"
@@ -538,7 +538,32 @@
 		
 		if_mvm
 		{
-			"wide" 									"f4"
+			"visible"								"1"
+		}
+	}
+	
+	"MvMRedBar"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"MvMRedBar"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"15"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		
+		"image"										"../HUD/tournament_panel_red"
+		"scaleImage"								"1"
+		"src_corner_height"							"15"
+		"src_corner_width"							"15"
+		"draw_corner_width"							"0"
+		"draw_corner_height" 						"0"
+		
+		if_mvm
+		{
 			"visible"								"1"
 		}
 	}

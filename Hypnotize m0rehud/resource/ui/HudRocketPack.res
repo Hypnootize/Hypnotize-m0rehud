@@ -5,11 +5,17 @@
 	HudItemEffectMeter
 	{
 		"ypos"										"c172"
+		"ypos_minmode"								"c66"
 	}
-	
-	"ItemEffectMeterLabel"
+
+	"ItemEffectIcon"
 	{
-		"labelText"									"#TF_RocketPack_Disabled"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"ItemEffectMeter"
@@ -30,7 +36,6 @@
 		"wide"										"69"
 		"wide_minmode"								"49"
 		"tall"										"2"				
-		"tall_minmode"								"1"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -39,31 +44,5 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor"									"White"
-	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"ItemEffectIcon"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

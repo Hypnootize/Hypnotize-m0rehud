@@ -29,7 +29,7 @@
 		"font"										"m0refont30"
 		"fgcolor"									"m0reblue"
 	}	
-		
+	
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -44,11 +44,9 @@
 		"textAlignment"								"east"	
 		"labelText"									"%bluescore%"
 		"font"										"m0refont30"
-		"fgcolor"									"0 0 0 255"
+		"fgcolor"									"Black"
 		
 		"pin_to_sibling"							"BlueScore"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}	
 	
 	"RedScore"
@@ -67,7 +65,7 @@
 		"font"										"m0refont30"
 		"fgcolor"									"m0rered"	
 	}	
-		
+	
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -82,11 +80,9 @@
 		"textAlignment"								"west"	
 		"labelText"									"%redscore%"
 		"font"										"m0refont30"
-		"fgcolor"									"0 0 0 255"
+		"fgcolor"									"Black"
 		
 		"pin_to_sibling"							"RedScore"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"PlayingToCluster"
@@ -117,9 +113,9 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"font"									"TFFontSmall"
-			"fgcolor"								"255 255 255 255"
+			"fgcolor"								"White"
 		}	
-				
+		
 		"PlayingToBG"
 		{
 			"ControlName"							"CTFImagePanel"

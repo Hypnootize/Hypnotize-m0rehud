@@ -2,75 +2,140 @@ Scheme
 {
 	Colors
 	{
-		
 		///////////////////////////////////////////////////////////////////////////////
-		/////////////////////////////////CUSTOM COLORS/////////////////////////////////
+		/////////////////////////////// INGAME COLORS /////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
-		
-		/////////////////////////////////MENU COLORS///////////////////////////////////
-		
-		"Main Theme"										"0 165 255 255"
-		
-		"White"												"255 255 255 255"
-		"Black"												"0 0 0 255"
-		"Red"												"255 40 40 255"
-		"Blue"												"0 165 255 255"
-		"Green"												"35 185 30 255"
-		
-		"Background"										"30 30 30 255"
-		"Buttons"											"40 40 40 255"
-		"DarkBG"											"15 15 15 255"
-		"LightBG"											"60 60 60 255"
-		"LightBGHover"										"50 50 50 255"
-		"FullBlack"											"0 0 0 255"
-		"TransparentBlack"									"0 0 0 150"
-		"TransparentLightBlack"								"0 0 0 100"
-		
-		"BorderBlue"										"90 122 143 255"
-		"BorderRed"											"189 59 61 255"
-		
-		"Class Selection"									"0 255 0 255"
-		
-		/////////////////////////////////INGAME COLORS/////////////////////////////////
 		
 		"Health Numbers"									"255 255 255 255"
 
-		"Buffed Health"										"0 165 255 255"
-		"Buffed Health Target"								"0 165 255 255"
-		"Buffed Health Spec"								"0 165 255 255"
+		"Health Buff"										"0 150 255 255"
+		"Health Buff Target"								"0 150 255 255"
+		"Health Buff Spec"									"0 150 255 255"
+		"Health Buff Killer"								"0 150 255 255"
 		
-		"Low Health"										"255 0 0 255"
-		"Low Health Target"									"255 0 0 255"
-		"Low Health Spec"									"255 0 0 255"
+		"Health Hurt"										"255 0 0 255"
+		"Health Hurt Target"								"255 0 0 255"
+		"Health Hurt Spec"									"255 0 0 255"
+		"Health Hurt Killer"								"255 0 0 255"
 		
 		"Ammo In Clip"										"255 255 255 255"
 		"Ammo In Reserve"									"255 255 255 255"
 		"Ammo No Clip"										"255 255 255 255"
 
-		"Low Ammo In Clip"									"255 0 0 255"
-		"Low Ammo In Reserve"								"255 0 0 255"
-		"Low Ammo No Clip"									"255 0 0 255"
+		"Ammo In Clip Low"									"255 0 0 255"
+		"Ammo In Reserve Low"								"255 0 0 255"
+		"Ammo No Clip Low"									"255 0 0 255"
 
 		"Ubercharge"										"255 255 255 255"
-		"Full Ubercharge"									"0 165 255 255"
-		"Ubercharge Bar"									"0 165 255 255"
+		"Ubercharge Full"									"0 150 255 255"
+		
+		"Extra Shadow"										"0 0 0 255"
 
-		"Damage Numbers"									"255 255 255 255"
-		"Heal Numbers"										"0 165 255 255"
+		"Heal Numbers"										"0 255 0 255"
 		"Last Damage Done"									"255 255 255 255"
 		
 		"M0reBlue"											"0 120 201 255"
 		"M0reRed"											"235 58 58 255"
 		
 		///////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////// MENU COLORS //////////////////////////////////
+		///////////////////////////////////////////////////////////////////////////////
+		
+		"White"												"255 255 255 255"
+		"WhiteDark"											"160 160 160 255"
+		
+		"Blue"												"0 165 255 255"
+		"BlueLight"											"0 165 255 255"
+		"TF2Blue"											"90 122 143 255"
+		
+		"Red"												"255 25 25 255"
+		"RedLight"											"255 60 60 255"
+		"TF2Red"											"189 59 61 255"
+		
+		"Green"												"35 185 30 255"
+		"GreenLight"										"120 220 80 255"
+		
+		"Gray"												"65 65 65 255"
+		"GrayLight"											"80 80 80 255"
+		"GrayDark"											"50 50 50 255"
+		"Black"												"0 0 0 255"
+		"BlackLight"										"22 22 22 255"
+		"BlackDark"											"15 15 15 255"
+		"BlackLightTransparent"								"0 0 0 50"
+		"BlackTransparent"									"0 0 0 100"
+		"BlackDarkTransparent"								"0 0 0 150"
+		
+		"Dashboard"											"15 15 15 255"
+		"DashboardLight"									"40 40 40 255"
+		
+		"Background"										"30 30 30 255"
+		"BackgroundDark"									"15 15 15 255"
+		"BackgroundLight"									"50 50 50 255"
+		
+		"Button"											"50 50 50 255"
+		"ButtonHover"										"70 70 70 255"
+		"ButtonDark"										"15 15 15 255"
+		"ButtonHoverDark"									"0 0 0 255"
+		
+		///////////////////////////////////////////////////////////////////////////////
+		//////////////////////////// ITEM QUALITY COLORS //////////////////////////////
+		///////////////////////////////////////////////////////////////////////////////
+		
+		"Normal"											"50 50 50 255"
+		"Genuine"											"115 215 140 255"
+		"Unusual"											"215 145 255 255"
+		"Vintage"											"110 165 255 255"
+		"Unique"											"255 190 40 255"
+		"Community"											"145 225 100 255"
+		"Developer"											"255 90 205 255"
+		"SelfMade"											"145 225 100 255"
+		"Customized"										"110 165 255 255"
+		"Strange"											"240 125 10 255"
+		"Completed"											"215 145 255 255"
+		"Haunted"											"0 230 120 255"
+		"Collectors"										"245 70 70 255"
+		"PaintkitWeapon"									"215 215 215 255"
+
+		"GradedWeaponDefault"								"190 190 190 255"
+		"CivilianGrade"										"195 220 255 255"
+		"FreelanceGrade"									"115 200 255 255"
+		"MercenaryGrade"									"70 130 250 255"
+		"CommandoGrade"										"160 125 255 255"
+		"AssassinGrade"										"245 150 255 255"
+		"EliteGrade"										"255 130 130 255"
+		
+		"Normal_Hover"										"40 40 40 255"
+		"Genuine_Hover"										"105 205 130 255"
+		"Unusual_Hover"										"205 135 245 255"
+		"Vintage_Hover"										"100 155 245 255"
+		"Unique_Hover"										"245 180 30 255"
+		"Community_Hover"									"135 215 90 255"
+		"Developer_Hover"									"245 80 195 255"
+		"SelfMade_Hover"									"135 215 90 255"
+		"Customized_Hover"									"100 155 245 255"
+		"Strange_Hover"										"230 115 0 255"
+		"Completed_Hover"									"205 135 245 255"
+		"Haunted_Hover"										"0 220 110 255"
+		"Collectors_Hover"									"235 60 60 255"
+		"PaintkitWeapon_Hover"								"225 225 225 255"
+
+		"GradedWeaponDefault_Hover"							"180 180 180 255"
+		"CivilianGrade_Hover"								"185 210 245 255"
+		"FreelanceGrade"									"105 190 245 255"
+		"MercenaryGrade_Hover"								"60 120 240 255"
+		"CommandoGrade_Hover"								"150 115 245 255"
+		"AssassinGrade_Hover"								"235 140 245 255"
+		"EliteGrade_Hover"									"245 120 120 255"
+		
+		///////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////BASE COLORS///////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
 		
-		"Orange"											"0 165 255 255"
-		"OrangeDim"											"0 165 255 255"
-		"LightOrange"										"0 165 255 255"
+		"Orange"											"50 50 50 255"
+		"OrangeDim"											"50 50 50 255"
+		"LightOrange"										"50 50 50 255"
 		"GoalOrange"										"255 133 0"
-		"TFOrange"											"0 165 255 255"
+		"TFOrange"											"50 50 50 255"
 		"Purple"											"170 20 220 255"
 
 		"QuestGold"											"208 147 75 255"
@@ -97,6 +162,7 @@ Scheme
 		"BrightYellow"										"255 255 0 255"
 		"GreenSolid"										"75 110 35 255"
 		
+		"TransparentBlack"									"0 0 0 150"
 		"FooterBGBlack"										"50 50 50 255"
 		
 		"HUDBlueTeam"										"0 165 255 255"
@@ -164,10 +230,10 @@ Scheme
 		
 		"HTMLBackground"									"30 30 30 255"
 		
-		"ItemAttribLevel"									"117 107 94 255"
-		"ItemAttribNeutral"									"235 226 202 255"
-		"ItemAttribPositive"								"153 204 255 255"
-		"ItemAttribNegative"								"255 64 64 255"
+		"ItemAttribLevel"									"170 170 170 255"
+		"ItemAttribNeutral"									"170 170 170 255"
+		"ItemAttribPositive"								"150 200 255 255"
+		"ItemAttribNegative"								"255 40 40 255"
 
 		"ItemSetName"										"225 255 15 255"
 		"ItemSetItemEquipped"								"149 175 12 255"
@@ -178,7 +244,7 @@ Scheme
 		"ItemFlags"											"117 107 94 255"
 		"ItemLimitedQuantity"								"225 209 0 255"
 		
-		"QualityColorNormal"								"178 178 178 255"
+		"QualityColorNormal"								"150 150 150 255"
 		"QualityColorrarity1"								"77 116 85 255"
 		"QualityColorrarity2"								"141 131 75 255"
 		"QualityColorrarity3"								"204 204 250 255"
@@ -189,7 +255,7 @@ Scheme
 		"QualityColorDeveloper"								"165 15 121 255"
 		"QualityColorSelfMade"								"112 176 74 255"
 		"QualityColorCustomized"							"71 98 145 255"
-		"QualityColorStrange"								"207 106 50 255"
+		"QualityColorStrange"								"255 165 105 255"
 		"QualityColorCompleted"								"134 80 172 255"
 		"QualityColorHaunted"								"56 243 171 255"
 		"QualityColorCollectors"							"170 0 0 255"
@@ -253,62 +319,62 @@ Scheme
 	
 	BaseSettings
 	{
-		ReplayBrowser.BgColor								"Background"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"Main Theme"
-		ReplayBrowser.Button.ArmedBgColor					"Main Theme"
-		ReplayBrowser.Button.DepressedBgColor				"Main Theme"
-		ReplayBrowser.CollectionTitle.FgColor				"Main Theme"
-		ReplayBrowser.Warning.FgColor						"White"
-		ReplayBrowser.ScrollBar.SliderButton.FgColor		"White"
-		ReplayBrowser.Search.BgColor						"DarkBG"
-		ReplayBrowser.Search.FgColor						"White"
+		ReplayBrowser.BgColor								"BackgroundDark"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"WhiteDark"
+		ReplayBrowser.Button.ArmedBgColor					"Button"
+		ReplayBrowser.Button.DepressedBgColor				"ButtonHover"
+		ReplayBrowser.CollectionTitle.FgColor				"WhiteDark"
+		ReplayBrowser.Warning.FgColor						"WhiteDark"
+		ReplayBrowser.ScrollBar.SliderButton.FgColor		"WhiteDark"
+		ReplayBrowser.Search.BgColor						"BackgroundLight"
+		ReplayBrowser.Search.FgColor						"WhiteDark"
 		
 		Replay.RenderDialog.BgColor							"Background"
 		
-		Econ.Dialog.BgColor									"DarkBG"
-		Econ.Button.BgColor									"Buttons"
-		Econ.Button.FgColor									"White"
-		Econ.Button.ArmedBgColor							"Main Theme"
+		Econ.Dialog.BgColor									"BackgroundDark"
+		Econ.Button.BgColor									"Button"
+		Econ.Button.FgColor									"WhiteDark"
+		Econ.Button.ArmedBgColor							"ButtonHover"
 		Econ.Button.ArmedFgColor							"White"
-		Econ.Button.DepressedBgColor						"Main Theme"
-		Econ.Button.DepressedFgColor						"Buttons"
+		Econ.Button.DepressedBgColor						"ButtonHover"
+		Econ.Button.DepressedFgColor						"Button"
 		
-		Econ.Button.PresetDefaultColorFg					"White"
+		Econ.Button.PresetDefaultColorFg					"WhiteDark"
 		Econ.Button.PresetArmedColorFg						"White"
 		Econ.Button.PresetDepressedColorFg					"White"
 		
-		Econ.Button.PresetDefaultColorBg					"Main Theme"
-		Econ.Button.PresetArmedColorBg						"Main Theme"
-		Econ.Button.PresetDepressedColorBg					"Main Theme"
+		Econ.Button.PresetDefaultColorBg					"ButtonHover"
+		Econ.Button.PresetArmedColorBg						"ButtonHover"
+		Econ.Button.PresetDepressedColorBg					"ButtonHover"
 		
 		Border.Bright										"Blank"
-		Border.Dark											"Buttons"
+		Border.Dark											"Button"
 		Border.Selection									"Gray"
 
-		Button.TextColor									"White"
-		Button.BgColor										"Buttons"
+		Button.TextColor									"WhiteDark"
+		Button.BgColor										"Button"
 		Button.ArmedTextColor								"White"
-		Button.ArmedBgColor									"Main Theme"
+		Button.ArmedBgColor									"ButtonHover"
 		Button.SelectedTextColor							"White"
-		Button.SelectedBgColor								"Main Theme"
-		Button.DepressedTextColor							"Buttons"
-		Button.DepressedBgColor								"Main Theme"
+		Button.SelectedBgColor								"ButtonHover"
+		Button.DepressedTextColor							"Button"
+		Button.DepressedBgColor								"ButtonHover"
 
-		CheckButton.TextColor								"White"
-		CheckButton.SelectedTextColor						"White"
-		CheckButton.BgColor									"TransparentBlack"
-		CheckButton.Border1  								"White"
-		CheckButton.Border2  								"White"
-		CheckButton.Check									"White"
-		CheckButton.HighlightFgColor						"White"
+		CheckButton.TextColor								"WhiteDark"
+		CheckButton.SelectedTextColor						"WhiteDark"
+		CheckButton.BgColor									"BlackDarkTransparent"
+		CheckButton.Border1  								"WhiteDark"
+		CheckButton.Border2  								"WhiteDark"
+		CheckButton.Check									"WhiteDark"
+		CheckButton.HighlightFgColor						"WhiteDark"
 		
-		ComboBoxButton.ArrowColor							"White"
-		ComboBoxButton.ArmedArrowColor						"White"
+		ComboBoxButton.ArrowColor							"WhiteDark"
+		ComboBoxButton.ArmedArrowColor						"WhiteDark"
 		ComboBoxButton.BgColor								"Blank"
 		ComboBoxButton.DisabledBgColor						"Blank"
 
-		Frame.BgColor										"TransparentBlack"
-		Frame.OutOfFocusBgColor								"TransparentBlack"
+		Frame.BgColor										"BlackDarkTransparent"
+		Frame.OutOfFocusBgColor								"BlackDarkTransparent"
 		Frame.FocusTransitionEffectTime						"0.0"
 		Frame.TransitionEffectTime							"0.0"
 		Frame.FocusTransitionEffectTime						"0.15"
@@ -324,33 +390,33 @@ Scheme
 		FrameSystemButton.BgColor							"Blank"
 		FrameSystemButton.Icon								""
 		FrameSystemButton.DisabledIcon						""
-		FrameTitleBar.TextColor								"Main theme"
+		FrameTitleBar.TextColor								"WhiteDark"
 		FrameTitleBar.BgColor								"Blank"
-		FrameTitleBar.DisabledTextColor						"Main theme"
+		FrameTitleBar.DisabledTextColor						"WhiteDark"
 		FrameTitleBar.DisabledBgColor						"Blank"
 
-		GraphPanel.FgColor									"Main theme"
-		GraphPanel.BgColor									"TransparentBlack"
+		GraphPanel.FgColor									"White"
+		GraphPanel.BgColor									"BlackDarkTransparent"
 
 		Label.TextDullColor									"TanDark"
 		Label.TextColor										"TanLight"
 		Label.TextBrightColor								"TanLight"
 		Label.SelectedTextColor								"White"
 		Label.BgColor										"Blank"
-		Label.DisabledFgColor1								"Blank"
+		Label.DisabledFgColor1								"GrayDark"
 		Label.DisabledFgColor2								"Black"
 
-		ListPanel.TextColor									"White"
-		ListPanel.BgColor									"TransparentBlack"
+		ListPanel.TextColor									"WhiteDark"
+		ListPanel.BgColor									"BlackDarkTransparent"
 		ListPanel.SelectedTextColor							"Black"
-		ListPanel.SelectedBgColor							"Red"
-		ListPanel.SelectedOutOfFocusBgColor					"Red"
-		ListPanel.EmptyListInfoTextColor					"White"
+		ListPanel.SelectedBgColor							"Button"
+		ListPanel.SelectedOutOfFocusBgColor					"ButtonHover"
+		ListPanel.EmptyListInfoTextColor					"WhiteDark"
 
-		Menu.TextColor										"White"
-		Menu.BgColor										"DarkBG"
-		Menu.ArmedTextColor									"TanDark"
-		Menu.ArmedBgColor									"White"
+		Menu.TextColor										"WhiteDark"
+		Menu.BgColor										"BackgroundDark"
+		Menu.ArmedTextColor									"White"
+		Menu.ArmedBgColor									"Gray"
 		Menu.TextInset										"6"
 
 		Chat.TypingText										"White"
@@ -380,7 +446,7 @@ Scheme
 		RichText.TextColor									"White"
 		RichText.BgColor									"Blank"
 		RichText.SelectedTextColor							"White"
-		RichText.SelectedBgColor							"Red"
+		RichText.SelectedBgColor							"ButtonHover"
 
 		ScrollBarButton.FgColor								"White"
 		ScrollBarButton.BgColor								"Blank"
@@ -397,9 +463,9 @@ Scheme
 		SectionedListPanel.DividerColor						"Black"
 		SectionedListPanel.TextColor						"White"
 		SectionedListPanel.BrightTextColor					"White"
-		SectionedListPanel.BgColor							"TransparentLightBlack"
+		SectionedListPanel.BgColor							"BlackLightTransparent"
 		SectionedListPanel.SelectedTextColor				"Black"
-		SectionedListPanel.SelectedBgColor					"Red"
+		SectionedListPanel.SelectedBgColor					"ButtonHover"
 		SectionedListPanel.OutOfFocusSelectedTextColor		"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor		"255 255 255 32"
 
@@ -421,10 +487,10 @@ Scheme
 
 		ToggleButton.SelectedTextColor						"White"
 
-		Tooltip.TextColor									"TransparentBlack"
+		Tooltip.TextColor									"BlackDarkTransparent"
 		Tooltip.BgColor										"Red"
 
-		TreeView.BgColor									"TransparentBlack"
+		TreeView.BgColor									"BlackDarkTransparent"
 
 		WizardSubPanel.BgColor								"Blank"
 		
@@ -445,7 +511,7 @@ Scheme
 		HudCaptureProgressBar.InActive						"HudProgressBarInActive"
 
 		"FgColor"											"White"
-		"BgColor"											"TransparentBlack"
+		"BgColor"											"BlackDarkTransparent"
 
 		"ViewportBG"										"Blank"
 		"TeamSpec"											"White"

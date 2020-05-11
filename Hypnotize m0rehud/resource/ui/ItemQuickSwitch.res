@@ -16,9 +16,7 @@
 		"settitlebarvisible"						"0"
 		
 		"PaintBackgroundType"						"0"
-		"paintbackground"							"1"
-		"bgcolor_override"							"TransparentBlack"
-		"border"									"QuickplayBorder"
+		"bgcolor_override"							"BlackTransparent"
 		
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"
@@ -42,8 +40,45 @@
 			"text_wide"								"180"
 			"name_only"								"1"
 			
-			"noitem_textcolor"						"White"
+			"noitem_textcolor"						"117 107 94 255"
 		}
+	}
+	
+	"CaratLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"CaratLabel"
+		"font"										"HudFontSmallestBold"
+		"labelText"									">>"
+		"textAlignment"								"west"
+		"xpos"										"5"
+		"ypos"										"5"
+		"zpos"										"1"
+		"wide"										"20"
+		"tall"										"15"
+		"autoResize"								"1"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"0"
+		"fgcolor_override" 							"White"
+	}
+	
+	"ClassLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ClassLabel"
+		"font"										"HudFontSmallestBold"
+		"labelText"									"#ClassBeingEquipped"
+		"textAlignment"								"west"
+		"xpos"										"20"
+		"ypos"										"5"
+		"zpos"										"1"
+		"wide"										"60"
+		"tall"										"15"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"ItemSlotLabel"
@@ -76,11 +111,11 @@
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor" 								"Background"
+		"fillcolor" 								"BackgroundLight"
 		"tileImage"									"1"
 		"tileVertically" 							"0"
 	}				
-		
+	
 	"itemcontainerscroller"
 	{
 		"ControlName"								"EditablePanel"
@@ -90,11 +125,11 @@
 		"wide"										"230"
 		"tall"										"115"
 		"PaintBackgroundType"						"2"
-		"fgcolor_override"							"Background"
-		"bgcolor_override"							"200 187 161 0"
+		"fgcolor_override"							"BackgroundLight"
+		"bgcolor_override"							"Blank"
 		"autohide_buttons" 							"1"
 	}
-		
+	
 	"itemcontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -103,8 +138,8 @@
 		"ypos"										"0"
 		"wide"										"230"
 		"tall"										"125"
-		"PaintBackgroundType"						"2"
-		"bgcolor_override"							"200 187 161 0"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Blank"
 		
 		"CurrentlyEquippedBackground"
 		{
@@ -120,7 +155,7 @@
 			"tall"									"10"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"fgcolor" 								"255 255 255 255"
+			"fgcolor" 								"White"
 		}
 	}
 	
@@ -159,31 +194,4 @@
 		"tabPosition"								"0"
 		"paintbackground"							"0"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
-	"CaratLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CaratLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"ClassLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 }

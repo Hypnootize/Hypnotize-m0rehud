@@ -31,18 +31,22 @@
 		"brighttext"								"0"
 		"font"										"M0refont24"
 		"font_minmode"								"M0refont16"
-		"fgcolor"   								"255 255 255 255"
+		"fgcolor"   								"White"
 	}
 	
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValueShadow"
-		"xpos"										"1"
-		"ypos"										"1"
+		"xpos"										"-1"
+		"xpos_minmode"								"0"
+		"ypos"										"-1"
+		"ypos_minmode"								"0"
 		"zpos"										"2"
 		"wide"										"200"
+		"wide_minmode"								"201"
 		"tall"										"20"
+		"tall_minmode"								"21"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -54,7 +58,9 @@
 		"brighttext"								"0"
 		"font"										"M0refont24"
 		"font_minmode"								"M0refont16"
-		"fgcolor"   								"0 0 0 255"
+		"fgcolor"   								"Black"
+		
+		"pin_to_sibling"							"AccountValue"
 	}
 	
 	

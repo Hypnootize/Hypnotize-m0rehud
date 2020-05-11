@@ -15,76 +15,95 @@
 		"enabled"									"1"
 	}
 	
-	"Background"
-	{	
+	"TextBG"
+	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"Background"
-		"font"										"Default"
-		"xpos"										"c-200"
-		"ypos"										"c-135"
-		"zpos"										"0"
-		"wide"										"400"
-		"tall"										"230"				
-		"autoResize"								"0"
+		"fieldName"									"TextBG"
+		"xpos"										"c-100"
+		"ypos"										"c-100"
+		"zpos"										"1"
+		"wide"										"200"
+		"tall"										"230"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"BackgroundDark"
+	}
+	
+	"MapInfoText"
+	{
+		"ControlName"								"CExRichText"
+		"fieldName"									"MapInfoText"
+		"font"										"HudFontSmallest"
+		"xpos"										"5"
+		"ypos"										"-5"
+		"zpos"										"5"
+		"wide"										"188"
+		"tall"										"190"
+		"autoResize"								"3"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"PaintBackgroundType"						"0"
+		"textAlignment"								"center"
+		"centerwrap"								"1"
+		"fgcolor"									"WhiteDark"
+		
+		"pin_to_sibling"							"TextBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+	
+	"TitleBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TitleBG"
+		"xpos"										"0"
+		"ypos"										"2"
+		"zpos"										"1"
+		"wide"										"200"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"TransparentBlack"
-		"border"									"QuickplayBorder"
+		"bgcolor_override"							"BackgroundDark"
+		
+		"pin_to_sibling"							"TextBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"MapInfoTitle"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapInfoTitle"
-		"xpos"										"c-195"
-		"ypos"										"110"
-		"zpos"										"1"
-		"wide"										"390"
-		"tall"										"20"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"5"
+		"wide"										"190"
+		"tall"										"30"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmallishBold"
-		"fgcolor"									"White"
-		"AllCaps"									"1"
-	}
-
-	"MapInfoText"
-	{
-		"ControlName"								"CExRichText"
-		"fieldName"									"MapInfoText"
-		"font"										"default"
-		"xpos"										"c-195"
-		"ypos"										"c-96"
-		"zpos"										"3"
-		"wide"										"390"
-		"tall"										"185"
-		"autoResize"								"3"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintborder"								"0"
-		"textAlignment"								"center"
-		"fgcolor"									"White"
+		"font"										"HudFontSmallBold"
+		"fgcolor"									"WhiteDark"
+		"AllCaps"	 								"1"
+		
+		"pin_to_sibling"							"TitleBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"ok"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ok"
-		"xpos"										"c-200"
-		"ypos"										"r140"
+		"xpos"										"0"
+		"ypos"										"-5"
 		"zpos"										"6"
-		"wide"										"400"
+		"wide"										"190"
 		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"2"
@@ -98,18 +117,60 @@
 		"wrap"										"0"
 		"command"									"continue"
 		"default"									"1"
-		"AllCaps"									"1"
 		"font"										"HudFontSmallBold"
 		
-		"defaultBgColor_override"					"TransparentBlack"
-		"armedBgColor_override"						"Main Theme"
-		"depressedBgColor_override"					"TransparentBlack"
+		"AllCaps"									"1"
 		
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
+		"paintbackground"							"1"
+		
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"WhiteDark"
+		
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"ButtonHover"
+		"depressedBgColor_override"					"ButtonHover"
+		
+		"pin_to_sibling"							"TextBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
-	
+	"MapInfoWatchIntro2"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"MapInfoWatchIntro2"
+		"xpos"										"-2"
+		"ypos"										"-2"
+		"zpos"										"7"
+		"wide"										"18"
+		"tall"										"17"
+		"autoResize"								"0"
+		"pinCorner"									"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"h"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"command"									"intro"
+		"default"									"1"
+		"font"										"Symbols 12"
+		
+		"AllCaps"									"0"
+		
+		"paintbackground"							"1"
+		
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"WhiteDark"
+		
+		"defaultBgColor_override"					"ButtonDark"
+		"armedBgColor_override"						"ButtonHoverDark"
+		"depressedBgColor_override"					"ButtonHoverDark"
+		
+		"pin_to_sibling"							"ok"
+	}
 	
 	
 	
@@ -119,15 +180,6 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoBack"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapInfoType"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapInfoType"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -164,6 +216,15 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MapImage"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"MapInfoType"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"MapInfoType"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
