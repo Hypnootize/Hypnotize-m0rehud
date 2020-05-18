@@ -39,34 +39,6 @@
 		"pin_to_sibling" 							"Background"
 	}
 	
-	"NewNumberLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
-		"font"										"SpectatorKeyHints"
-		"fgcolor"									"White"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
-		"wide"										"35"
-		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"BlackDarkTransparent"
-		
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
-	}
-	
 	"NumberLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -93,6 +65,30 @@
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+	}
+	
+	"NewNumberLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"NumberLabel"
+		"font"										"SpectatorKeyHints"
+		"fgcolor"									"White"
+		"xpos"										"0"
+		"ypos"										"30"
+		"zpos"										"10"
+		"wide"										"35"
+		"tall"										"8"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"labelText"									"1"
+		"textAlignment"								"Center"
+		"dulltext"									"1"
+		"brighttext"								"0"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"BlackDarkTransparent"
 	}
 	
 	"ItemNameLabel"

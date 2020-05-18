@@ -1,0 +1,2 @@
+File needed to fix the loadout/stats tabs as well as the bottom bar with the fast classes switch icons cut-offs on low resolutions.
+The hud was intented to work on 1920x1080 mostly so this might be needed for all resolutions lower than 1080!

@@ -409,7 +409,7 @@
 				"ControlName"					"CExButton"
 				"fieldName"						"JoinNowButton"
 				"xpos"							"rs1-10"
-				"ypos"							"rs1-9"
+				"ypos"							"rs1-5"
 				"wide"							"40"
 				"zpos"							"100"
 				"tall"							"15"

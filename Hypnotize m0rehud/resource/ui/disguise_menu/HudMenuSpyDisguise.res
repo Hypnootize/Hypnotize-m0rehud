@@ -342,33 +342,17 @@
 		"pin_to_sibling" 							"class_item_red_9"
 	}
 	
-	"NumberBg1"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"46"
-		"ypos"										"63"
-		"zpos"										"4"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"White"
-	}
-	
 	"NumberLabel1"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
-		"xpos"										"46"
-		"ypos"										"63"
-		"zpos"										"5"
-		"wide"										"15"
-		"tall"										"15"
+		"font"										"SpectatorKeyHints"
+		"fgcolor"									"White"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"35"
+		"tall"										"8"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
@@ -377,35 +361,26 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
-	}
-
-	"NumberBg2"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"136"
-		"ypos"										"63"
-		"zpos"										"4"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"White"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"BlackDarkTransparent"
+		
+		"pin_to_sibling" 							"class_item_blue_2"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"NumberLabel2"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
-		"xpos"										"136"
-		"ypos"										"63"
-		"zpos"										"5"
-		"wide"										"15"
-		"tall"										"15"
+		"font"										"SpectatorKeyHints"
+		"fgcolor"									"White"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"35"
+		"tall"										"8"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
@@ -414,35 +389,26 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
-	}
-	
-	"NumberBg3"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"226"
-		"ypos"										"63"
-		"zpos"										"4"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"White"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"BlackDarkTransparent"
+		
+		"pin_to_sibling" 							"class_item_blue_5"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"NumberLabel3"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
-		"xpos"										"226"
-		"ypos"										"63"
-		"zpos"										"5"
-		"wide"										"15"
-		"tall"										"15"
+		"font"										"SpectatorKeyHints"
+		"fgcolor"									"White"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"35"
+		"tall"										"8"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
@@ -451,6 +417,13 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"BlackDarkTransparent"
+		
+		"pin_to_sibling" 							"class_item_blue_8"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	
@@ -493,6 +466,36 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"NumberBg1"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"NumberBg"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"NumberBg2"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"NumberBg"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"NumberBg3"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"NumberBg"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

@@ -2,12 +2,6 @@
 
 "Resource/UI/disguise_menu/pyro_red.res"
 {
-	"Background"									//Pin doesn't work without this
-	{
-		"ControlName"		     					"EditablePanel"
-		"fieldName"									"Background"
-	}
-	
 	"Class"
 	{	
 		"labelText"									"c"
