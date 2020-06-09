@@ -225,11 +225,11 @@
 				"visible"							"0"
 			}
 		}
-
-		"DescLine1"
+		
+		"GameModeMENU"
 		{
 			"ControlName"							"CAutoFittingLabel"
-			"fieldName"								"DescLine1"
+			"fieldName"								"GameModeMENU"
 			"xpos"									"0"
 			"ypos"									"35"
 			"wide"									"390"
@@ -243,31 +243,55 @@
 			"AllCaps"								"1"
 			"labelText"								"%desc1%"
 			"proportionaltoparent"					"1"
-
-			if_mini
-			{
-				"xpos"								"67"
-				"ypos"								"4"
-				"wide"								"195"
-				"tall"								"20"
-				"font"								"HudFontSmallestBold"
-				"fgcolor_override"					"TanLight"
-				"textAlignment"						"north-west"
-				"AllCaps"							"0"
-			}
-
+			
 			"fonts"
 			{
 				"0"									"HudFontMediumBigBold"
 				"1"									"HudFontMediumBigBold"
-				"2"									"HudFontMediumBigBold"
+				"2"									"HudFontMediumSmallBold"
+			}
+			
+			if_mini
+			{
+				"wide"								"0"
 			}
 		}
 
-		"DescLine2"
+		"DescLine1"
 		{
 			"ControlName"							"CAutoFittingLabel"
-			"fieldName"								"DescLine2"
+			"fieldName"								"DescLine1"
+			"xpos"									"67"
+			"ypos"									"0"
+			"wide"									"0"
+			"zpos"									"100"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"HudFontSmallBold"
+			"fgcolor_override"						"White"
+			"textAlignment"							"north-west"
+			"AllCaps"								"1"
+			"labelText"								"%desc1%"
+			"proportionaltoparent"					"1"
+
+			if_mini
+			{
+				"wide"								"195"
+			}
+
+			"fonts"
+			{
+				"0"									"HudFontSmallBold"
+				"1"									"HudFontSmallest"
+				"2"									"FontStorePrice"
+			}
+		}
+		
+		"LevelMENU"
+		{
+			"ControlName"							"CAutoFittingLabel"
+			"fieldName"								"LevelMENU"
 			"xpos"									"0"
 			"ypos"									"70"
 			"wide"									"390"
@@ -282,29 +306,53 @@
 			"labelText"								"%desc2%"
 			"proportionaltoparent"					"1"
 
-			if_mini
-			{
-				"xpos"								"67"
-				"ypos"								"4"
-				"wide"								"195"
-				"tall"								"20"
-				"font"								"HudFontSmallestBold"
-				"fgcolor_override"					"TanLight"
-				"textAlignment"						"north-west"
-				"AllCaps"							"0"
-			}
-
-			"fonts"
+			"fonts"									//This actually works for custom elements POG
 			{
 				"0"									"HudFontMediumBigBold"
 				"1"									"HudFontMediumBigBold"
 				"2"									"HudFontMediumSmallBold"
 			}
+			
+			if_mini
+			{
+				"wide"								"0"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"							"CAutoFittingLabel"
+			"fieldName"								"DescLine2"
+			"xpos"									"67"
+			"ypos"									"0"
+			"wide"									"0"
+			"zpos"									"100"
+			"tall"									"50"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"HudFontSmallBold"
+			"fgcolor_override"						"White"
+			"textAlignment"							"west"
+			"AllCaps"								"1"
+			"labelText"								"%desc2%"
+			"proportionaltoparent"					"1"
+
+			if_mini
+			{
+				"wide"								"195"
+			}
+
+			"fonts"
+			{
+				"0"									"HudFontSmallBold"
+				"1"									"HudFontSmallest"
+				"2"									"FontStorePrice"
+			}
 
 			"colors"
 			{
-				"1"									"GrayDark"
-				"2"									"GrayDark"
+				"1"									"White"
+				"2"									"White"
 			}
 		}
 
