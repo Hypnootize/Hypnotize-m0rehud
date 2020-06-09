@@ -1,0 +1,8 @@
+1) Extract the hud and copy the Hypnotize-m0rehud folder
+
+2) Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom)
+
+NOTES:
+
+In case you are using a 4:3, 5:4 or 16:10 aspect ration be sure to use the right patches in order to make the hud compatible with these resolutions.
+You can find the patches inside the "Customizations" > "Resolutions Overrides" folder, open the folder that matches your aspect ration and take the "resource" folder in it, last replace it over the normal Hypnotize-m0rehud files!

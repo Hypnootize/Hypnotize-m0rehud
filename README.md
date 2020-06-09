@@ -13,11 +13,9 @@ The most notable differences from m0rehud are the modern menus and integrated mi
 <a>INSTALLATION</a>
 ====
 
-**1)** Extract/Unzip the hud
+**1)** Extract/Unzip the hud and copy the Hypnotize m0rehud folder
 
-**2)** Copy the Hypnotize m0rehud folder (**NOT** Hypnotize-m0rehud-Master, the one inside it!)
-
-**3)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\Hypnotize m0rehud)
+**2)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom)
 
 **NOTES:**
 
