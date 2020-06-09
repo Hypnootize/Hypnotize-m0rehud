@@ -2,6 +2,12 @@
 
 "Resource/UI/disguise_menu/spy_blue.res"
 {
+	"Background"
+	{
+		"ControlName"		     					"EditablePanel"
+		"fieldName"									"Background"
+	}
+	
 	"Class"
 	{	
 		"fgcolor"									"Blue"

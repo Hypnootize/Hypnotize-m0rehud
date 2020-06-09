@@ -2,6 +2,12 @@
 
 "Resource/UI/disguise_menu/pyro_red.res"
 {
+	"Background"
+	{
+		"ControlName"		     					"EditablePanel"
+		"fieldName"									"Background"
+	}
+	
 	"Class"
 	{	
 		"labelText"									"c"

@@ -2,6 +2,12 @@
 
 "Resource/UI/disguise_menu/soldier_red.res"
 {
+	"Background"
+	{
+		"ControlName"		     					"EditablePanel"
+		"fieldName"									"Background"
+	}
+	
 	"Class"
 	{	
 		"labelText"									"b"
