@@ -10,6 +10,8 @@ My own edit of m0rehud which consists in a mix between HypnotizeHUD, SunsetHUD a
 
 The most notable differences from m0rehud are the modern menus and integrated minmode as well as some ui improvements here and there 👀
 
+*Note: this hud edit is mostly intended for 1080p*
+
 <a>INSTALLATION</a>
 ====
 
@@ -38,8 +40,8 @@ Inside that file is possible to change all the colors used for the health/ammo/b
 
 <a>CROSSHAIRS</a>
 ====
-All the hud crosshairs can be found inside the scripts/crosshairs folder!
+All the hud crosshairs can be found inside the scripts/Crosshair.res file!
 
-It is possible to enable them from the crosshairs.res file by setting **"visible" "1"** for the wanted crosshair.
+Change the **"visible"** value to **"1"** to enable the hud crosshair and change the **"labelText"** value to switch the crosshair style! checkout the Crosshairs.png in order to see all the possible options.
 
-It is also possible to easily animate them so the crosshair turns red on damage by editing the HudAnimations_Crosshairs file, you can find all the instructions inside the file!
+It is also possible to easily animate them so the crosshair turns red on damage by editing the **scripts/animations/HudAnimations_Crosshairs** file, you can find all the instructions inside the file!
