@@ -76,7 +76,7 @@
 	"Mute"
 	{
 		"label"										"k"
-		"command"									"OpenPlayerListDialog"
+		"command"									"OpenMutePlayerDialog"
 		"OnlyInGame" 								"1"
 		"tooltip"									"Mute Players"
 	}
