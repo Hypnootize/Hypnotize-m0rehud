@@ -10,7 +10,7 @@
 	
 	"Class"
 	{	
-		"labelText"									"b"
+		"labelText"									"N"
 	}
 	
 	"NewNumberLabel"

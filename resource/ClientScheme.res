@@ -9,5 +9,4 @@
 #base "../resource/scheme/Borders.res"
 
 //Crosshairs
-#base "../resource/scheme/Crosshairs.res"
-//#base "../resource/scheme/Crosshairs_Blur.res"
+#base "../scripts/crosshairs/font/Crosshairs.res"

@@ -149,13 +149,13 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"h"
+		"labelText"									"^"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"command"									"intro"
 		"default"									"1"
-		"font"										"Symbols 12"
+		"font"										"Symbols 14"
 		
 		"AllCaps"									"0"
 		

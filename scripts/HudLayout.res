@@ -1,5 +1,5 @@
 //hud crosshairs
-#base "../scripts/Crosshairs.res"
+#base "../scripts/crosshairs/crosshairs.res"
 
 //default hud layout
 #base "../scripts/HudLayout_Default.res"

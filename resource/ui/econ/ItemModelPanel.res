@@ -122,7 +122,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"equippedlabel"
-			"font"						"Symbols 10"
+			"font"						"Symbols 12"
 			"xpos"						"35"
 			"ypos"						"28"
 			"zpos"						"2"
@@ -132,7 +132,7 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"labelText"					"0"
+			"labelText"					"+"
 			"textAlignment"				"center"
 			"paintbackground"			"1"
 			"bgcolor_override"			"BlackDarkTransparent"

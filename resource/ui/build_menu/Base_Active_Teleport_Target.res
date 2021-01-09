@@ -79,7 +79,7 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"labelText"									"1"
+		"labelText"									"-"
 		"textAlignment"								"Center"
 		"AllCaps"									"1"
 		"centerwrap"								"1"

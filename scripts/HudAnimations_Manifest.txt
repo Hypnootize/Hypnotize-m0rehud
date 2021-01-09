@@ -5,6 +5,6 @@ hudanimations_manifest
 	"file" "scripts/Animations/hudanimations_Ammo.txt"
 	"file" "scripts/Animations/hudanimations_Uber.txt"
 	"file" "scripts/Animations/hudanimations_m0re.txt"
-	"file" "scripts/Animations/hudanimations_Crosshair.txt"
+	"file" "scripts/Crosshairs/Crosshairs_Animations.txt"
 	"file" "scripts/hudanimations_tf.txt"
 }

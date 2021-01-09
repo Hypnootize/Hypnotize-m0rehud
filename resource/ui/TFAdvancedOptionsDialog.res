@@ -58,7 +58,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"1"
+		"labelText"									"-"
 		"font"										"Symbols 30"
 		"textAlignment"								"center"
 		"AllCaps"									"1"

@@ -31,7 +31,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"a"
+		"labelText"									"A"
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"

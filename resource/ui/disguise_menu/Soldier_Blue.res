@@ -11,7 +11,7 @@
 	"Class"
 	{	
 		"fgcolor"									"Blue"
-		"labelText"									"b"
+		"labelText"									"N"
 	}
 	
 	"NewNumberLabel"

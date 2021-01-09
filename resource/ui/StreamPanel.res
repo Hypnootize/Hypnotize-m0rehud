@@ -69,7 +69,7 @@
 		"tall"								"35"
 		"autoResize"						"0"
 		"pinCorner"							"0"
-		"labelText"							"p"
+		"labelText"							"m"
 		"textAlignment"						"center"
 		"textinsety"						"-10"
 		"visible"							"1"
