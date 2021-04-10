@@ -359,6 +359,7 @@
 	HudBowCharge
 	{
 		"wide"										"0"
+		"wide_minmode"								"0"
 	}
 	
 	StatPanel
