@@ -76,10 +76,10 @@
 	
 	CHudAccountPanel
 	{
-		"xpos"         								"c-100"
-		"ypos"										"c53"
+		"xpos"         								"c-23"
+		"ypos"										"c153"
 		"ypos_minmode"								"c53"
-		"wide"										"200"
+		"wide"										"300"
 		"tall"  									"50"
 	}
 	
@@ -170,26 +170,26 @@
 	HudDeathNotice
 	{
 		"xpos"	 									"r640"
-		"ypos"	 									"15"
+		"ypos"	 									"9"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
 		"MaxDeathNotices" 							"12"
-		"IconScale"	  								"0.35"
+		"IconScale"	  								"0.25" //0.35
 		"LineHeight"	  							"12"
-		"LineSpacing"	 							"0"
+		"LineSpacing"	 							"1"
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
 		
-		"TextFont"									"Default"
+		"TextFont"									"robotoSmall"
 		
-		"TeamBlue"									"M0reBlue"
-		"TeamRed"									"M0reRed"
-		"IconColor"									"White"
+		"TeamBlue"									"0 102 204 255"
+		"TeamRed"									"209 44 51 255"
+		"IconColor"									"255 255 255 255"
 		"LocalPlayerColor"							"HUDBlack"
 
-		"BaseBackgroundColor"						"0 0 0 100"
-		"LocalBackgroundColor"						"240 240 240 200"
+		"BaseBackgroundColor"						"18 17 17 255"
+		"LocalBackgroundColor"						"210 210 210 255"
 	}
 	
 	HudCloseCaption

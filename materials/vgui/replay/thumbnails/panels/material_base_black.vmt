@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	
+		"$baseTexture" "vgui\replay\thumbnails\panels\material_base_dx9_black"
+	
+	UnlitGeneric_DX8
+	{
+		"$baseTexture" "vgui\replay\thumbnails\panels\material_base_dx8_black"
+	}	
+}
+
+

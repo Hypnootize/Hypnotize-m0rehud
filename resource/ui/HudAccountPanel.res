@@ -11,11 +11,12 @@
 		"delta_item_font"							"M0refont18"
 	}
 	
+	//engy metal count
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValue"
-		"xpos"										"0"
+		"xpos"										"100"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"200"
@@ -29,18 +30,18 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"M0refont24"
+		"font"										"surfaceHPAmmo28"
 		"font_minmode"								"M0refont16"
-		"fgcolor"   								"White"
+		"fgcolor"   								"0 255 0 255"
 	}
 	
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValueShadow"
-		"xpos"										"-1"
+		"xpos"										"-2"
 		"xpos_minmode"								"0"
-		"ypos"										"-1"
+		"ypos"										"-2"
 		"ypos_minmode"								"0"
 		"zpos"										"2"
 		"wide"										"200"
@@ -56,7 +57,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"M0refont24"
+		"font"										"surfaceHPAmmo28"
 		"font_minmode"								"M0refont16"
 		"fgcolor"   								"Black"
 		

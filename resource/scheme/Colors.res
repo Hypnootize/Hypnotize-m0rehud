@@ -6,28 +6,28 @@ Scheme
 		/////////////////////////////// INGAME COLORS /////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
 		
-		"Health Numbers"									"255 255 255 255"
+		"Health Numbers"									"236 239 244 255" 	//white #eceff4
 
-		"Health Buff"										"0 150 255 255"
-		"Health Buff Target"								"0 150 255 255"
-		"Health Buff Spec"									"0 150 255 255"
-		"Health Buff Killer"								"0 150 255 255"
+		"Health Buff"										"255 255 255 255"	//0 230 0 255
+		"Health Buff Target"								"0 230 0 255"
+		"Health Buff Spec"									"0 230 0 255"
+		"Health Buff Killer"								"0 230 0 255"
 		
 		"Health Hurt"										"255 0 0 255"
 		"Health Hurt Target"								"255 0 0 255"
 		"Health Hurt Spec"									"255 0 0 255"
 		"Health Hurt Killer"								"255 0 0 255"
 		
-		"Ammo In Clip"										"255 255 255 255"
-		"Ammo In Reserve"									"255 255 255 255"
-		"Ammo No Clip"										"255 255 255 255"
+		"Ammo In Clip"										"236 239 244 255" 	//white #eceff4
+		"Ammo In Reserve"									"236 239 244 255" 	//white #eceff4
+		"Ammo No Clip"										"236 239 244 255" 	//white #eceff4
 
 		"Ammo In Clip Low"									"255 0 0 255"
 		"Ammo In Reserve Low"								"255 0 0 255"
 		"Ammo No Clip Low"									"255 0 0 255"
 
-		"Ubercharge"										"255 255 255 255"
-		"Ubercharge Full"									"0 150 255 255"
+		"Ubercharge"										"236 239 244 255" 	//white #eceff4
+		"Ubercharge Full"									"255 0 127 255"
 		
 		"Extra Shadow"										"0 0 0 255"
 

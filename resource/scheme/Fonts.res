@@ -12,6 +12,127 @@ Scheme
 		/////////////////////////////////CUSTOM FONTS//////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
 		
+		//custom fonts
+		robotoSmall
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		robotoMenu
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"15"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		robotoMedium
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		robotoDamageNumbers
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		
+        surfaceHPAmmo28
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
+			}
+		}
+
+		surfaceHPAmmo28OUTLINE
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+
+		surfaceHPAmmo28BLUR
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
+				"blur"      "1"
+			}
+		}
+
+        	surfaceHPAmmo72
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"72"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
+			}
+		}
+		
+		surfaceHPAmmo72OUTLINE
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"72"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		
+		surfaceHPAmmo72BLUR
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"72"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
+				"blur"      "1"
+			}
+		}
+
+		//default m0rehud fonts
 		"m0refont8"
 		{
 			"1"
@@ -3107,6 +3228,23 @@ Scheme
 		{
 			"font"				"resource/scheme/fonts/Avenir Black.ttf"
 			"name"				"AvenirLTStd-Black"
+		}
+		"11"
+		{
+			"font" 				"resource/scheme/fonts/Surface-HP-and-Ammo.ttf"
+			"name" 				"SurfaceHPAmmo-Medium"
+		}
+		
+		"12" 
+		{
+			"font" 				"resource/scheme/fonts/Roboto-Bold_0.ttf"
+			"name" 				"Roboto Bold"
+		}
+
+		"13" 
+		{
+			"font" 				"resource/scheme/fonts/Roboto-Medium_0.ttf"
+			"name"				"Roboto Medium"
 		}
 	}
 }
