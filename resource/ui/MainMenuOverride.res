@@ -843,7 +843,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Vote"
-		"xpos"										"0"
+		"xpos"										"-20"
 		"ypos"										"0"
 		"zpos"										"15"
 		"wide"										"20"

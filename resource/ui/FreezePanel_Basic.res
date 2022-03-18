@@ -24,7 +24,7 @@
 		{	
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"font"									"M0refont12Shadow"
+			"font"									"robotoMedium"
 			"xpos"									"cs-0.5"
 			"ypos"									"c70"
 			"zpos"									"1"
@@ -38,6 +38,28 @@
 			"labelText"								"%killername%"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
+		}
+
+		"FreezeLabelKillerShadow"
+		{	
+			"ControlName"							"CExLabel"
+			"fieldName"								"FreezeLabelKillerShadow"
+			"font"									"robotoMedium"
+			"xpos"									"-2"
+			"ypos"									"-2"
+			"zpos"									"1"
+			"wide"									"f0"
+			"tall"									"15"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor"								"Black"
+			"labelText"								"%killername%"
+			"textAlignment"							"center"
+			"proportionaltoparent"					"1"
+
+			"pin_to_sibling" 						"FreezeLabelKiller"
 		}
 		
 		"FreezePanelHealth"

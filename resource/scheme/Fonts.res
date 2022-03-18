@@ -58,6 +58,18 @@ Scheme
 			}
 		}
 		
+		surfaceHPAmmo24OUTLINE
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
         surfaceHPAmmo28
 		{
 			"1"

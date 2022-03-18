@@ -121,26 +121,26 @@
 		"tall"										"480"
 	}
 
-	CMainTargetID
+	CMainTargetID	//medic you're looking at
 	{
 		"ypos"										"c85"
 		"ypos_minmode"								"c30"
-		"tall"	 									"30"
+		"tall"	 									"50"
 		"tall_minmode"	 							"30"
 	}
 	
-	CSpectatorTargetID
+	CSpectatorTargetID	//medic percentage while spectating him
 	{
 		"ypos"										"c122"
-		"tall"	 									"30"
+		"tall"	 									"50"
 		"tall_minmode"	 							"30"
 	}
 	
-	CSecondaryTargetID
+	CSecondaryTargetID	//medic's uber + medigun name which is healing you
 	{
 		"ypos"										"c122"
 		"ypos_minmode"								"c85"
-		"tall"	 									"30"
+		"tall"	 									"50"
 		"tall_minmode"	 							"30"
 	}
 	

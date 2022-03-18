@@ -11,7 +11,7 @@
 		"tall"										"40"
 		"visible"									"1"
 		"enable"									"1"
-		"font"										"m0refont24"
+		"font"										"surfaceHPAmmo28"
 		"fgcolor"									"Health Numbers"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"	
@@ -21,14 +21,14 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueShadowKiller"
-		"xpos"										"-1"
-		"ypos"										"-1"
+		"xpos"										"-2"
+		"ypos"										"-2"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"40"
 		"visible"									"1"
 		"enable"									"1"
-		"font"										"m0refont24"
+		"font"										"surfaceHPAmmo28"
 		"fgcolor"									"Black"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"	
@@ -40,13 +40,13 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"59"
-		"ypos"										"6"
+		"xpos"										"9999" //59
+		"ypos"										"9999"  //6
 		"zpos"										"3"
 		"wide"										"32"
 		"tall"										"32"
 		"visible"									"0"
-		"enabled"									"1"
+		"enabled"									"0"
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"	
 	}
