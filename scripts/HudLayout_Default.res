@@ -769,8 +769,8 @@
 	{
 		"fieldName"				"HudHintDisplay"
 		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-240"
+		"enabled"				"0"
+		"xpos"					"9999" //c-240
 		"ypos"					"c60"
 		"wide"					"480"
 		"tall"					"100"
