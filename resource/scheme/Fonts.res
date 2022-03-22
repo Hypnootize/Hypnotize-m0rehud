@@ -144,6 +144,18 @@ Scheme
 			}
 		}
 
+		M0refont24NumbersOL
+		{
+			"1"
+			{
+				"name"		"Surface-Uber"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
 		//default m0rehud fonts
 		"m0refont8"
 		{
@@ -3257,6 +3269,12 @@ Scheme
 		{
 			"font" 				"resource/scheme/fonts/Roboto-Medium_0.ttf"
 			"name"				"Roboto Medium"
+		}
+
+		"14"
+		{
+			"font"				"resource/scheme/fonts/Surface-Uber.otf"
+			"name"				"Surface-Uber"
 		}
 	}
 }

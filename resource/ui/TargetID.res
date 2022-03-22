@@ -81,7 +81,7 @@
 	{	
 		"ControlName"		    "Label"
 		"fieldName"		      	"TargetDataLabel"
-		"font"			        "surfaceHPAmmo24OUTLINE"
+		"font"			        "M0refont24NumbersOL"
 		"fgcolor_override"  	"0 255 0 255"
 		"xpos"			        "20"
 		"ypos"			        "13"
