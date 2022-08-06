@@ -5,14 +5,14 @@
 		"ControlName"		         				"ScalableImagePanel"
 		"fieldName"		           					"TargetIDBG_Spec_Blue"
 		"xpos"		          	   					"5"
-		"ypos"			            				"-22"
+		"ypos"			            				"-9999" //-22
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
 		"tall"	 	          	   					"30"
 		"autoResize"	      	   					"0"
 		"pinCorner"		          					"0"
 		"visible"	          	   					"0"
-		"enabled"	          	   					"1"
+		"enabled"	          	   					"0"
 		
 		"image"		          	   					"../hud/color_panel_blu"
 		"src_corner_height"	    					"15"
@@ -26,14 +26,14 @@
 		"ControlName"	      	   					"ScalableImagePanel"
 		"fieldName"       		   					"TargetIDBG_Spec_Red"
 		"xpos"		          	   					"5"
-		"ypos"		          	   					"-22"
+		"ypos"		          	   					"-9999" //-22
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
 		"tall"	 		             				"30"
 		"autoResize"	      	   					"0"
 		"pinCorner"	        	   					"0"
 		"visible"	          	   					"0"
-		"enabled"	          	   					"1"
+		"enabled"	          	   					"0"
 		
 		"image"	          		   					"../hud/color_panel_red"
 		"src_corner_height"	     					"15"
@@ -51,19 +51,19 @@
 		"zpos"                   					"-1"
 		"wide"	          		   					"252"
 		"tall"                   					"12"
-		"visible"                					"1"
-		"enabled"                					"1"
+		"visible"                					"0"
+		"enabled"                					"0"
 		"fillcolor"              					"0 0 0 255"
 	}
 	
-	"TargetNameLabel"	//name of person you're looking at, above BGshade
+	"TargetNameLabel"	//name of a person you're looking at, above TargetBGshade
 	{	
-		"ControlName"		       					"Label"
+		"ControlName"		       					"CExLabel"
 		"fieldName"		         					"TargetNameLabel"
-		"font"			           					"m0refont11"
-		"fgcolor_override"     						"255 255 255 255"
-		"xpos"			           					"00"
-		"ypos"			           					"9"
+		"font"			           					"robotoMedium"
+		"fgcolor_override"     						"white"
+		"xpos"			           					"-30" //fucking piece of shit MOVE
+		"ypos"			           					"10"
 		"zpos"			           					"1"
 		"wide"			           					"640"
 		"tall"			           					"12"
@@ -75,6 +75,28 @@
 		"textAlignment"		     					"west"
 		"dulltext"		         					"0"
 		"brighttext"		       					"0"
+	}
+
+	"TargetNameLabelShadow"	//shadow of a name of the person you're looking at
+	{	
+		"ControlName"		       					"CExLabel"
+		"fieldName"		         					"TargetNameLabelShadow"
+		"font"			           					"robotoMedium"
+		"fgcolor_override"     						"black"
+		"xpos"			           					"-2"
+		"ypos"			           					"-2"
+		"zpos"			           					"1"
+		"wide"			           					"640"
+		"tall"			           					"12"
+		"autoResize"		       					"0"
+		"pinCorner"		        					"0"
+		"visible"		           					"1"
+		"enabled"		           					"1"
+		"labelText"		         					"%targetname%"
+		"textAlignment"		     					"west"
+		"dulltext"		         					"0"
+		"brighttext"		       					"0"
+		"pin_to_sibling" 							"TargetNameLabel"
 	}
 
 	"TargetDataLabel"	//med uber percentage
@@ -104,7 +126,7 @@
 		"fieldName"		               				"SpectatorGUIHealth"
 		"xpos"			                 			"10"
 		"ypos"			                 			"-7"
-		"wide"			                 			"45"
+		"wide"			                 			"50" //45
 		"tall"			                 			"40"
 		"visible"		                 			"1"
 		"enabled"		                 			"1"	
@@ -112,6 +134,7 @@
 		"HealthDeathWarning"	      			 	"0.49"
 		"TFFont"		                 			"HudFontSmall"
 		"HealthDeathWarningColor"	   				"255 0 0 255"
+		"textAlignment"								"center"
 		"TextColor"		               				"255 255 255 255"
 	}
 	
