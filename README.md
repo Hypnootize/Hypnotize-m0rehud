@@ -10,5 +10,6 @@
 * Added Roboto font to other ones
 * Stole cap points and menu background from [Geass hud](https://www.dropbox.com/s/hm314e78lv9a7zr/Geass.7z?dl=1)
 * Slight UI edits with accent colour
+* Swissolo's matchhud
 
 WIP
