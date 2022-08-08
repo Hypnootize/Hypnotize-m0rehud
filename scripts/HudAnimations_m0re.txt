@@ -5,11 +5,9 @@
 
 event HudHealthBonusPulse
 {
-	// target-id values, handy to have them nicely coloured
+	Animate PlayerStatusHealthValue						FgColor		"0 255 0 255"				Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueTarget 				FgColor 	"0 255 0 255" 				Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui 				FgColor 	"0 255 0 255" 				Linear 	0.0 0.0
-
-	//freezecam
 	Animate PlayerStatusHealthValueKiller 				FgColor 	"0 255 0 255" 				Linear 	0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop					0.0
@@ -26,24 +24,20 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 						0.0
 	StopEvent HudHealthBonusPulseLoop					0.0
 	
-	// target-id
-	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 255 255 255" 			Linear 	0.0 	0.0
-	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 255 255 255" 			Linear	0.0 	0.0
-
-	// freeze-cam
-	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 255 255 255" 			Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValue						FgColor		"255 255 255 255"			Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 255 255 255" 			Linear	0.0 0.0
+	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
 }
 
 //====================================================================================================================
 
 event HudHealthDyingPulse
 {
-	// target-id values, handy to have them nicely coloured
-	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 0 0 255" 					Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 0 0 255" 					Linear 	0.0 0.0
-
-	// freezecam values
-	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 0 0 255" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthValue						FgColor		"255 0 0 255"				Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 0 0 255" 				Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 0 0 255" 				Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 0 0 255" 				Linear 	0.0 0.0
 	
 
 	RunEvent HudHealthDyingPulseLoop					0.0
@@ -59,21 +53,19 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse						0.0
 	StopEvent HudHealthDyingPulseLoop 					0.0
 	
-	// target-id
-	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 255 255 255" 				Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 255 255 255" 				Linear 	0.0 0.0
-	
-	// freezecam
-	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 255 255 255" 				Linear 	0.0 0.0
+	Animate PlayerStatusHealthValue						FgColor		"255 255 255 255"			Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
 }
 
 //====================================================================================================================
 
 event HudLowAmmoPulse
 {
-	Animate	AmmoInClip	    							FgColor		"255 0 0 255"					Linear 0.0 0.0
-	Animate	AmmoInReserve   							FgColor		"255 0 0 255"					Linear 0.0 0.0
-	Animate	AmmoNoClip	    							FgColor		"255 0 0 255"					Linear 0.0 0.0
+	Animate	AmmoInClip	    							FgColor		"255 0 0 255"				Linear 0.0 0.0
+	Animate	AmmoInReserve   							FgColor		"255 0 0 255"				Linear 0.0 0.0
+	Animate	AmmoNoClip	    							FgColor		"255 0 0 255"				Linear 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop						0.0
 }	
@@ -88,9 +80,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 							0.0
 	StopEvent HudLowAmmoPulseLoop 						0.0
 
-	Animate	AmmoInClip	    							FgColor		"255 255 255 255"				Linear 0.0 0.0
-	Animate	AmmoInReserve   							FgColor		"255 255 255 255"				Linear 0.0 0.0
-	Animate	AmmoNoClip	    							FgColor		"255 255 255 255"				Linear 0.0 0.0
+	Animate	AmmoInClip	    							FgColor		"255 255 255 255"			Linear 0.0 0.0
+	Animate	AmmoInReserve   							FgColor		"255 255 255 255"			Linear 0.0 0.0
+	Animate	AmmoNoClip	    							FgColor		"255 255 255 255"			Linear 0.0 0.0
 }
 
 //====================================================================================================================

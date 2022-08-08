@@ -33,13 +33,13 @@
 	{
 		"ControlName"	         				 	"ImagePanel"
 		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
-		"xpos"			         				 	"c-205"
-		"ypos"			         				 	"c107"
+		"xpos"			         				 	"9999" //c-205
+		"ypos"			         				 	"9999" //c107
 		"zpos"			         				 	"-4"
 		"wide"			         				 	"66"
 		"tall"			         				 	"66"
 		"visible"		         				 	"0"
-		"enabled"		         				 	"1"
+		"enabled"		         				 	"0"
 		"image"			         				 	"../hud/health_over_bg"
 		"scaleImage"	         				 	"1"
 	}
@@ -80,7 +80,7 @@
 		"textAlignment"	         				 	"center"	
 		"font"                   				 	"surfaceHPAmmo72"	//BLUR, OUTLINE
 		"fgcolor"	     	         				"0 0 0 255"
-		//"shadow"								"1"	//TODO remove shadow?
+		//"shadow"									"1"	//TODO remove shadow?
 		
 		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}
