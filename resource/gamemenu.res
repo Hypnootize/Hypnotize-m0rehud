@@ -4,7 +4,7 @@
 	"Version"
 	{
 		"label" 									"INFO" 
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud all credits to m0re"
+		"command" 									"engine showconsole; echo m0rehud-Hypnotize by Hypnotize, edited by Rockz @ www.github.com/rrkkss/Hypnotize-m0rehud"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"

@@ -10,13 +10,12 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValueSpecgui 				FgColor 	"0 255 0 255" 				Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueKiller 				FgColor 	"0 255 0 255" 				Linear 	0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop					0.0
-	
+	RunEvent HudHealthBonusPulseLoop					0.1
 }
 
 event HudHealthBonusPulseLoop
 {
-	RunEvent HudHealthBonusPulse						0.0
+	RunEvent HudHealthBonusPulse						0.1
 }
 
 event HudHealthBonusPulseStop
@@ -24,10 +23,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 						0.0
 	StopEvent HudHealthBonusPulseLoop					0.0
 	
-	Animate PlayerStatusHealthValue						FgColor		"255 255 255 255"			Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 255 255 255" 			Linear	0.0 0.0
-	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
+	Animate PlayerStatusHealthValue						FgColor		"white"						Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 				FgColor 	"white" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"white" 					Linear	0.0 0.0
+	Animate PlayerStatusHealthValueKiller 				FgColor 	"white" 					Linear 	0.0 0.0
 }
 
 //====================================================================================================================
@@ -39,13 +38,12 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 0 0 255" 				Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 0 0 255" 				Linear 	0.0 0.0
 	
-
-	RunEvent HudHealthDyingPulseLoop					0.0
+	RunEvent HudHealthDyingPulseLoop					0.1
 }
 
 event HudHealthDyingPulseLoop
 {
-	RunEvent HudHealthDyingPulse						0.0
+	RunEvent HudHealthDyingPulse						0.1
 }
 
 event HudHealthDyingPulseStop
@@ -53,10 +51,10 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse						0.0
 	StopEvent HudHealthDyingPulseLoop 					0.0
 	
-	Animate PlayerStatusHealthValue						FgColor		"255 255 255 255"			Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueTarget 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueKiller 				FgColor 	"255 255 255 255" 			Linear 	0.0 0.0
+	Animate PlayerStatusHealthValue						FgColor		"white"						Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 				FgColor 	"white" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 				FgColor 	"white" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueKiller 				FgColor 	"white" 					Linear 	0.0 0.0
 }
 
 //====================================================================================================================
@@ -80,9 +78,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 							0.0
 	StopEvent HudLowAmmoPulseLoop 						0.0
 
-	Animate	AmmoInClip	    							FgColor		"255 255 255 255"			Linear 0.0 0.0
-	Animate	AmmoInReserve   							FgColor		"255 255 255 255"			Linear 0.0 0.0
-	Animate	AmmoNoClip	    							FgColor		"255 255 255 255"			Linear 0.0 0.0
+	Animate	AmmoInClip	    							FgColor		"white"						Linear 0.0 0.0
+	Animate	AmmoInReserve   							FgColor		"white"						Linear 0.0 0.0
+	Animate	AmmoNoClip	    							FgColor		"white"						Linear 0.0 0.0
 }
 
 //====================================================================================================================
@@ -105,7 +103,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 					0.0
 	StopEvent HudMedicChargedLoop 				0.0
 	
-	Animate	ChargeLabelBig 						FgColor		"255 255 255 255"					Linear	0.0 0.0
+	Animate	ChargeLabelBig 						FgColor		"white"								Linear	0.0 0.0
 	Animate	ChargeLabelBigShadow 				FgColor		"0 0 0 255"							Linear 	0.0 0.0
 }
 

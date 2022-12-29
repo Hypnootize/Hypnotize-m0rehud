@@ -50,10 +50,10 @@
 		"ypos"                   					"9"
 		"zpos"                   					"-1"
 		"wide"	          		   					"252"
-		"tall"                   					"12"
-		"visible"                					"0"
-		"enabled"                					"0"
-		"fillcolor"              					"0 0 0 255"
+		"tall"                   					"14"
+		"visible"                					"1"
+		"enabled"                					"1"
+		"fillcolor"              					"0 0 0 128"
 	}
 	
 	"TargetNameLabel"	//name of a person you're looking at, above TargetBGshade
@@ -83,8 +83,8 @@
 		"fieldName"		         					"TargetNameLabelShadow"
 		"font"			           					"robotoMedium"
 		"fgcolor_override"     						"black"
-		"xpos"			           					"-2"
-		"ypos"			           					"-2"
+		"xpos"			           					"-1"
+		"ypos"			           					"-1"
 		"zpos"			           					"1"
 		"wide"			           					"640"
 		"tall"			           					"12"

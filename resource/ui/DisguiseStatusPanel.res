@@ -121,7 +121,7 @@
 		"HealthDeathWarning"						"0.49"
 		"TFFont"									"HudFontSmall"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
-		"TextColor"									"HudOffWhite"
+		"TextColor"									"255 255 255 255"
 		
 		"pin_to_sibling" 							"DisguiseStatusBG"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"

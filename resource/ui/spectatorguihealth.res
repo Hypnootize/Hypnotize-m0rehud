@@ -4,13 +4,13 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"9"
-		"ypos"										"14"
-		"zpos"										"-1"
-		"wide"										"15"
-		"tall"										"15"
+		"xpos"										"-9999" //9
+		"ypos"										"0"	//14
+		"zpos"										"0"	//-1
+		"wide"										"0"	//15
+		"tall"										"0"	//15
 		"visible"									"0"
-		"enabled"									"1"
+		"enabled"									"0"
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"	
 	}
@@ -19,7 +19,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"PlayerStatusHealthValueTarget"
-		"xpos"										"-15"
+		"xpos"										"-22"
 		"ypos"										"7"
 		"zpos"										"20"
 		"wide"										"80"
@@ -28,16 +28,16 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"m0refont32"
-		"fgcolor_override"  						"Health Numbers"
+		"font"										"m0refont24"
+		"fgcolor_override"  						"255 255 255 255"
 	}
 	
 	"PlayerStatusHealthValueTargetShadow"
 	{
 		"ControlName"								"Label"
 		"fieldName"									"PlayerStatusHealthValueTargetShadow"
-		"xpos"										"-2"
-		"ypos"										"-2"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"5"
 		"wide"										"80"
 		"tall"										"30"
@@ -45,7 +45,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"m0refont32"
+		"font"										"m0refont24"
 		"fgcolor_override"  						"Black"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueTarget"

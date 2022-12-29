@@ -86,10 +86,10 @@
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"-3"
-		"ypos"										"4"
+		"xpos"										"9"
+		"ypos"										"43"
 		"zpos"										"1"
-		"wide"										"100"
+		"wide"										"2000"
 		"tall"										"40"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
@@ -206,7 +206,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Version"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"42"
 		"zpos"										"15"
 		"wide"										"100"
 		"tall"										"14"
@@ -251,7 +251,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Servers"
 		"xpos"										"-110"
-		"ypos"										"-54"
+		"ypos"										"-53"
 		"zpos"										"15"
 		"wide"										"100"
 		"tall"										"14"
@@ -435,7 +435,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Settings"
 		"xpos"										"-220"
-		"ypos"										"-55"
+		"ypos"										"-53"
 		"zpos"										"15"
 		"wide"										"100"
 		"tall"										"14"
@@ -926,14 +926,14 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Vote"
-		"xpos"										"-20"	//0
-		"ypos"										"5"	//-3
+		"xpos"										"0"		//-20
+		"ypos"										"-32"	//5
 		"zpos"										"15"
 		"wide"										"20"
 		"tall"										"20"	//14
 		"visible"									"1"
 		
-		"pin_to_sibling" 							"MainMenuAnchor"
+		"pin_to_sibling" 							"store"
 
 		"SubButton"
 		{
