@@ -47,17 +47,17 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	           				 	"CExLabel"
-		"fieldName"	  	         				"PlayerStatusHealthValue"
+		"fieldName"	  	         					"PlayerStatusHealthValue"
 		"xpos"		    	         				"0"
 		"ypos"		    	         				"0"	
 		"zpos"		    	         				"5"
 		"wide"		    	         				"150"
 		"tall"		    	         				"80"
-		"visible"		  	         			"1"
-		"enabled"	  		         			"1"
+		"visible"		  	         				"1"
+		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"	
-		"font"                   				 	"surfaceHPAmmo72"
+		"font"                   				 	"m0refont72"
 		"fgcolor"	    	         				"255 255 255 255"
 		
 		"pin_to_sibling"							"HealthAnchor"
@@ -78,7 +78,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
-		"font"                   				 	"surfaceHPAmmo72"	//BLUR, OUTLINE
+		"font"                   				 	"m0reFontBigBlur"	//BLUR, OUTLINE
 		"fgcolor"	     	         				"0 0 0 255"
 		//"shadow"									"1"	//TODO remove shadow?
 		

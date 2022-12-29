@@ -11,14 +11,13 @@ Scheme
 		///////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////CUSTOM FONTS//////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
-		
-		//custom fonts
+
 		robotoSmall
 		{
 			"1"
 			{
 				"name"		"Roboto Bold"
-				"tall"		"12"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -58,6 +57,7 @@ Scheme
 			}
 		}
 		
+		//brösel font
 		surfaceHPAmmo24OUTLINE
 		{
 			"1"
@@ -89,7 +89,7 @@ Scheme
 				"name"		"SurfaceHPAmmo-Medium"
 				"tall"		"28"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 				"outline"	"1"
 			}
 		}
@@ -107,7 +107,7 @@ Scheme
 			}
 		}
 
-        	surfaceHPAmmo72
+		surfaceHPAmmo72
 		{
 			"1"
 			{
@@ -144,6 +144,7 @@ Scheme
 			}
 		}
 
+		//grape-more uber % font
 		M0refont24NumbersOL
 		{
 			"1"
@@ -153,6 +154,33 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
+			}
+		}
+
+		//more blur
+		"m0reFontBigBlur"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"66"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"0"
+				"blur"										"1"
+			}
+		}
+
+		"m0reFontSmallBlur"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"0"
+				"blur"										"1"
 			}
 		}
 
