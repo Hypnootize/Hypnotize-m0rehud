@@ -60,7 +60,7 @@
 	{	
 		"ControlName"		       					"CExLabel"
 		"fieldName"		         					"TargetNameLabel"
-		"font"			           					"robotoMedium"
+		"font"			           					"robotoSmall"
 		"fgcolor_override"     						"white"
 		"xpos"			           					"-30" //fucking piece of shit MOVE
 		"ypos"			           					"10"
@@ -81,7 +81,7 @@
 	{	
 		"ControlName"		       					"CExLabel"
 		"fieldName"		         					"TargetNameLabelShadow"
-		"font"			           					"robotoMedium"
+		"font"			           					"robotoSmall"
 		"fgcolor_override"     						"black"
 		"xpos"			           					"-1"
 		"ypos"			           					"-1"

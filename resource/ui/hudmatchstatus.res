@@ -180,8 +180,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
-		"xpos"										"c-461"
-		"ypos"										"1"
+		"xpos"										"c-51" //c-461
+		"ypos"										"442"
 		"zpos"										"5"
 		"wide"										"100"
 		"tall"										"150"
@@ -199,7 +199,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"M0refont16"
+			"font"									"robotoSmall"
 			"fgcolor"								"255 255 255 255"
 			"xpos"									"26"
 			"ypos"									"-2"

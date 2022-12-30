@@ -87,10 +87,22 @@ Scheme
 			"1"
 			{
 				"name"		"Surface-Uber"
-				"tall"		"24"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
+			}
+		}
+
+		"Respawn Font"
+		{
+			"1"
+			{
+				"name"										"Respawn Font Quake"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
 			}
 		}
 
@@ -3235,6 +3247,12 @@ Scheme
 		{
 			"font"				"resource/scheme/fonts/Surface-Uber.otf"
 			"name"				"Surface-Uber"
+		}
+
+		"15"
+		{
+			"font" 				"resource/fonts/Respawn Quake.otf"
+			"name" 				"Respawn Font Quake"
 		}
 	}
 }
