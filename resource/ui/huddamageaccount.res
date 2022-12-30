@@ -11,7 +11,7 @@
 		"PositiveColor"								"Heal Numbers"
 		"NegativeColor"								"Damage Numbers"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"robotoDamageNumbers" //surfaceHPAmmo28OUTLINE
-		"delta_item_font_big"						"robotoDamageNumbers"
+		"delta_item_font"							"surfaceHPAmmo28OUTLINE"
+		"delta_item_font_big"						"surfaceHPAmmo28OUTLINE"
 	}
 }

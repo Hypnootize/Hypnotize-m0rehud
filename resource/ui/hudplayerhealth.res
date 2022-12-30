@@ -33,8 +33,8 @@
 	{
 		"ControlName"	         				 	"ImagePanel"
 		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
-		"xpos"			         				 	"9999" //c-205
-		"ypos"			         				 	"9999" //c107
+		"xpos"			         				 	"9999"
+		"ypos"			         				 	"9999"
 		"zpos"			         				 	"-4"
 		"wide"			         				 	"66"
 		"tall"			         				 	"66"
@@ -47,7 +47,7 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	           				 	"CExLabel"
-		"fieldName"	  	         					"PlayerStatusHealthValue"
+		"fieldName"	  	         				 	"PlayerStatusHealthValue"
 		"xpos"		    	         				"0"
 		"ypos"		    	         				"0"	
 		"zpos"		    	         				"5"
@@ -58,7 +58,7 @@
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"	
 		"font"                   				 	"m0refont72"
-		"fgcolor"	    	         				"255 255 255 255"
+		"fgcolor"	    	         				"Health Numbers"
 		
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -68,9 +68,9 @@
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	           				 	"CExLabel"
-		"fieldName"	  	         					"PlayerStatusHealthValueShadow"
-		"xpos"	    		         				"-2"
-		"ypos"	    		         				"-2"	
+		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow"
+		"xpos"	    		         				"-3"
+		"ypos"	    		         				"-3"	
 		"zpos"	    		         				"5"
 		"wide"		    	         				"150"
 		"tall"		    	         				"80"
@@ -78,9 +78,9 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
-		"font"                   				 	"m0reFontBigBlur"	//BLUR, OUTLINE
-		"fgcolor"	     	         				"0 0 0 255"
-		//"shadow"									"1"	//TODO remove shadow?
+		"font"                   				 	"m0refont72BLUR"
+		"fgcolor"	     	         				"Black"
+		"shadow"								"1"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}
@@ -94,12 +94,12 @@
 		"zpos"	    		         				"5"
 		"wide"		    	         				"150"
 		"tall"		    	         				"80"
-		"visible"	    	         				"0"	//TODO enable
-		"enabled"	    	         				"0"	//TODO enable
+		"visible"	    	         				"0"
+		"enabled"	    	         				"0"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
-		"font"                   				 	"surfaceHPAmmo72"
-		"fgcolor"	     	         				"0 0 0 255"
+		"font"                   				 	"m0refont72"
+		"fgcolor"	     	         				"Extra Shadow"
 		"alpha"	     	         					"0"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueShadow"

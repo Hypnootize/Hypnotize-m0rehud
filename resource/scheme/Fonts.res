@@ -56,19 +56,6 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		
-		//brösel font
-		surfaceHPAmmo24OUTLINE
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
 
         surfaceHPAmmo28
 		{
@@ -94,56 +81,6 @@ Scheme
 			}
 		}
 
-		surfaceHPAmmo28BLUR
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"0"
-				"blur"      "1"
-			}
-		}
-
-		surfaceHPAmmo72
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"0"
-			}
-		}
-		
-		surfaceHPAmmo72OUTLINE
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		
-		surfaceHPAmmo72BLUR
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"0"
-				"blur"      "1"
-			}
-		}
-
 		//grape-more uber % font
 		M0refont24NumbersOL
 		{
@@ -154,33 +91,6 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
-			}
-		}
-
-		//more blur
-		"m0reFontBigBlur"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"66"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"0"
-				"blur"										"1"
-			}
-		}
-
-		"m0reFontSmallBlur"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"0"
-				"blur"										"1"
 			}
 		}
 
@@ -393,6 +303,17 @@ Scheme
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		"m0refont24BLUR"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur"										"1"
 			}
 		}
 		"m0refont24Shadow"
@@ -754,6 +675,17 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
+			}
+		}
+		"m0refont72BLUR"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"72"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur"										"1"
 			}
 		}
 		
