@@ -61,7 +61,7 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
-		"drawcolor"	"255 0 0 255"
+		"drawcolor"	"RedNeon"
 	}
 
 	"OutOfDateIcon"

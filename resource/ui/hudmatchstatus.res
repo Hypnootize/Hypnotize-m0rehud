@@ -190,8 +190,8 @@
 		"delta_item_x"								"38"
 		"delta_item_start_y"						"27"
 		"delta_item_end_y"							"27"
-		"PositiveColor"								"0 255 0 255"
-		"NegativeColor"								"255 0 0 255"
+		"PositiveColor"								"GreenNeon"
+		"NegativeColor"								"RedNeon"
 		"delta_lifetime"							"2"
 		"delta_item_font"							"default"
 
@@ -426,7 +426,7 @@
 	      "visible"		"0"
 	      "labelText"		"%chargeamount%"
 	      "textAlignment"	"north"
-	      "fgcolor"		"0 255 0 255"
+	      "fgcolor"		"GreenNeon"
 	    }
 	    "specindex"
 	    {

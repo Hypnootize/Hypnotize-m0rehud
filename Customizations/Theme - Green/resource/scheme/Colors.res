@@ -13,25 +13,25 @@ Scheme
 		"Health Buff Spec"									"80 200 0 255"
 		"Health Buff Killer"								"0 230 0 255"
 		
-		"Health Hurt"										"255 0 0 255"
-		"Health Hurt Target"								"255 0 0 255"
-		"Health Hurt Spec"									"255 0 0 255"
-		"Health Hurt Killer"								"255 0 0 255"
+		"Health Hurt"										"RedNeon"
+		"Health Hurt Target"								"RedNeon"
+		"Health Hurt Spec"									"RedNeon"
+		"Health Hurt Killer"								"RedNeon"
 		
 		"Ammo In Clip"										"255 255 255 255"
 		"Ammo In Reserve"									"255 255 255 255"
 		"Ammo No Clip"										"255 255 255 255"
 
-		"Ammo In Clip Low"									"255 0 0 255"
-		"Ammo In Reserve Low"								"255 0 0 255"
-		"Ammo No Clip Low"									"255 0 0 255"
+		"Ammo In Clip Low"									"RedNeon"
+		"Ammo In Reserve Low"								"RedNeon"
+		"Ammo No Clip Low"									"RedNeon"
 
 		"Ubercharge"										"255 255 255 255"
 		"Ubercharge Full"									"0 230 0 255"
 		
 		"Extra Shadow"										"0 0 0 255"
 
-		"Heal Numbers"										"0 255 0 255"
+		"Heal Numbers"										"GreenNeon"
 		"Last Damage Done"									"255 255 255 255"
 		
 		"M0reBlue"											"0 120 201 255"
@@ -172,7 +172,7 @@ Scheme
 		"HUDSpectator"										"255 255 255 255"
 		"HUDBlueTeamSolid"									"0 165 255 255"
 		"HUDRedTeamSolid"									"255 40 40 255"
-		"HUDDeathWarning"									"255 0 0 255"
+		"HUDDeathWarning"									"RedNeon"
 		"HudWhite"											"255 255 255 255"
 		"HudOffWhite"										"255 255 255 255"
 		"HudBlack"											"0 0 0 255"
@@ -209,7 +209,7 @@ Scheme
 		"StoreDarkTan"										"150 150 150 255"
 		"StoreGreen"										"35 185 30 255"
 		
-		"LowHealthRed"										"255 0 0 255"
+		"LowHealthRed"										"RedNeon"
 		"ProgressOffWhite"									"255 255 255 255"
 		"ProgressBackground"								"0 0 0 50"
 		"HealthBgGrey"										"60 60 60 255"

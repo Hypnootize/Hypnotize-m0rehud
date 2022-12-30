@@ -306,7 +306,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"255 0 0 255"
+			"fgcolor"								"RedNeon"
 		}
 	}
 	

@@ -32,7 +32,7 @@
 		"brighttext"								"0"
 		"font"										"surfaceHPAmmo28"
 		"font_minmode"								"M0refont16"
-		"fgcolor"   								"0 255 0 255"
+		"fgcolor"   								"GreenNeon"
 	}
 	
 	"AccountValueShadow"

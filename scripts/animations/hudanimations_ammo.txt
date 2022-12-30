@@ -4,13 +4,13 @@ event HudLowAmmoPulse
 {
 
 	Animate AmmoInReserveShadow alpha 255 linear 0.0 0.0
-	Animate AmmoInReserveShadow FgColor "255 0 0 255" linear 0.0 0.0
+	Animate AmmoInReserveShadow FgColor "RedNeon" linear 0.0 0.0
 	
 	Animate AmmoNoClipShadow alpha 255 linear 0.0 0.0
-	Animate AmmoNoClipShadow FgColor "255 0 0 255" linear 0.0 0.0
+	Animate AmmoNoClipShadow FgColor "RedNeon" linear 0.0 0.0
 	
 	Animate AmmoInClipShadow alpha 255 linear 0.0 0.0
-	Animate AmmoInClipShadow FgColor "255 0 0 255" linear 0.0 0.0
+	Animate AmmoInClipShadow FgColor "RedNeon" linear 0.0 0.0
 
 	Animate	AmmoInClip	    FgColor		"255 50 140 255"	Linear 0.0 0.075
 	Animate	AmmoInClip 	    FgColor		"255 100 200 255"	Linear 0.125 0.075

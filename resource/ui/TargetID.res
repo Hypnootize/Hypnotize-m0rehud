@@ -104,7 +104,7 @@
 		"ControlName"		    "Label"
 		"fieldName"		      	"TargetDataLabel"
 		"font"			        "M0refont24NumbersOL"
-		"fgcolor_override"  	"0 255 0 255"
+		"fgcolor_override"  	"GreenNeon"
 		"xpos"			        "20"
 		"ypos"			        "13"
 		"zpos"			        "1"
@@ -133,9 +133,9 @@
 		"HealthBonusPosAdj"	         				"-1000" //buff cross on target label
 		"HealthDeathWarning"	      			 	"0.49"
 		"TFFont"		                 			"HudFontSmall"
-		"HealthDeathWarningColor"	   				"255 0 0 255"
+		"HealthDeathWarningColor"	   				"RedNeon"
 		"textAlignment"								"center"
-		"TextColor"		               				"255 255 255 255"
+		"TextColor"		               				"white"
 	}
 	
 	

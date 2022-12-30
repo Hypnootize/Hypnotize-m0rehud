@@ -11,7 +11,7 @@
 		"visible"									"1"
 		"enabled"									"1"	
 		"TFFont"									"HudFontSmall"
-		"TextColor"									"0 255 0 255"
+		"TextColor"									"GreenNeon"
 		"autoResize"								"1"
 	}
 	
@@ -28,9 +28,9 @@
 		"HealthBonusPosAdj"	         				"-1000" //buff cross on target label
 		"HealthDeathWarning"	      			 	"0.49"
 		"TFFont"		                 			"HudFontSmall"
-		"HealthDeathWarningColor"	   				"255 0 0 255"
+		"HealthDeathWarningColor"	   				"RedNeon"
 		"textAlignment"								"center"
-		"TextColor"		               				"255 255 255 255"
+		"TextColor"		               				"white"
 		"autoResize"								"1"
 	}
 }

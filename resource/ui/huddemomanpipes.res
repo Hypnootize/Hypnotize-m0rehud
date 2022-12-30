@@ -66,18 +66,18 @@
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
-			"autoResize"								"1"
+			"autoResize"							"1"
 			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"								"0"
+			"tabPosition"							"0"
 			"labelText"								"%activepipes%"
-			"textAlignment"								"center"
+			"textAlignment"							"center"
 			"dulltext"								"0"
-			"brighttext"								"0"
+			"brighttext"							"0"
 			"font"									"m0refont24"
-			"fgcolor"   								"0 255 0 255" //black
-			"proportionaltoparent"							"1"
+			"fgcolor"   							"GreenNeon" //black
+			"proportionaltoparent"					"1"
 		}
 		
 		"NumPipesLabelDropshadow"
