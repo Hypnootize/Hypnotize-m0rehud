@@ -45,6 +45,18 @@ Scheme
 			}
 		}
 
+		robotoMediumShadow
+		{
+			"1"
+			{
+				"name"			"Roboto Bold"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
+
 		robotoDamageNumbers
 		{
 			"1"

@@ -19,7 +19,7 @@
 	HudKothTimeStatus
 	{
 		"xpos"										"c-100"
-		"ypos"										"0"
+		"ypos"										"460"
 		"wide"										"200"
 		"tall"										"160"
 		

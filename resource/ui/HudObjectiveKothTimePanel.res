@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"BlueTimer"
-		"xpos"										"28"
+		"xpos"										"19" //28
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
@@ -16,8 +16,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"M0refont18"
-			"fgcolor"								"White"
+			"font"									"robotoMediumShadow"
+			"fgcolor"								"M0reBlue"
 			"xpos"									"30"
 			"ypos"									"-7"
 			"zpos"									"3"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
-		"xpos"										"73"
+		"xpos"										"82"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
@@ -46,8 +46,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"M0refont18"
-			"fgcolor"								"White"
+			"font"									"robotoMediumShadow"
+			"fgcolor"								"M0reRed"
 			"xpos"									"30"
 			"ypos"									"-7"
 			"zpos"									"3"
@@ -57,7 +57,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-		}	
+		}
 	}
 	
 	"ActiveTimerBG"
@@ -65,12 +65,12 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ActiveTimerBG"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"-20000"
 		"zpos"										"1"
-		"wide"										"44"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 		"fillcolor"  								"0 0 0 100"	
 		"scaleImage"								"1"
 		"alpha"										"0"
