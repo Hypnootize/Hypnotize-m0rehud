@@ -3251,7 +3251,7 @@ Scheme
 
 		"15"
 		{
-			"font" 				"resource/fonts/Respawn Quake.otf"
+			"font" 				"resource/scheme/fonts/Respawn Quake.otf"
 			"name" 				"Respawn Font Quake"
 		}
 	}
