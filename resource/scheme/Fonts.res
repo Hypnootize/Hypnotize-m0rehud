@@ -57,6 +57,28 @@ Scheme
 			}
 		}
 
+		robotoBigger
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		robotoBig
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		robotoDamageNumbers
 		{
 			"1"
@@ -64,7 +86,7 @@ Scheme
 				"name"		"Roboto Bold"
 				"tall"		"28"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 				"outline"	"1"
 			}
 		}
