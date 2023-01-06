@@ -1,0 +1,147 @@
+"Resource/UI/Build_Menu/Bas_Active.res"
+{
+	"Background"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"Background"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"20 160 130 150"
+
+		"MetalIcon"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"MetalIcon"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"F"
+			"proportionaltoparent"					"1"
+			"use_proportional_insets"				"1"
+			"font"									"Class Symbols 60"
+			"textAlignment"							"west"
+			"textinsetx"							"-8"
+			"textinsety"							"4"
+			"fgcolor"								"White"
+			"alpha"									"75"
+		}
+	}
+	"CostLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"CostLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5-4"
+		"zpos"										"5"
+		"wide"										"f0"
+		"tall"										"f2"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"%metal%"
+		"textAlignment"								"center"
+		"font"										"HudFontSmallBold"
+		"fgcolor"									"White"
+	}
+	"CostLabelShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"CostLabelShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"4"
+		"wide"										"f0"
+		"tall"										"f2"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"%metal%"
+		"textAlignment"								"center"
+		"font"										"HudFontSmallBold"
+		"fgcolor"									"BlackDarkTransparent"
+		"pin_to_sibling"							"CostLabel"
+	}
+
+	"CantBuildReason"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"CantBuildReason"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"0"
+		"enabled"									"1"
+		"font"										"Symbols 24"
+		"labelText"									"+"
+		"textAlignment"								"center"
+		"AllCaps"									"1"
+		"proportionaltoparent"						"1"
+		"fgcolor"									"White"
+	}
+
+	"NumberLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"NumberLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"9"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"1"
+		"textAlignment"								"center"
+		"proportionaltoparent"						"1"
+		"font"										"HudFontSmallest"
+		"fgcolor"									"White"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"BlackDarkTransparent"
+	}
+
+	"ItemBackground"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"ItemBackground"
+		"xpos"										"9999"
+	}
+	"ItemNameLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemNameLabel"
+		"xpos"										"9999"
+	}
+	"BuildingIcon"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"BuildingIcon"
+		"xpos"										"9999"
+	}
+	"ModeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ModeLabel"
+		"xpos"										"9999"
+	}
+	"NumberBg"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"NumberBg"
+		"xpos"										"9999"
+	}
+}

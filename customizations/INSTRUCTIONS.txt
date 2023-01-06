@@ -1,0 +1,11 @@
+////////////////////////////////////////////////
+///////////// CUSTOMIZATIONS USAGE /////////////
+////////////////////////////////////////////////
+
+Usage Instructions:
+
+2) Pick the customizatin you want to apply then open the dedicated folder and copy all the folders inside (usualy they are named: materials, resource, scripts)
+
+3) Paste and replace the folder/s over the normal m0rehud files!
+
+It is also possible to change the colors more in depth from the resource/scheme/colors.res!
