@@ -1,1 +1,0 @@
-#base "TextWindow.res"
