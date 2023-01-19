@@ -6,6 +6,7 @@ Scheme
 		"GreenNeon"											"0 255 0 255"
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
+		"Yellow"											"255 255 0 255"
 
 		///////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////// INGAME COLORS /////////////////////////////////
@@ -32,7 +33,7 @@ Scheme
 		"Ammo No Clip Low"									"RedNeon"
 
 		"Ubercharge"										"255 255 255 255" 	//white #eceff4
-		"Ubercharge Full"									"255 0 127 255"
+		"Ubercharge Full"									"GreenNeon"
 		
 		"Extra Shadow"										"0 0 0 255"
 

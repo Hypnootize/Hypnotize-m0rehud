@@ -8,9 +8,9 @@
 {	
 	HudWeaponAmmo
 	{
-		"xpos"										"0"
+		"xpos"										"-50"
 		"xpos_minmode"								"0"
-		"ypos"										"0"
+		"ypos"										"-40"
 		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
@@ -42,9 +42,9 @@
 	
 	HudMedicCharge
 	{
-		"xpos"										"0"
+		"xpos"										"-50"
 		"xpos_minmode"								"0"
-		"ypos"										"0"
+		"ypos"										"-40"
 		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
@@ -85,9 +85,9 @@
 	
 	CHealthAccountPanel
 	{
-		"xpos"										"240"
+		"xpos"										"300"
 		"xpos_minmode"								"0"
-		"ypos"										"400"
+		"ypos"										"300"
 		"ypos_minmode"								"456"
 		"wide"										"f0"
 		"tall"  									"24"
