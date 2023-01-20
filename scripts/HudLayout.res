@@ -219,8 +219,8 @@
 	
 	HudControlPointIcons
 	{
-		"separator_width"							"5"
-		"separator_height"							"5"
+		"separator_width"							"3"
+		"separator_height"							"3"
 		"height_offset"								"0"
 	}
 

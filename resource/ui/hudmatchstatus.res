@@ -180,8 +180,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
-		"xpos"										"c-51" //c-461
-		"ypos"										"442"
+		"xpos"										"c-21" //c-461
+		"ypos"										"415"
 		"zpos"										"5"
 		"wide"										"100"
 		"tall"										"150"
@@ -201,8 +201,8 @@
 			"fieldName"								"TimePanelValue"
 			"font"									"robotoSmall"
 			"fgcolor"								"255 255 255 255"
-			"xpos"									"26"
-			"ypos"									"-2"
+			"xpos"									"-4"
+			"ypos"									"30"
 			"zpos"									"3"
 			"wide"									"50"
 			"tall"									"15"
