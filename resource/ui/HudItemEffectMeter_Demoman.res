@@ -5,8 +5,8 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"r55"
-		"ypos"										"r34"
+		"xpos"										"r330"
+		"ypos"										"r170"
 		"wide"										"200"
 		"tall"										"50"
 		"MeterFG"									"White"
@@ -18,7 +18,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
 		"xpos"										"0"
-		"ypos"										"13"
+		"ypos"										"-11"
 		"zpos"										"2"
 		"wide"										"50"
 		"tall"										"30"
@@ -53,7 +53,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"M0refont24"
-		"fgcolor_override" 							"White"
+		"fgcolor_override" 							"yellow"
 	}
 	
 	"ItemEffectMeterCountShadow"

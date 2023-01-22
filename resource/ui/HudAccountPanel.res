@@ -16,7 +16,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValue"
-		"xpos"										"100"
+		"xpos"										"50"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"200"
@@ -32,16 +32,16 @@
 		"brighttext"								"0"
 		"font"										"surfaceHPAmmo28"
 		"font_minmode"								"M0refont16"
-		"fgcolor"   								"GreenNeon"
+		"fgcolor"   								"yellow"
 	}
 	
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValueShadow"
-		"xpos"										"-2"
+		"xpos"										"-1"
 		"xpos_minmode"								"0"
-		"ypos"										"-2"
+		"ypos"										"-1"
 		"ypos_minmode"								"0"
 		"zpos"										"2"
 		"wide"										"200"
