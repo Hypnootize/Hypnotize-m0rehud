@@ -973,7 +973,6 @@
 				"labelText"							"#Cancel"
 				"font"								"HudFontSmall"
 				"textAlignment"						"center"
-				"default"							"0"
 				"AllCaps"							"1"
 				"Command"							"cancel"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -1031,7 +1030,6 @@
 				"font"								"HudFontSmall"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
-				"default"							"1"
 				"Command"							"apply"
 				"sound_depressed"					"UI/buttonclick.wav"
 

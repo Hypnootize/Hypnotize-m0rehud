@@ -152,7 +152,6 @@
 					"labelText"						"#TF_SurveyQuestion_CompInquiry_Answer2"
 					"font"							"HudFontSmallest"
 					"textAlignment"					"left"
-					"default"						"1"
 				}
 
 				"Answer3"

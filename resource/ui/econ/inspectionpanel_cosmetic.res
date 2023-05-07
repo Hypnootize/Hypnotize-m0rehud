@@ -116,7 +116,6 @@
 				"labelText"							"r"
 				"font"								"Symbols 22"
 				"textAlignment"						"center"
-				"default"							"0"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"Command"							"zoom_toggle"
 
@@ -743,7 +742,6 @@
 		"labeltext"									"*"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"Command"									"gofullscreen"
 
@@ -772,7 +770,6 @@
 		"labeltext"									"}"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"Command"									"options"
 
@@ -950,7 +947,6 @@
 		"labeltext"									"-"
 		"font"										"Symbols 20"
 		"textAlignment"								"center"
-		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"Command"									"closex"
 

@@ -670,7 +670,6 @@
 			"labelText"								"#TF_call_vote"
 			"textAlignment"							"center"
 			"Command"								"CallVote"
-			"Default"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"HudFontSmallestBold"
 
@@ -700,7 +699,6 @@
 			"labelText"								"-"
 			"textAlignment"							"center"
 			"Command"								"Close"
-			"Default"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 26"
 

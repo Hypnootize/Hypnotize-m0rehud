@@ -164,7 +164,6 @@
 		"labelText"									"#DoneButton"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"Command"									"done"

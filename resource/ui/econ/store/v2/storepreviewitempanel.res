@@ -1072,7 +1072,6 @@
 		"labeltext"									"*"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"gofullscreen"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -1101,7 +1100,6 @@
 		"labeltext"									"r"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"zoom_toggle"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -1130,7 +1128,6 @@
 		"labeltext"									"|"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"options"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -1312,7 +1309,6 @@
 		"labeltext"									"-"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"closex"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -1337,7 +1333,6 @@
 		"labelText"									"#TF_BackCarat"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -1362,7 +1357,6 @@
 		"labelText"									"#Store_TryItOut"
 		"font"										"HudFontSmallestBold"
 		"textAlignment"								"center"
-		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"tryitout"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -1392,7 +1386,6 @@
 		"labelText"									"%storeaddtocart%"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"addtocart"
 		"sound_depressed"							"UI/buttonclick.wav"

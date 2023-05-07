@@ -49,7 +49,6 @@
 		"use_proportional_insets" 			"1"
 		"font"								"HudFontMediumSmallBold"
 		"textAlignment"						"center"
-		"default"							"1"
 		"command"							"%button_command%"
 		"proportionaltoparent" 				"1"
 		"actionsignallevel"					"2"

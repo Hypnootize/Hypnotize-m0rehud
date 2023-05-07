@@ -505,7 +505,6 @@
 		"labeltext"									"-"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -530,7 +529,6 @@
 		"labelText"									"#TF_BackCarat"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -561,7 +559,6 @@
 		"labelText"									"#Store_AddToCart"
 		"font"										"HudFontSmallishBold"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"addtocart"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"

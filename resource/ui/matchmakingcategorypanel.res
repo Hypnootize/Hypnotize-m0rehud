@@ -143,7 +143,6 @@
 			"use_proportional_insets" 			"1"
 			"font"								"HudFontSmallestBold"
 			"textAlignment"						"east"
-			"default"							"1"
 			"proportionaltoparent" 				"1"
 			"mouseinputenabled"					"0"
 
@@ -166,7 +165,6 @@
 			"use_proportional_insets" 			"1"
 			"font"								"HudFontSmallestBold"
 			"textAlignment"						"east"
-			"default"							"1"
 			"proportionaltoparent" 				"1"
 			"mouseinputenabled"					"0"
 

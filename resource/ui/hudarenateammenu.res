@@ -114,7 +114,6 @@
 			"textinsetx"	  						"5"
 			"font"			  						"HudFontSmallishBold"
 			"command"								"jointeam spectatearena"
-			"default"								"1"
 			"actionsignallevel"						"2"
 
 			"defaultFgColor_override" 				"White"
@@ -190,7 +189,6 @@
 			"textinsetx"	  						"5"
 			"font"			  						"HudFontSmallishBold"
 			"command"								"jointeam spectate"
-			"default"								"1"
 			"actionsignallevel"						"2"
 
 			"defaultFgColor_override" 				"White"

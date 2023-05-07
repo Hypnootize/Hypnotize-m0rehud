@@ -125,7 +125,6 @@
 		"wrap"										"0"
 		"AllCaps"									"1"
 		"command"									"continue"
-		"default"									"1"
 		"font"										"HudFontSmallishBold"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -168,7 +167,6 @@
 		"labelText"									"^"
 		"textAlignment"								"center"
 		"command"									"intro"
-		"default"									"1"
 		"AllCaps"									"1"
 		"font"										"Symbols 16"
 		"sound_depressed"							"UI/buttonclick.wav"

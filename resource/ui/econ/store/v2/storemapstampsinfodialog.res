@@ -115,7 +115,6 @@
 		"labelText"									"#TF_BackCarat"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 

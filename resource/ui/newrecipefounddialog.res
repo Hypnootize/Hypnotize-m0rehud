@@ -88,7 +88,6 @@
 		"labelText"						"#GameUI_Ok"
 		"font"							"HudFontSmallBold"
 		"textAlignment"					"center"
-		"default"						"1"
 		"Command"						"close"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"

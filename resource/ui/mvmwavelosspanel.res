@@ -349,7 +349,6 @@
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"default"									"1"
 		"Command"									"vote_restart"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -383,7 +382,6 @@
 		"labelText"									"#ConfirmButtonText"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"continue"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"

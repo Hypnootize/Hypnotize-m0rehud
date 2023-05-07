@@ -136,7 +136,6 @@
 			"labeltext"								"-"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"0"
 			"Command"								"close"
 			"proportionaltoparent" 					"1"
 			"actionsignallevel"						"1"

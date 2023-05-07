@@ -122,7 +122,6 @@
 		"zpos"							"20"
 		"wide"							"175"
 		"tall"							"25"
-		"default"						"1"
 		"visible"						"1"
 		"enabled"						"1"
 		"labelText"						"#ConfirmButtonText"

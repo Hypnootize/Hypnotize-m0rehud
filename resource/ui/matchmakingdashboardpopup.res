@@ -241,6 +241,7 @@
 				"textAlignment"					"center"
 				"labelText"						"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"			"1"
+			}
 
 			"VoteEndTimeLabel"
 			{

@@ -160,7 +160,6 @@
 		"AllCaps"									"1"
 		"wrap"										"0"
 		"command"									"skip"
-		"default"									"1"
 		"font"										"HudFontSmallishBold"
 		"sound_depressed"							"UI/buttonclick.wav"
 

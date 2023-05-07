@@ -281,7 +281,6 @@
 		"labelText"									"#TF_OK"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"backfrominvalid"
 		"sound_depressed"							"UI/buttonclick.wav"

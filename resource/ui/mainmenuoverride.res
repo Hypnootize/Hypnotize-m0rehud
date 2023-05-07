@@ -42,7 +42,6 @@
 				"use_proportional_insets" 			"1"
 				"font"								"HudFontMediumSmallBold"
 				"textAlignment"						"west"
-				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
@@ -173,7 +172,6 @@
 			"font"									"HudFontMediumSmallBold"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -250,7 +248,6 @@
 			"font"									"HudFontMediumSmallBold"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -291,7 +288,6 @@
 			"font"									"HudFontMediumSmallBold"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -328,7 +324,6 @@
 			"use_proportional_insets" 				"1"
 			"font"									"Symbols 15"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -375,7 +370,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -414,7 +408,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -453,7 +446,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -488,7 +480,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -527,7 +518,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -566,7 +556,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -605,7 +594,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -644,7 +632,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -683,7 +670,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -722,7 +708,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -778,7 +763,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -818,7 +802,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -858,7 +841,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -898,7 +880,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -936,7 +917,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -976,7 +956,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1016,7 +995,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1056,7 +1034,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1096,7 +1073,6 @@
 			"proportionaltoparent" 					"1"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1138,7 +1114,6 @@
 			"font"									"Symbols 30"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"default"								"1"
 			"actionsignallevel" 					"2"
 			"Command"								"noti_show"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -1284,7 +1259,6 @@
 			"labeltext"								"-"
 			"font"									"Symbols 20"
 			"textAlignment"							"center"
-			"default"								"0"
 			"actionsignallevel" 					"2"
 
 			"Command"								"noti_hide"
@@ -1371,7 +1345,6 @@
 			"textAlignment"							"center"
 			"labeltext"								"-"
 			"AllCaps"								"1"
-			"default"								"1"
 			"Command"								"engine cl_mainmenu_safemode 0"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"

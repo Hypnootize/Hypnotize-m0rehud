@@ -283,7 +283,6 @@
 		"zpos"								"20"
 		"wide"								"83"
 		"tall"								"13"
-		"default"							"1"
 		"visible"							"1"
 		"enabled"							"1"
 		"labelText"							"#TF_QuestView_RedeemReward"

@@ -134,7 +134,6 @@
 			"labelText"						""
 			"textAlignment"					"south-west"
 			"Command"						""
-			"Default"						"0"
 			"font"							"MenuKeys"
 			"scaleImage"					"1"
 			"sound_depressed"				"UI/buttonclick.wav"

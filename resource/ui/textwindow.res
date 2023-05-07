@@ -138,7 +138,6 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"command"									"okay"
-		"default"									"1"
 		"font"										"HudFontSmallishBold"
 		"sound_depressed"							"UI/buttonclick.wav"
 

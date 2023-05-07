@@ -302,7 +302,6 @@
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"default"									"0"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -333,7 +332,6 @@
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"default"									"1"
 		"Command"									"apply"
 		"sound_depressed"							"UI/buttonclick.wav"
 

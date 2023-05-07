@@ -49,7 +49,6 @@
 		"labelText"									"#GameUI_Ok"
 		"font"										"EconFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 

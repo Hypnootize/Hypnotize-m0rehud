@@ -85,7 +85,6 @@
 		"labelText"						"#Cancel"
 		"font"							"HudFontSmallBold"
 		"textAlignment"					"center"
-		"default"						"1"
 		"Command"						"user_close"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"

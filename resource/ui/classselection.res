@@ -69,7 +69,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass scout"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -182,7 +181,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass soldier"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -295,7 +293,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass pyro"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -408,7 +405,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass demoman"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -521,7 +517,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass heavyweapons"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -634,7 +629,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass engineer"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -747,7 +741,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass medic"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -860,7 +853,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass sniper"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -973,7 +965,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass spy"
-		"Default"									"0"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"
@@ -1084,7 +1075,6 @@
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"Command"									"joinclass random"
-		"Default"									"1"
 		"font"										"FontCartPrice"
 
 		"fgcolor"									"White"

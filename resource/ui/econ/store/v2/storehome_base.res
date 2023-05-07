@@ -451,7 +451,6 @@
 		"font"								"HudFontSmallBold"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
-		"default"							"1"
 		"Command"							"marketplace"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"

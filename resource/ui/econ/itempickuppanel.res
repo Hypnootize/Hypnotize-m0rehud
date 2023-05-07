@@ -243,7 +243,6 @@
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
-		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"proportionaltoparent"						"1"

@@ -36,7 +36,6 @@
 				"textAlignment"						"west"
 				"textinsetx"						"30"
 				"use_proportional_insets" 			"1"
-				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
@@ -181,7 +180,6 @@
 			"textAlignment"							"west"
 			"textinsetx"							"65"
 			"AllCaps"								"1"
-			"default"								"1"
 			"Command"								"friends"
 
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -216,7 +214,6 @@
 			"textAlignment"							"west"
 			"textinsetx"							"55"
 			"AllCaps"								"1"
-			"default"								"1"
 			"Command"								"server"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -250,7 +247,6 @@
 			"textAlignment"							"west"
 			"textinsetx"							"59"
 			"AllCaps"								"1"
-			"default"								"1"
 			"Command"								"profile"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
@@ -503,7 +499,6 @@
 			"font"									"HudFontSmall"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"default"								"1"
 			"proportionaltoparent"					"1"
 			"Command"								"url_ok"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -537,7 +532,6 @@
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"default"									"1"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -567,7 +561,6 @@
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"default"									"1"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
 

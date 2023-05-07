@@ -114,7 +114,6 @@
 			"textinsetx"	  						"5"
 			"font"			  						"HudFontSmallishBold"
 			"command"								"jointeam blue"
-			"default"								"1"
 			"actionsignallevel"						"2"
 
 			"defaultFgColor_override" 				"White"
@@ -190,7 +189,6 @@
 			"textinsetx"	  						"5"
 			"font"			  						"HudFontSmallishBold"
 			"command"								"jointeam red"
-			"default"								"1"
 			"actionsignallevel"						"2"
 
 			"defaultFgColor_override" 				"White"
@@ -248,7 +246,6 @@
 		"labelText"									"_"
 		"textAlignment"								"center"
 		"command"									"jointeam spectate"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"1"
@@ -286,7 +283,6 @@
 		"labelText"									"?"
 		"textAlignment"								"center"
 		"command"									"jointeam auto"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"1"

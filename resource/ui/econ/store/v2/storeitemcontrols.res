@@ -27,7 +27,6 @@
 		"labeltext"					"x"
 		"font"						"Symbols 16"
 		"textAlignment"				"center"
-		"default"					"0"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"Command"					"addtocart"

@@ -35,7 +35,6 @@
 		"labelText"						"1"
 		"font"							"Symbols 14"
 		"textAlignment"					"center"
-		"default"						"0"
 		"Command"						"show_explanations"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"

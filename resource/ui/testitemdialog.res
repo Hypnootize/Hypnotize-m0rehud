@@ -88,7 +88,6 @@
 		"labelText"									"#IT_SelectModel"
 		"font"										"HudFontSmallest"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"select_model"
 		"AllCaps"									"1"
 
@@ -589,7 +588,6 @@
 		"labelText"									"#Cancel"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -619,7 +617,6 @@
 		"labelText"									"#GameUI_Ok"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"Command"									"ok"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
