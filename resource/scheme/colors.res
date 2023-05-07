@@ -9,7 +9,7 @@
 		"Health Numbers"									"250 252 255 255"
 
 		"Health Buff"										"20 160 130 255"
-		"Health Buff Target"								"20 160 130 255"
+		"Health Buff Target"								"50 180 150 255"
 		"Health Buff Spec"									"20 160 130 255"
 		"Health Buff Killer"								"20 160 130 255"
 
