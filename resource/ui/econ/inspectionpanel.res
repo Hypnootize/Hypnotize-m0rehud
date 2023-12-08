@@ -775,7 +775,7 @@
 			"NumericInputOnly"					"1"
 			"bgcolor_override"					"BackgroundMedium"
 			"fgcolor_override"					"White"
-			"maxchars"							"18"
+			"maxchars"							"20"
 
 			"fixed_item"
 			{
