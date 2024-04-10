@@ -25,7 +25,7 @@
 ![Loadouts](../screenshots/07_Loadouts.jpg?raw=true)
 
 ## CLASS LOADOUT
-![Class Loadout](../screenshots/18_Class_Loadout.jpg?raw=true)
+![Class Loadout](../screenshots/08_Class_Loadout.jpg?raw=true)
 
 ## BACKPACK
 ![Backpack](../screenshots/09_Backpack.jpg?raw=true)
@@ -34,7 +34,7 @@
 ![Crafting](../screenshots/10_Crafting.jpg?raw=true)
 
 ## MANN.CO CATALOG
-![Catalog](../screenshots/1_Catalog.jpg?raw=true)
+![Catalog](../screenshots/11_Catalog.jpg?raw=true)
 
 ## TRADING
 ![Trading](../screenshots/12_Trading.jpg?raw=true)
@@ -154,7 +154,7 @@
 ![Player Destruction](../screenshots/50_Player_Destruction.jpg?raw=true)
 
 ## HALLOWEEN
-![Halloween](../screenshots/53_Halloween.png?raw=true)
+![Halloween](../screenshots/51_Halloween.png?raw=true)
 
 ## SPECTATOR HUD
 ![Spectator HUD](../screenshots/52_Spectator_HUD.png?raw=true)
