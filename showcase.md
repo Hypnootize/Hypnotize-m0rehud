@@ -1,160 +1,160 @@
 <div align="center">
 
 ## BANNER
-![Banner](../screenshots/00_Banner.png?raw=true)
+![Banner](../screenshots/00_Banner.png)
 
 ## MAIN MENU
-![Main Menu](../screenshots/01_Main_Menu.jpg?raw=true)
+![Main Menu](../screenshots/01_Main_Menu.jpg)
 
 ## MATCHMAKING CASUAL
-![Matchmaking Casual](../screenshots/02_Matchmaking_Casual.jpg?raw=true)
+![Matchmaking Casual](../screenshots/02_Matchmaking_Casual.jpg)
 
 ## MATCHMAKING COMPETITIVE
-![Matchmaking Competitive](../screenshots/03_Matchmaking_Competitive.jpg?raw=true)
+![Matchmaking Competitive](../screenshots/03_Matchmaking_Competitive.jpg)
 
 ## MATCHMAKING MVM
-![Matchmaking MvM](../screenshots/04_Matchmaking_MvM.jpg?raw=true)
+![Matchmaking MvM](../screenshots/04_Matchmaking_MvM.jpg)
 
 ## MATCHMAKING TRAINING
-![Matchmaking Training](../screenshots/05_Matchmaking_Training.jpg?raw=true)
+![Matchmaking Training](../screenshots/05_Matchmaking_Training.jpg)
 
 ## MATCHMAKING PING
-![Matchmaking Ping](../screenshots/06_Matchmaking_Ping.jpg?raw=true)
+![Matchmaking Ping](../screenshots/06_Matchmaking_Ping.jpg)
 
 ## LOADOUTS
-![Loadouts](../screenshots/07_Loadouts.jpg?raw=true)
+![Loadouts](../screenshots/07_Loadouts.jpg)
 
 ## CLASS LOADOUT
-![Class Loadout](../screenshots/08_Class_Loadout.jpg?raw=true)
+![Class Loadout](../screenshots/08_Class_Loadout.jpg)
 
 ## BACKPACK
-![Backpack](../screenshots/09_Backpack.jpg?raw=true)
+![Backpack](../screenshots/09_Backpack.jpg)
 
 ## CRAFTING
-![Crafting](../screenshots/10_Crafting.jpg?raw=true)
+![Crafting](../screenshots/10_Crafting.jpg)
 
 ## MANN.CO CATALOG
-![Catalog](../screenshots/11_Catalog.jpg?raw=true)
+![Catalog](../screenshots/11_Catalog.jpg)
 
 ## TRADING
-![Trading](../screenshots/12_Trading.jpg?raw=true)
+![Trading](../screenshots/12_Trading.jpg)
 
 ## WAR PAINTS
-![War Paints](../screenshots/13_War_Paints.jpg?raw=true)
+![War Paints](../screenshots/13_War_Paints.jpg)
 
 ## MANN.CO STORE
-![Store](../screenshots/14_Store.jpg?raw=true)
+![Store](../screenshots/14_Store.jpg)
 
 ## PLAYER STATISTICS
-![Stats](../screenshots/15_Stats.jpg?raw=true)
+![Stats](../screenshots/15_Stats.jpg)
 
 ## ADVANCED OPTIONS
-![Advanced Options](../screenshots/16_Advanced_Options.jpg?raw=true)
+![Advanced Options](../screenshots/16_Advanced_Options.jpg)
 
 ## SERVER LOADING SCREEN
-![Server Loading](../screenshots/17_Server_Loading.png?raw=true)
+![Server Loading](../screenshots/17_Server_Loading.png)
 
 ## SERVER INTRO MESSAGE
-![Server Intro](../screenshots/18_Server_Intro.jpg?raw=true)
+![Server Intro](../screenshots/18_Server_Intro.jpg)
 
 ## TEAM SELECTION
-![Team Selection](../screenshots/19_Team_Selection.jpg?raw=true)
+![Team Selection](../screenshots/19_Team_Selection.jpg)
 
 ## CLASS SELECTION
-![Class Selection](../screenshots/20_Class_Selection.jpg?raw=true)
+![Class Selection](../screenshots/20_Class_Selection.jpg)
 
 ## HEALTH & AMMO
-![Health & Ammo](../screenshots/21_Health_Ammo.jpg?raw=true)
+![Health & Ammo](../screenshots/21_Health_Ammo.jpg)
 
 ## HEALTH & AMMO MINMODE
-![Health & Ammo Minmode](../screenshots/22_Health_Ammo_Minmode.jpg?raw=true)
+![Health & Ammo Minmode](../screenshots/22_Health_Ammo_Minmode.jpg)
 
 ## HEALTH BUFF
-![Health Buff](../screenshots/23_Health_Buff.jpg?raw=true)
+![Health Buff](../screenshots/23_Health_Buff.jpg)
 
 ## HEALTH BUFF MINMODE
-![Health Buff Minmode](../screenshots/24_Health_Buff_Minmode.jpg?raw=true)
+![Health Buff Minmode](../screenshots/24_Health_Buff_Minmode.jpg)
 
 ## HEALTH & AMMO LOW
-![Health Ammo Low](../screenshots/25_Health_Ammo_Low.jpg?raw=true)
+![Health Ammo Low](../screenshots/25_Health_Ammo_Low.jpg)
 
 ## HEALTH & AMMO LOW MINMODE
-![Health Ammo Low Minmode](../screenshots/26_Health_Ammo_Low_Minmode.jpg?raw=true)
+![Health Ammo Low Minmode](../screenshots/26_Health_Ammo_Low_Minmode.jpg)
 
 ## UBERCHARGE
-![Ubercharge](../screenshots/27_Ubercharge.jpg?raw=true)
+![Ubercharge](../screenshots/27_Ubercharge.jpg)
 
 ## UBERCHARGE MINMODE
-![Ubercharge Minmode](../screenshots/28_Ubercharge_Minmode.jpg?raw=true)
+![Ubercharge Minmode](../screenshots/28_Ubercharge_Minmode.jpg)
 
 ## VACCINATOR
-![Ubercharge Minmode](../screenshots/29_Vaccinator.jpg?raw=true)
+![Ubercharge Minmode](../screenshots/29_Vaccinator.jpg)
 
 ## ITEM METERS
-![Item Meters](../screenshots/30_Item_Meters.jpg?raw=true)
+![Item Meters](../screenshots/30_Item_Meters.jpg)
 
 ## ITEM METERS MINMODE
-![Item Meters Minmode](../screenshots/31_Item_Meters_Minmode.jpg?raw=true)
+![Item Meters Minmode](../screenshots/31_Item_Meters_Minmode.jpg)
 
 ## WIN & DAMAGE
-![Win & Damage](../screenshots/32_Win.jpg?raw=true)
+![Win & Damage](../screenshots/32_Win.jpg)
 
 ## SCOREBOARD
-![Scoreboard](../screenshots/33_Scoreboard.jpg?raw=true)
+![Scoreboard](../screenshots/33_Scoreboard.jpg)
 
 ## BUILD MENU
-![Build Menu](../screenshots/34_Build_Menu.jpg?raw=true)
+![Build Menu](../screenshots/34_Build_Menu.jpg)
 
 ## DESTROY MENU
-![Destroy Menu](../screenshots/35_Destroy_Menu.jpg?raw=true)
+![Destroy Menu](../screenshots/35_Destroy_Menu.jpg)
 
 ## EUREKA EFFECT MENU
-![Eureka Effect](../screenshots/36_Eureka_Effect_Menu.jpg?raw=true)
+![Eureka Effect](../screenshots/36_Eureka_Effect_Menu.jpg)
 
 ## TAUNT MENU
-![Taunt Menu](../screenshots/37_Taunt_Menu.jpg?raw=true)
+![Taunt Menu](../screenshots/37_Taunt_Menu.jpg)
 
 ## DISGUISE MENU
-![Disguise Menu](../screenshots/38_Disguise_Menu.jpg?raw=true)
+![Disguise Menu](../screenshots/38_Disguise_Menu.jpg)
 
 ## ITEM QUICK-SWITCH
-![Item Quick-Switch](../screenshots/39_Item_Quick_Switch.jpg?raw=true)
+![Item Quick-Switch](../screenshots/39_Item_Quick_Switch.jpg)
 
 ## SPY DISGUISE
-![Disguise](../screenshots/40_Disguise.jpg?raw=true)
+![Disguise](../screenshots/40_Disguise.jpg)
 
 ## TOURNAMENT MODE
-![Tournament](../screenshots/41_Tournament.jpg?raw=true)
+![Tournament](../screenshots/41_Tournament.jpg)
 
 ## TOURNAMENT READY MODE
-![Tournament Ready Mode](../screenshots/42_Tournament_Ready.jpg?raw=true)
+![Tournament Ready Mode](../screenshots/42_Tournament_Ready.jpg)
 
 ## MVM
-![MvM](../screenshots/43_MvM.jpg?raw=true)
+![MvM](../screenshots/43_MvM.jpg)
 
 ## MVM BUY MENU
-![MvM Buy Menu](../screenshots/44_MvM_Buy_Menu.jpg?raw=true)
+![MvM Buy Menu](../screenshots/44_MvM_Buy_Menu.jpg)
 
 ## ARENA TEAM SELECTION
-![Arena Team Selection](../screenshots/45_Arena_Team_Selection.jpg?raw=true)
+![Arena Team Selection](../screenshots/45_Arena_Team_Selection.jpg)
 
 ## ARENA WIN PANEL
-![Arena Win Panel](../screenshots/46_Arena_Win.jpg?raw=true)
+![Arena Win Panel](../screenshots/46_Arena_Win.jpg)
 
 ## PAYLOAD
-![Payload](../screenshots/47_Payload.jpg?raw=true)
+![Payload](../screenshots/47_Payload.jpg)
 
 ## PAYLOAD RACE
-![Payload Race](../screenshots/48_Payload_Race.jpg?raw=true)
+![Payload Race](../screenshots/48_Payload_Race.jpg)
 
 ## CAPTURE THE FLAG
-![Capture The Flag](../screenshots/49_Capture_The_Flag.jpg?raw=true)
+![Capture The Flag](../screenshots/49_Capture_The_Flag.jpg)
 
 ## PLAYER DESTRUCTION
-![Player Destruction](../screenshots/50_Player_Destruction.jpg?raw=true)
+![Player Destruction](../screenshots/50_Player_Destruction.jpg)
 
 ## HALLOWEEN
-![Halloween](../screenshots/51_Halloween.png?raw=true)
+![Halloween](../screenshots/51_Halloween.png)
 
 ## SPECTATOR HUD
-![Spectator HUD](../screenshots/52_Spectator_HUD.png?raw=true)
+![Spectator HUD](../screenshots/52_Spectator_HUD.png)
