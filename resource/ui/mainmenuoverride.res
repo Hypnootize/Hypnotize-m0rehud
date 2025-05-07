@@ -322,6 +322,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets" 				"1"
+			"textinsetx" 							"0"
 			"font"									"Symbols 15"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"

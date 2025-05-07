@@ -162,7 +162,7 @@
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"
-		"font"                   				 	"m0refont72"
+		"font"                   				 	"m0refont58"
 		"font_minmode"                   			"m0refont32"
 		"fgcolor"	    	         				"Health Numbers"
 
@@ -185,7 +185,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"m0refont72"
+		"font"                   				 	"m0refont58"
 		"font_minmode"                   			"m0refont32"
 		"fgcolor"	     	         				"Black"
 
@@ -206,7 +206,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"m0refont72"
+		"font"                   				 	"m0refont58"
 		"font_minmode"                   			"m0refont32"
 		"fgcolor"	     	         				"Extra Shadow"
 		"alpha"	     	         					"0"

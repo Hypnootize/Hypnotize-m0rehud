@@ -3393,5 +3393,212 @@
 			"width"			"128"
 			"height"		"32"
 		}
+		"helicopter"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"768"
+			"width"			"128"
+			"height"		"32"
+		}
+		"piranha"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"800"
+			"width"			"128"
+			"height"		"32"
+		}
+		"megaton"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"736"
+			"width"			"128"
+			"height"		"32"
+		}
+		"infection_emp"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"0"
+			"width"			"96"
+			"height"		"32"
+		}
+		"infection_acid_ball"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"32"
+			"width"			"96"
+			"height"		"32"
+		}
+		"infection_acid_puddle"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"64"
+			"width"			"96"
+			"height"		"32"
+		}
+		"infection_soldier"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"96"
+			"width"			"64"
+			"height"		"32"
+		}
+		"infection_heavy"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"128"
+			"width"			"64"
+			"height"		"32"
+		}
+		"infection_scout"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"160"
+			"width"			"64"
+			"height"		"32"
+		}
+		"infection_pyro"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"192"
+			"width"			"64"
+			"height"		"32"
+		}
+		"infection_demoman"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"448"
+			"y"				"96"
+			"width"			"64"
+			"height"		"32"
+		}
+		"infection_sniper"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"448"
+			"y"				"128"
+			"width"			"64"
+			"height"		"32"
+		}
+		"infection_medic"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"448"
+			"y"				"160"
+			"width"			"64"
+			"height"		"32"
+		}
+		"infection_engineer"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"448"
+			"y"				"192"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_punch"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"224"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_punch_collateral"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"256"
+			"width"			"128"
+			"height"		"32"
+		}
+		"hale_megapunch"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"288"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_megapunch_collateral"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"320"
+			"width"			"96"
+			"height"		"32"
+		}
+		"hale_charge"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"352"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_slam"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"384"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_slam_collateral"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"416"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_stomp"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"448"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_taunt"
+		{
+			"dfile"			"HUD/d_images_v3"
+			"dnegfile"		"HUD/dneg_images_v3"
+			"x"				"384"
+			"y"				"480"
+			"width"			"64"
+			"height"		"32"
+		}
 	}
 }

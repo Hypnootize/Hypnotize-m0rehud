@@ -12,9 +12,10 @@
 		"enabled"		           				 	"1"
 
 		"medal_width"								"0"
-		"avatar_width"								"55"
+		"medal_column_width"						"0"
+		"avatar_width"								"28"
 		"spacer"									"0"
-		"name_width"								"85"
+		"name_width"								"118"
 		"nemesis_width"								"14"
 		"class_width"								"14"
 		"score_width"								"20"

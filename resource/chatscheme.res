@@ -46,7 +46,7 @@ Scheme
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
-		
+
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
@@ -221,6 +221,8 @@ Scheme
 
 		"Default"
 		{
+			"isproportional"	"only"
+
 			"1"
 			{
 				"name"		"Verdana"
@@ -258,14 +260,12 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"0"
+				"tall"		"8"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
-		
+
 		// this is the symbol font
 		"Marlett"
 		{
@@ -358,6 +358,8 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional"	"only"
+
 			"1"
 			{
 				"name"		"Verdana"
@@ -397,11 +399,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"22"	[$WIN32]
-				"tall"		"25"	[$X360]
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"tall"		"8"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -505,7 +505,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
 			"backgroundtype" "0"
@@ -560,7 +560,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "2 2 0 0"
@@ -811,6 +811,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
+		"2"		"resource/HL2EP2.ttf"
 	}
 }
